@@ -1,7 +1,7 @@
 {{ define "main" }}
-  {{ if .Site.Params.emphasizeTags }}
+  {{ if .Site.Params.featuredTags }}
     <ul class="flex flex-wrap items-center justify-center mb-6 gap-x-2 gap-y-5">
-      {{ range .Site.Params.emphasizeTags }}
+      {{ range .Site.Params.featuredTags }}
         <li>
           <a href="/tags/{{ . }}" class="py-2 px-4 text-sm border border-gray-300 rounded-full">{{ . }}</a>
         </li>
