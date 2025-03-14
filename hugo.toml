@@ -8,6 +8,11 @@ theme = 'epsilondelta'
   titleLight = '테크블로그'
   logo = '/logo.jpg'
 
+[[menus.main]]
+name = 'Tags'
+pageRef = '/tags'
+weight = 30
+
 [build]
   [build.buildStats]
     enable = true
