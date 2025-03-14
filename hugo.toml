@@ -3,6 +3,11 @@ languageCode = 'ko-KR'
 title = '엡실론델타 테크블로그'
 theme = 'epsilondelta'
 
+[params]
+  titleStrong = '엡실론델타'
+  titleLight = '테크블로그'
+  logo = '/logo.jpg'
+
 [build]
   [build.buildStats]
     enable = true
