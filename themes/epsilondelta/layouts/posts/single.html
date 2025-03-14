@@ -1,0 +1,34 @@
+{{ define "main" }}
+  <article class="container mx-auto">
+    <h1 class="text-3xl font-bold mb-6">{{ .Title }}</h1>
+
+    {{ with page.GetTerms "tags" }}
+      <ul class="container flex flex-wrap items-center mx-auto mb-6 gap-x-2 gap-y-5">
+        {{ range . }}
+          <li>
+            <a class="py-2 px-4 text-sm border border-gray-300 rounded-full" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+          </li>
+        {{ end }}
+      </ul>
+    {{ end }}
+
+    {{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }}
+    {{ $dateHuman := .Date | time.Format "2006. 1. 2" }}
+    <div class="mb-10 md:text-left text-right">
+      {{ range .Params.authors }}
+        {{ $author := $.Site.GetPage (printf "/authors/%s" .) }}
+        {{ with $author }}
+          <a class="text-gray-500 text-sm" href="{{ .RelPermalink }}">
+            <img class="inline-block w-8 h-8 rounded-full" src="{{ .Params.image }}" alt="">
+            {{ .Params.name }}
+          </a>
+        {{ end }}
+        <span class="md:inline hidden">ㆍ</span>
+        <br class="md:hidden block" />
+      {{ end }}
+      <time class="text-gray-500 text-sm" datetime="{{ $dateMachine }}">{{ $dateHuman }}</time>
+    </div>
+
+    {{ .Content }}
+  </article>
+{{ end }}

@@ -1,6 +1,6 @@
 @import "tailwindcss";
 @source "hugo_stats.json";
 
-h1 {
-  margin: 0;
+main article p {
+  margin-bottom: 1rem;
 }
