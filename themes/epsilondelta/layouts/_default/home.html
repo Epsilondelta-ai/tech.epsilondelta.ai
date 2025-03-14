@@ -11,9 +11,32 @@
     <hr class="mb-6 border-gray-300" />
   {{ end }}
 
-  {{ .Content }}
-  {{ range site.RegularPages }}
-    <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
-    {{ .Summary }}
+  {{ if .Content }}
+    {{ .Content }}
   {{ end }}
+
+  {{ $pages := where site.RegularPages "Type" "posts" }}
+  {{ $paginator := .Paginate $pages.ByDate.Reverse }}
+
+  <ul>
+    {{ range $paginator.Pages }}
+      <li class="py-4">
+        <a class="flex flex-row items-center md:gap-6 gap-4" href="{{ .RelPermalink }}">
+
+          {{ with .Resources.Get .Params.featured_image }}
+            {{ $image := .Process "crop 340x200 center webp" }}
+            <img class="rounded-xl lg:h-[16rem] md:h-[12rem] h-[4rem]" src="{{ $image.RelPermalink }}" heigth="{{ $image.Height }}" />
+          {{ end }}
+
+          <div class="overflow-hidden">
+            <h2 class="lg:text-2xl md:text-xl text-lg font-bold md:mb-4 mb-0 md:line-clamp-2 line-clamp-1">{{ .LinkTitle }}</h2>
+            <div class="md:mb-4 mb-0 truncate text-gray-500 text-wrap md:line-clamp-2 line-clamp-1 md:text-base text-sm">{{ .Content | strings.Truncate 200 }}</div>
+            <small class="text-gray-500">{{ time.Format "2006. 1. 2" .Date }}</small>
+          </div>
+        </a>
+      </li>
+    {{ end }}
+  </ul>
+
+  {{ template "_internal/pagination.html" . }}
 {{ end }}

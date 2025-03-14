@@ -9,6 +9,11 @@ theme = 'epsilondelta'
   logo = '/logo.jpg'
   emphasizeTags = ['ai', 'backend', 'frontend', 'devops', 'security', 'aws', 'gcp', 'azure', 'kubernetes', 'docker', 'serverless', 'microservices', 'graphql', 'rest', 'websockets', 'http2', 'grpc', 'oauth2', 'jwt', 'openapi', 'swagger']
 
+[pagination]
+  disableAliases = false
+  pagerSize = 6
+  path = 'page'
+
 [[menus.main]]
 name = 'Tags'
 pageRef = '/tags'
