@@ -31,7 +31,22 @@
           <div class="overflow-hidden">
             <h2 class="lg:text-2xl md:text-xl text-lg font-bold md:mb-4 mb-2 line-clamp-2">{{ .LinkTitle }}</h2>
             <div class="md:mb-4 mb-2 truncate text-gray-500 text-wrap line-clamp-2 md:text-base text-sm">{{ .Content | strings.Truncate 200 }}</div>
-            <small class="text-gray-500">{{ time.Format "2006. 1. 2" .Date }}</small>
+
+            <div class="md:text-left text-right">
+              {{ range .Params.authors }}
+                {{ $author := $.Site.GetPage (printf "/authors/%s" .) }}
+                {{ with $author }}
+                  <span class="text-gray-500 text-sm">
+                    <img class="inline-block w-8 h-8 rounded-full mr-2" src="{{ .Params.image }}" alt="">
+                    {{ .Params.name }}
+                  </span>
+                {{ end }}
+                <span class="md:inline hidden">ㆍ</span>
+                <br class="md:hidden block" />
+              {{ end }}
+
+              <small class="text-gray-500">{{ time.Format "2006. 1. 2" .Date }}</small>
+            </div>
           </div>
         </a>
       </li>
