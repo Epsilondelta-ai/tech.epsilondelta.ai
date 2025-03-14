@@ -1,4 +1,16 @@
 {{ define "main" }}
+  {{ if .Site.Params.emphasizeTags }}
+    <ul class="flex flex-wrap items-center justify-center mb-6 gap-x-2 gap-y-5">
+      {{ range .Site.Params.emphasizeTags }}
+        <li>
+          <a href="/tags/{{ . }}" class="py-2 px-4 text-sm border border-gray-300 rounded-full">{{ . }}</a>
+        </li>
+      {{ end }}
+    </ul>
+
+    <hr class="mb-6 border-gray-300" />
+  {{ end }}
+
   {{ .Content }}
   {{ range site.RegularPages }}
     <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
