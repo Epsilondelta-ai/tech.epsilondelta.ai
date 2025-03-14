@@ -19,6 +19,16 @@ theme = 'epsilondelta'
   author = 'authors'
   post = 'posts'
 
+[[menus.main]]
+name = 'Tags'
+pageRef = '/tags'
+weight = 10
+
+[[menus.main]]
+name = 'Authors'
+pageRef = '/authors'
+weight = 20
+
 [build]
   [build.buildStats]
     enable = true
