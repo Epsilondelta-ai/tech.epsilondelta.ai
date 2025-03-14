@@ -14,11 +14,6 @@ theme = 'epsilondelta'
   pagerSize = 6
   path = 'page'
 
-[[menus.main]]
-name = 'Tags'
-pageRef = '/tags'
-weight = 30
-
 [build]
   [build.buildStats]
     enable = true
