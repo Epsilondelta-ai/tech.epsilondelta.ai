@@ -16,21 +16,17 @@
     {{ end }}
   {{ end }}
 
-  {{ with resources.Get "css/header.scss" }}
+  {{ with resources.Get "css/paginate.css" }}
     {{ $opts := dict
-      "enableSourceMap" (not hugo.IsProduction)
-      "outputStyle" (cond hugo.IsProduction "compressed" "expanded")
-      "targetPath" "css/header.css"
-      "transpiler" "libsass"
+      "minify" hugo.IsProduction
+      "inlineImports" true
     }}
-    {{ with . | toCSS $opts }}
-      {{ if hugo.IsProduction }}
-        {{ with . | fingerprint }}
-          <link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous">
-        {{ end }}
-      {{ else }}
-        <link rel="stylesheet" href="{{ .RelPermalink }}">
+    {{ if hugo.IsProduction }}
+      {{ with . | fingerprint }}
+        <link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous">
       {{ end }}
+    {{ else }}
+      <link rel="stylesheet" href="{{ .RelPermalink }}">
     {{ end }}
   {{ end }}
 
