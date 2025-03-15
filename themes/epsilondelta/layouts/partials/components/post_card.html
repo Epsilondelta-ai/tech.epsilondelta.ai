@@ -8,7 +8,7 @@
 
     <div class="overflow-hidden">
       <h2 class="lg:text-2xl md:text-xl text-lg font-bold md:mb-4 mb-2 line-clamp-2">{{ .LinkTitle }}</h2>
-      <div class="md:mb-4 mb-2 truncate text-gray-500 text-wrap line-clamp-2 md:text-base text-sm">{{ .Summary | strings.Truncate 200 }}</div>
+      <div class="md:mb-4 mb-2 truncate text-gray-500 text-wrap line-clamp-2 md:text-base text-sm">{{ .Description | strings.Truncate 200 }}</div>
 
       <div class="md:text-left text-right">
         {{ partial "components/post_card/authors.html" . }}
