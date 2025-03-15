@@ -5,9 +5,7 @@
 
   <ul class="container flex flex-wrap items-center justify-center mx-auto mb-10 gap-x-2 gap-y-5">
     {{ range .Data.Pages }}
-      <li>
-        {{ partial "components/tag.html" (dict "RelPermalink" .RelPermalink "LinkTitle" .Title) }}
-      </li>
+      {{ partial "components/tag.html" (dict "RelPermalink" .RelPermalink "LinkTitle" .Title) }}
     {{ end }}
   </ul>
 {{ end }}
