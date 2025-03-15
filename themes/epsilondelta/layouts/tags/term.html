@@ -15,7 +15,7 @@
   <ul class="container mx-auto">
     {{ range $paginator.Pages }}
 
-      {{ if not .Params.authors }}
+      {{ if eq .Params.extra.type "author" }}
         {{ continue }}
       {{ end }}
 
@@ -36,10 +36,10 @@
                 {{ $author := $.Site.GetPage (printf "/authors/%s" .) }}
                 {{ with $author }}
                   <span class="text-gray-500 text-sm">
-                    {{ with .Resources.Get .Params.image }}
+                    {{ with .Resources.Get .Params.featured_image }}
                       <img class="inline-block w-8 h-8 rounded-full mr-2" src="{{ .RelPermalink }}" alt="">
                     {{ end }}
-                    {{ .Params.name }}
+                    {{ .Params.title }}
                   </span>
                 {{ end }}
                 <span class="md:inline hidden">ㆍ</span>
