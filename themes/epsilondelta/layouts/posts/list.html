@@ -3,7 +3,7 @@
     <ul class="container flex flex-wrap items-center justify-center mx-auto mb-10 gap-x-2 gap-y-5">
       {{ range .Site.Params.featuredTags }}
         <li>
-          <a href="/tags/{{ . }}" class="py-2 px-4 text-sm border border-gray-300 rounded-full">{{ . }}</a>
+          {{ partial "components/tag.html" (dict "RelPermalink" (printf "/tags/%s" .) "LinkTitle" .) }}
         </li>
       {{ end }}
     </ul>
