@@ -1,7 +1,7 @@
 +++
 title = '지상 최강의 개발자 쥬니니'
-summary = 'CTO 권한대행 겸 SW 개발 총괄 이사 지상 최강의 개발자 쥬니니 입니다.'
-featured_image = 'profile.jpg'
+description = 'CTO 권한대행 겸 SW 개발 총괄 이사 지상 최강의 개발자 쥬니니 입니다.'
+images = ['profile.jpg']
 [extra]
   type = 'author'
 +++

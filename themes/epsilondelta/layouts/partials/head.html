@@ -2,8 +2,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
 
-{{ template "_internal/google_analytics.html" . }}
-
 {{ if .IsHome }}
   {{ $title := site.Title }}
   <title>{{ $title }}</title>
@@ -16,6 +14,9 @@
 
 {{ partialCached "head/css.html" . }}
 {{ partialCached "head/js.html" . }}
+
+{{ template "_internal/google_analytics.html" . }}
+{{ template "_internal/opengraph.html" . }}
 
 {{- if .IsHome -}}
   {{ $description := site.Params.Description }}
@@ -36,11 +37,11 @@
   <meta name="keywords" content=" {{ $tags }} " />
   <meta property="og:type" content="website" />
 {{- else -}}
-  {{ $description := .Params.Summary }}
+  {{ $description := .Params.Description }}
   <meta name="description" property="og:description" content="{{ $description }}" />
   <meta name="twitter:description" content="{{ $description }}" />
 
-  {{ with .Resources.Get .Params.featured_image }}
+  {{ with .Resources.Get (index .Params.images 0) }}
     {{ $image := .Process "fill 350x140 center webp" }}
     <meta name="twitter:image" property="og:image" content="{{ $image.Permalink }}" />
     <meta property="og:type" content="article" />
