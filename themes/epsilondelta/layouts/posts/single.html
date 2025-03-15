@@ -5,19 +5,7 @@
     {{ partial "components/post/tags.html" . }}
 
     <div class="mb-10 md:text-left text-right">
-      {{ range .Params.authors }}
-        {{ $author := $.Site.GetPage (printf "/authors/%s" .) }}
-        {{ with $author }}
-          <a class="text-gray-500 text-sm" href="{{ .RelPermalink }}">
-            {{ with .Resources.Get .Params.featured_image }}
-              <img class="inline-block w-8 h-8 rounded-full mr-2" src="{{ .RelPermalink }}" alt="">
-            {{ end }}
-            {{ .Params.title }}
-          </a>
-        {{ end }}
-        <span class="md:inline hidden">ㆍ</span>
-        <br class="md:hidden block" />
-      {{ end }}
+      {{ partial "components/post/authors.html" . }}
 
       {{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }}
       {{ $dateHuman := .Date | time.Format "2006. 1. 2" }}
