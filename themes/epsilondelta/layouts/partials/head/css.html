@@ -1,33 +1,4 @@
 {{ with (templates.Defer (dict "key" "global")) }}
-
-  {{ with resources.Get "css/main.css" }}
-    {{ $opts := dict
-      "minify" hugo.IsProduction
-      "inlineImports" true
-    }}
-    {{ with . | css.TailwindCSS $opts }}
-      {{ if hugo.IsProduction }}
-        {{ with . | fingerprint }}
-          <link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous">
-        {{ end }}
-      {{ else }}
-        <link rel="stylesheet" href="{{ .RelPermalink }}">
-      {{ end }}
-    {{ end }}
-  {{ end }}
-
-  {{ with resources.Get "css/paginate.css" }}
-    {{ $opts := dict
-      "minify" hugo.IsProduction
-      "inlineImports" true
-    }}
-    {{ if hugo.IsProduction }}
-      {{ with . | fingerprint }}
-        <link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous">
-      {{ end }}
-    {{ else }}
-      <link rel="stylesheet" href="{{ .RelPermalink }}">
-    {{ end }}
-  {{ end }}
-
+  {{ partial "head/tailwind.html" (dict "context" . "css" "css/main.css") }}
+  {{ partial "head/tailwind.html" (dict "context" . "css" "css/paginate.css") }}
 {{ end }}
