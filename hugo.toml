@@ -2,10 +2,12 @@ baseURL = 'https://tech.epsilondelta.ai/'
 languageCode = 'ko-KR'
 title = '엡실론델타 테크블로그'
 theme = 'epsilondelta'
+enableRobotsTXT = true
 
 [params]
   titleStrong = '엡실론델타'
   titleLight = '테크블로그'
+  description = '엡실론델타 테크블로그입니다.'
   logo = '/logo.jpg'
   featuredTags = ['ai', 'backend', 'frontend', 'devops', 'security', 'aws', 'gcp', 'azure', 'kubernetes', 'docker', 'serverless', 'microservices', 'graphql', 'rest', 'websockets', 'http2', 'grpc', 'oauth2', 'jwt', 'openapi', 'swagger']
 
@@ -46,3 +48,8 @@ weight = 20
     disableWatch = true
     source = 'hugo_stats.json'
     target = 'assets/notwatching/hugo_stats.json'
+
+[sitemap]
+  changefreq = "daily"
+  filename = "sitemap.xml"
+  priority = 0.5
