@@ -4,3 +4,11 @@
 main article p {
   margin-bottom: 1rem;
 }
+
+.contents ul li {
+  list-style-type: disc;
+}
+
+.contents ol li {
+  list-style-type: decimal;
+}
