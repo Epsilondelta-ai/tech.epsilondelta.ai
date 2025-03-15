@@ -4,27 +4,33 @@ title = '엡실론델타 테크블로그'
 theme = 'epsilondelta'
 enableRobotsTXT = true
 
+[markup]
+  _merge = 'deep'
+
 [params]
+  _merge = 'deep'
   description = '엡실론델타 테크블로그입니다.' # for meta og tag
   images = ['logo.jpg'] # for meta og tag
   title = '엡실론델타 테크블로그' # for meta og tag
   # [params.social]
   #   facebook_admin = 'jsmith' # for meta og tag
+  #   twitter = 'GoHugoIO' # for meta twitter tag
   titleStrong = '엡실론델타'
   titleLight = '테크블로그'
   logo = '/logo.jpg'
   featuredTags = [] # 페이지 상단에 강조하고 싶은 태그들을 나열합니다.
 
+# [services]
+#   [services.disqus]
+#     shortname = 'your-disqus-shortname'
+#   [services.googleAnalytics]
+#     id = 'G-MEASUREMENT_ID'
+
 [pagination]
-  disableAliases = false
-  pagerSize = 6
-  path = 'page'
+  _merge = 'deep'
 
 [taxonomies]
-  tag = 'tags'
-  author = 'authors'
-  post = 'posts'
-  series = 'series'
+  _merge = 'deep'
 
 [[menus.main]]
 name = 'Tags'
@@ -36,15 +42,13 @@ name = 'Authors'
 pageRef = '/authors'
 weight = 20
 
+[sitemap]
+  changefreq = "daily"
+  filename = "sitemap.xml"
+  priority = 0.5
+
 [build]
-  [build.buildStats]
-    enable = true
-  [[build.cachebusters]]
-    source = 'assets/notwatching/hugo_stats\.json'
-    target = 'css'
-  [[build.cachebusters]]
-    source = '(postcss|tailwind)\.config\.js'
-    target = 'css'
+  _merge = 'deep'
 [module]
   [[module.mounts]]
     source = 'assets'
@@ -53,19 +57,3 @@ weight = 20
     disableWatch = true
     source = 'hugo_stats.json'
     target = 'assets/notwatching/hugo_stats.json'
-
-[sitemap]
-  changefreq = "daily"
-  filename = "sitemap.xml"
-  priority = 0.5
-
-[markup]
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      hardWraps = true
-
-# [services]
-#   [services.disqus]
-#     shortname = 'your-disqus-shortname'
-#   [services.googleAnalytics]
-#     id = 'G-MEASUREMENT_ID'

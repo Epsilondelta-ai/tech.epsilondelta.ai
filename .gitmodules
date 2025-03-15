@@ -1,0 +1,3 @@
+[submodule "themes/epsilondelta"]
+	path = themes/epsilondelta
+	url = https://github.com/epsilondelta-ai/hugo-theme.git
