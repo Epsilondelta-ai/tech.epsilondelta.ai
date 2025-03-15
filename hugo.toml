@@ -58,3 +58,9 @@ weight = 20
   [markup.goldmark]
     [markup.goldmark.renderer]
       hardWraps = true
+
+# [services]
+#   [services.disqus]
+#     shortname = 'your-disqus-shortname'
+#   [services.googleAnalytics]
+#     id = 'G-MEASUREMENT_ID'
