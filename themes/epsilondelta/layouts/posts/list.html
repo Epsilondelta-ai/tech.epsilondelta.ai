@@ -15,50 +15,6 @@
     {{ .Content }}
   {{ end }}
 
-  {{ $pages := where site.RegularPages "Type" "posts" }}
-  {{ $paginator := .Paginate $pages.ByDate.Reverse }}
-
-  <ul class="container mx-auto">
-    {{ range $paginator.Pages }}
-
-      {{ if eq .Params.extra.type "author" }}
-        {{ continue }}
-      {{ end }}
-
-      <li class="py-4 mb-6">
-        <a class="flex md:flex-row flex-col items-center md:gap-6 gap-4" href="{{ .RelPermalink }}">
-
-          {{ with .Resources.Get .Params.featured_image }}
-            {{ $image := .Process "fit 340x200 center webp" }}
-            <img class="rounded-xl lg:h-[12rem] md:h-[10rem] h-auto" src="{{ $image.RelPermalink }}" heigth="{{ $image.Height }}" />
-          {{ end }}
-
-          <div class="overflow-hidden">
-            <h2 class="lg:text-2xl md:text-xl text-lg font-bold md:mb-4 mb-2 line-clamp-2">{{ .LinkTitle }}</h2>
-            <div class="md:mb-4 mb-2 truncate text-gray-500 text-wrap line-clamp-2 md:text-base text-sm">{{ .Content | strings.Truncate 200 }}</div>
-
-            <div class="md:text-left text-right">
-              {{ range .Params.authors }}
-                {{ $author := $.Site.GetPage (printf "/authors/%s" .) }}
-                {{ with $author }}
-                  <span class="text-gray-500 text-sm">
-                    {{ with .Resources.Get .Params.featured_image }}
-                      <img class="inline-block w-8 h-8 rounded-full mr-2" src="{{ .RelPermalink }}" alt="">
-                    {{ end }}
-                    {{ .Params.title }}
-                  </span>
-                {{ end }}
-                <span class="md:inline hidden">ㆍ</span>
-                <br class="md:hidden block" />
-              {{ end }}
-
-              <small class="text-gray-500">{{ time.Format "2006. 1. 2" .Date }}</small>
-            </div>
-          </div>
-        </a>
-      </li>
-    {{ end }}
-  </ul>
-
-  {{ template "_internal/pagination.html" . }}
+  {{ .Store.Set "pages" (where site.RegularPages "Type" "posts") }}
+  {{ partial "components/posts.html" . }}
 {{ end }}
