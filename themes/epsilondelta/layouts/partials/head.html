@@ -2,65 +2,34 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
 
-{{ if .IsHome }}
-  {{ $title := site.Title }}
-  <title>{{ $title }}</title>
-  <meta name="twitter:title" property="og:title" content="{{ $title }}" />
-{{ else }}
-  {{ $title := printf "%s | %s" .Title site.Title }}
-  <title>{{ $title }}</title>
-  <meta name="twitter:title" property="og:title" content="{{ $title }}" />
-{{ end }}
+<title>
+  {{ if .IsHome }}
+    {{ site.Title }}
+  {{ else }}
+    {{ .Title }} | {{ site.Title }}
+  {{ end }}
+</title>
 
 {{ partialCached "head/css.html" . }}
 {{ partialCached "head/js.html" . }}
 
 {{ template "_internal/google_analytics.html" . }}
 {{ template "_internal/opengraph.html" . }}
+{{ template "_internal/twitter_cards.html" . }}
+{{ template "_internal/schema.html" . }}
+
+<link rel="canonical" href="{{ .Permalink }}" />
 
 {{- if .IsHome -}}
-  {{ $description := site.Params.Description }}
-  <meta name="description" property="og:description" content="{{ $description }}" />
-  <meta name="twitter:description" content="{{ $description }}" />
+  <meta name="description" content="{{ site.Params.Description }}" />
 
-  {{ $logo := printf "%s%s" site.BaseURL (replace site.Params.Logo "/" "") }}
-  <meta name="twitter:image" property="og:image" content="{{ $logo }}" />
-
-  {{ $tags := "" }}
-  {{ range $i, $v := .Site.Params.FeaturedTags }}
-    {{ if $tags }}
-      {{ $tags = printf "%s, %s" $tags $v }}
-    {{ else }}
-      {{ $tags = $v }}
-    {{ end }}
+  {{ range .Site.Params.FeaturedTags }}
+    <meta name="keywords" content="{{ . }}" />
   {{ end }}
-  <meta name="keywords" content=" {{ $tags }} " />
-  <meta property="og:type" content="website" />
+
 {{- else -}}
-  {{ $description := .Params.Description }}
-  <meta name="description" property="og:description" content="{{ $description }}" />
-  <meta name="twitter:description" content="{{ $description }}" />
-
-  {{ with .Resources.Get (index .Params.images 0) }}
-    {{ $image := .Process "fill 350x140 center webp" }}
-    <meta name="twitter:image" property="og:image" content="{{ $image.Permalink }}" />
-    <meta property="og:type" content="article" />
-  {{ else }}
-    <meta property="og:type" content="website" />
-  {{ end }}
+  <meta name="description" content="{{ .Params.Descriptio }}" />
 {{- end }}
-
-{{ if isset .Params "canonical" }}
-  <link rel="canonical" href="{{ .Params.canonical }}" />
-  <meta property="og:url" content="{{ .Params.canonical }}" />
-{{ else }}
-  <link rel="canonical" href="{{ .Permalink }}" />
-  <meta property="og:url" content="{{ .Permalink }}" />
-{{ end }}
-
-<meta name="twitter:card" content="summary_large_image" />
-<meta property="og:site_name" content="{{ site.Title }}" />
-<meta property="og:locale" content="{{ site.Language.LanguageCode }}" />
 
 {{ if not .IsPage }}
   {{ if .Paginator.HasPrev }}
@@ -73,7 +42,7 @@
   {{ range .Params.authors }}
     {{ $author := $.Site.GetPage (printf "/authors/%s" .) }}
     {{ with $author }}
-      <meta name="author" content="{{ .Params.name }}" />
+      <meta name="author" content="{{ .Params.title }}" />
     {{ end }}
   {{ end }}
 {{ end }}
