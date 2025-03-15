@@ -1,7 +1,7 @@
 {{ define "main" }}
   <div class="container mx-auto flex flex-col items-center gap-2">
     {{ with .Resources.Get .Params.image }}
-      {{ $image := .Process "fit 400x400 center webp" }}
+      {{ $image := .Process "fill 400x400 center" }}
       <img class="rounded-full w-max-[400px]" src="{{ $image.RelPermalink }}" />
     {{ end }}
     <h1 class="md:text-3xl text-2xl font-bold">{{ .Params.Name }}</h1>

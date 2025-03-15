@@ -38,7 +38,7 @@
   <meta name="twitter:description" content="{{ $description }}" />
 
   {{ with .Resources.Get .Params.featured_image }}
-    {{ $image := .Process "fit 350x140 center webp" }}
+    {{ $image := .Process "fill 350x140 center webp" }}
     <meta name="twitter:image" property="og:image" content="{{ $image.Permalink }}" />
     <meta property="og:type" content="article" />
   {{ else }}
