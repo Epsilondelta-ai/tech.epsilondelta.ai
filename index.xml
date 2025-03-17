@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Home on</title><link>/</link><description>Recent content in Home on</description><generator>Hugo</generator><language>en</language><lastBuildDate>Sat, 15 Mar 2025 22:54:35 +0900</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>원래는 기술블로그만 만들려고 했었다</title><link>/posts/create-hugo-blog-with-theme/</link><pubDate>Sat, 15 Mar 2025 22:54:35 +0900</pubDate><guid>/posts/create-hugo-blog-with-theme/</guid><description>&lt;p>&lt;img src="./thumbnail.webp" alt="">&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Home on 엡실론델타 테크블로그</title><link>https://tech.epsilondelta.ai/</link><description>Recent content in Home on 엡실론델타 테크블로그</description><generator>Hugo</generator><language>ko-KR</language><lastBuildDate>Sat, 15 Mar 2025 22:54:35 +0900</lastBuildDate><atom:link href="https://tech.epsilondelta.ai/index.xml" rel="self" type="application/rss+xml"/><item><title>원래는 기술블로그만 만들려고 했었다</title><link>https://tech.epsilondelta.ai/posts/create-hugo-blog-with-theme/</link><pubDate>Sat, 15 Mar 2025 22:54:35 +0900</pubDate><guid>https://tech.epsilondelta.ai/posts/create-hugo-blog-with-theme/</guid><description>&lt;p>&lt;img src="./thumbnail.webp" alt="">&lt;/p>
 &lt;p>회사 홈페이지도 당장 없긴 한데, 개발 할 아이템을 내세워 회사 홈페이지를 만들려니 당장 기획이 쉽지 않았습니다.
 그러다보니 당장 만들기 어렵지 않은 기술블로그부터 만드는게 쉬울까 싶었구요.&lt;/p>
 &lt;h2 id="tldr">TL;DR&lt;/h2>
@@ -13,7 +13,7 @@
 &lt;p>처음엔 &lt;a href="https://themes.gohugo.io/">Hugo Themes&lt;/a> 에 전시되어 있는 무료 테마들 중에 골랐습니다.
 무료다보니 &lt;a href="https://gethugothemes.com/">Premium Hugo Themes&lt;/a> 에서 판매하는 유료 테마보다 아무래도 완성도도 떨어지고
 자잘한 문제들도 있지만, 적당히 고쳐서 쓰면 괜찮을거라 생각했었죠.
-그렇게 생각했었어요. 정말로.&lt;/p></description></item><item><title>지상 최강의 개발자 쥬니니</title><link>/authors/juunini/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/authors/juunini/</guid><description>&lt;ul>
+그렇게 생각했었어요. 정말로.&lt;/p></description></item><item><title>지상 최강의 개발자 쥬니니</title><link>https://tech.epsilondelta.ai/authors/juunini/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tech.epsilondelta.ai/authors/juunini/</guid><description>&lt;ul>
 &lt;li>&lt;a href="https://github.com/juunini">GitHub&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://velog.io/@juunini">Velog&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://yozm.wishket.com/magazine/@juunini">요즘IT&lt;/a>&lt;/li>
