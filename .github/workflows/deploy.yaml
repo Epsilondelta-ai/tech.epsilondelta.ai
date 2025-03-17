@@ -29,7 +29,12 @@ jobs:
 
       # from github variables
       - name: Setup hugo.toml
-        run: echo "${{ vars.HUGO_TOML }}" > hugo.toml
+        run: echo "$HUGO_TOML" > hugo.toml
+        env:
+          HUGO_TOML: ${{ vars.HUGO_TOML }}
+
+      - name: Submodule
+        run: git submodule update --init --recursive
 
       - name: build
         run: hugo --minify
