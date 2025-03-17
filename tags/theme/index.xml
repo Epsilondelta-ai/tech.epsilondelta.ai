@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Theme on 엡실론델타 테크블로그</title><link>https://tech.epsilondelta.ai/tags/theme/</link><description>Recent content in Theme on 엡실론델타 테크블로그</description><generator>Hugo</generator><language>ko-KR</language><lastBuildDate>Sat, 15 Mar 2025 22:54:35 +0900</lastBuildDate><atom:link href="https://tech.epsilondelta.ai/tags/theme/index.xml" rel="self" type="application/rss+xml"/><item><title>원래는 기술블로그만 만들려고 했었다</title><link>https://tech.epsilondelta.ai/posts/create-hugo-blog-with-theme/</link><pubDate>Sat, 15 Mar 2025 22:54:35 +0900</pubDate><guid>https://tech.epsilondelta.ai/posts/create-hugo-blog-with-theme/</guid><description>&lt;p>&lt;img src="./thumbnail.webp" alt="">&lt;/p>
+&lt;p>회사 홈페이지도 당장 없긴 한데, 개발 할 아이템을 내세워 회사 홈페이지를 만들려니 당장 기획이 쉽지 않았습니다.&lt;br>
+그러다보니 당장 만들기 어렵지 않은 기술블로그부터 만드는게 쉬울까 싶었구요.&lt;/p>
+&lt;h2 id="tldr">TL;DR&lt;/h2>
+&lt;ul>
+&lt;li>Hugo 테마를 만들었다: &lt;a href="https://github.com/Epsilondelta-ai/hugo-theme" target="_blank">Epsilon Delta Hugo Theme&lt;/a>
+&lt;/li>
+&lt;li>테마를 만드는데 외형 꾸미기만 하는게 아니라 SEO랑, katex, mermaid, giscus등 할게 생각보다 많았다.&lt;/li>
+&lt;li>엡실론델타 테크블로그 출시!&lt;/li>
+&lt;/ul>
+&lt;h2 id="hugo를-선택한-이유">Hugo를 선택한 이유&lt;/h2>
+&lt;p>그냥 제가 Golang을 좋아해서&lt;/p>
+&lt;h3 id="hugo-테마를-고르긴-했었다">Hugo 테마를 고르긴 했었다&lt;/h3>
+&lt;p>처음엔 &lt;a href="https://themes.gohugo.io/" target="_blank">Hugo Themes&lt;/a>
+ 에 전시되어 있는 무료 테마들 중에 골랐습니다.&lt;br>
+무료다보니 &lt;a href="https://gethugothemes.com/" target="_blank">Premium Hugo Themes&lt;/a>
+ 에서 판매하는 유료 테마보다 아무래도 완성도도 떨어지고&lt;br>
+자잘한 문제들도 있지만, 적당히 고쳐서 쓰면 괜찮을거라 생각했었죠.&lt;br>
+그렇게 생각했었어요. 정말로.&lt;/p></description></item></channel></rss>
