@@ -5,15 +5,15 @@ title = '원래는 기술블로그만 만들려고 했었다'
 description = '그런데 마음에 드는 Hugo 테마가 없어서 직접 만들고 배포까지 해버렸다능...'
 tags = ['hugo', 'theme']
 authors = ['juunini']
-featured_image = 'thumbnail.webp' # e.g. 'thumbnail.png'
+featured_image = 'thumbnail.jpg' # e.g. 'thumbnail.png'
 slug = 'create-hugo-blog-with-theme' # uri. e.g. 'awesome-post-name'
 audio = []
 vedios = []
 series = []
-images = ['thumbnail.webp']
+images = ['thumbnail.jpg']
 +++
 
-![](./thumbnail.webp)
+![](./thumbnail.jpg)
 
 회사 홈페이지도 당장 없긴 한데, 개발 할 아이템을 내세워 회사 홈페이지를 만들려니 당장 기획이 쉽지 않았습니다.
 그러다보니 당장 만들기 어렵지 않은 기술블로그부터 만드는게 쉬울까 싶었구요.
