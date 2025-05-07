@@ -10,14 +10,14 @@ enableRobotsTXT = true
 [params]
   _merge = 'deep'
   description = '엡실론델타 테크블로그입니다.' # for meta og tag
-  images = ['logo.jpg'] # for meta og tag
+  images = ['epsilondelta_logo_v3.jpg'] # for meta og tag
   title = '엡실론델타 테크블로그' # for meta og tag
   # [params.social]
   #   facebook_admin = 'jsmith' # for meta og tag
   #   twitter = 'GoHugoIO' # for meta twitter tag
   titleStrong = '엡실론델타'
   titleLight = '테크블로그'
-  logo = '/logo.jpg'
+  logo = '/epsilondelta_symbol_v3.png'
   featuredTags = [] # 페이지 상단에 강조하고 싶은 태그들을 나열합니다.
   [params.giscus]
     enabled = false
