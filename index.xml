@@ -1,4 +1,34 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Home on 엡실론델타 테크블로그</title><link>https://tech.epsilondelta.ai/</link><description>Recent content in Home on 엡실론델타 테크블로그</description><generator>Hugo</generator><language>ko-KR</language><lastBuildDate>Wed, 07 May 2025 22:59:08 +0900</lastBuildDate><atom:link href="https://tech.epsilondelta.ai/index.xml" rel="self" type="application/rss+xml"/><item><title>GPT-4o Image Generator의 정체를 추리해보자(뇌피셜주의)</title><link>https://tech.epsilondelta.ai/posts/sleuthing-gpt-4o-images/</link><pubDate>Wed, 07 May 2025 22:59:08 +0900</pubDate><guid>https://tech.epsilondelta.ai/posts/sleuthing-gpt-4o-images/</guid><description>&lt;p>&lt;img src="./thumbnail.jpg" alt="">&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Home on 엡실론델타 테크블로그</title><link>https://tech.epsilondelta.ai/</link><description>Recent content in Home on 엡실론델타 테크블로그</description><generator>Hugo</generator><language>ko-KR</language><lastBuildDate>Sat, 07 Jun 2025 17:30:00 +0900</lastBuildDate><atom:link href="https://tech.epsilondelta.ai/index.xml" rel="self" type="application/rss+xml"/><item><title>왜 내가 쓰는 AI는 멍청하지?</title><link>https://tech.epsilondelta.ai/posts/why-your-ai-is-stupid/</link><pubDate>Sat, 07 Jun 2025 17:30:00 +0900</pubDate><guid>https://tech.epsilondelta.ai/posts/why-your-ai-is-stupid/</guid><description>&lt;p>&lt;img src="./thumbnail.jpg" alt="">&lt;/p>
+&lt;p>&amp;ldquo;남들은 다들 AI 좋다 그러는데, 왜 내가 쓰는 AI는 이렇게 멍청한걸까?&amp;rdquo;&lt;br>
+이렇게 생각하시는 분들이 꽤 많으실겁니다.&lt;/p>
+&lt;p>지금부터 하나씩 그 원인을 알려드리겠습니다.&lt;/p>
+&lt;h1 id="목차">목차&lt;/h1>
+&lt;ul>
+&lt;li>&lt;a href="#ai%ec%97%90-%eb%8f%88%ec%9d%84-%ec%93%b0%ec%85%a8%eb%82%98%ec%9a%94">AI에 돈을 쓰셨나요?&lt;/a>
+
+&lt;ul>
+&lt;li>&lt;a href="#%eb%8f%88%ec%9d%84-%ec%a4%98%ec%95%bc-%ec%9d%b4%eb%af%b8%ec%a7%80%eb%a5%bc-%eb%a7%8c%eb%93%a4%ec%96%b4%ec%a3%bc%ea%b3%a0-%eb%8f%99%ec%98%81%ec%83%81%ec%9d%84-%eb%a7%8c%eb%93%a4%ec%96%b4%ec%a3%bc%ea%b3%a0-%ec%9d%8c%ec%95%85%ec%9d%84-%eb%a7%8c%eb%93%a4%ec%96%b4%ec%a4%8d%eb%8b%88%eb%8b%a4">돈을 줘야 이미지를 만들어주고, 동영상을 만들어주고, 음악을 만들어줍니다.&lt;/a>
+&lt;/li>
+&lt;li>&lt;a href="#%ec%bb%a4%eb%ae%a4%eb%8b%88%ed%8b%b0-%eb%b3%b4%eb%a9%b4-%ec%9e%90%ea%b8%b0-%ec%bb%b4%ed%93%a8%ed%84%b0%ec%97%90%ec%84%9c-%ed%95%98%eb%8d%98%eb%8d%b0%ec%9a%94">커뮤니티 보면 자기 컴퓨터에서 하던데요?&lt;/a>
+&lt;/li>
+&lt;li>&lt;a href="#%ec%b1%84%ed%8c%85-%ea%b8%b0%eb%8a%a5%eb%a7%8c-%ec%9e%88%eb%8a%94-ai%eb%8f%84-%eb%8f%88%ec%9d%84-%ec%93%b0%ea%b3%a0-%ec%95%88%ec%93%b0%ea%b3%a0%ec%97%90-%ec%b0%a8%ec%9d%b4%ea%b0%80-%ec%9e%88%ec%8a%b5%eb%8b%88%eb%8b%a4">채팅 기능만 있는 AI도 돈을 쓰고 안쓰고에 차이가 있습니다.&lt;/a>
+&lt;/li>
+&lt;li>&lt;a href="#ollama-%ea%b0%99%ec%9d%80%ea%b1%b8%eb%a1%9c-%ec%96%b4%ec%b0%8c-%eb%82%b4-%ec%bb%b4%ed%93%a8%ed%84%b0%ec%97%90%ec%84%9c-%ea%b3%b5%ec%a7%9c%eb%a1%9c-%ec%95%88%eb%90%98%eb%82%98">Ollama 같은걸로 어찌 내 컴퓨터에서 공짜로 안되나?&lt;/a>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#%ec%96%b4%eb%96%a4-%ea%b2%b0%ea%b3%bc%eb%a5%bc-%ec%96%bb%ea%b3%a0%ec%8b%b6%ec%9d%80%ec%a7%80-%ec%95%8c%ea%b3%a0%ec%9e%88%eb%82%98%ec%9a%94">어떤 결과를 얻고싶은지 알고있나요?&lt;/a>
+
+&lt;ul>
+&lt;li>&lt;a href="#%ec%b1%84%ed%8c%85-ui%ec%97%90-%ec%93%b0%eb%8a%94-%eb%82%b4%ec%9a%a9%ec%9d%b4-%eb%ac%b4%ec%8a%a8-%ea%b3%bc%ec%a0%95%ec%9d%84-%ed%86%b5%ed%95%b4-%eb%a7%8c%eb%93%a4%ec%96%b4%ec%a7%80%eb%8a%94%ec%a7%80-%ec%95%8c%ea%b3%a0%ec%9e%88%eb%82%98%ec%9a%94">채팅 UI에 쓰는 내용이 무슨 과정을 통해 만들어지는지 알고있나요?&lt;/a>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#%ec%9c%a0%ed%8a%9c%eb%b8%8c%ec%97%90-%ec%9e%98-%ec%93%b0%eb%8a%94-%ec%82%ac%eb%9e%8c%eb%93%a4-%eb%b3%b4%eb%8b%88%ea%b9%8c-mcp%ec%9d%b8%ea%b0%80-%eb%ad%90%ec%8b%9c%ea%b8%b4%ea%b0%80-%ec%93%b0%eb%8d%98%eb%8d%b0">유튜브에 잘 쓰는 사람들 보니까 MCP인가 뭐시긴가 쓰던데&amp;hellip;&lt;/a>
+&lt;/li>
+&lt;/ul>
+&lt;h1 id="ai에-돈을-쓰셨나요">AI에 돈을 쓰셨나요?&lt;/h1>
+&lt;p>&lt;img src="./images/%EB%B0%94%EB%A1%9C%20%EB%A6%AC%EB%B6%80%ED%8A%B8%20%EC%A0%95%EC%83%81%ED%99%94.webp" alt="">&lt;/p></description></item><item><title>GPT-4o Image Generator의 정체를 추리해보자(뇌피셜주의)</title><link>https://tech.epsilondelta.ai/posts/sleuthing-gpt-4o-images/</link><pubDate>Wed, 07 May 2025 22:59:08 +0900</pubDate><guid>https://tech.epsilondelta.ai/posts/sleuthing-gpt-4o-images/</guid><description>&lt;p>&lt;img src="./thumbnail.jpg" alt="">&lt;/p>
 &lt;h2 id="들어가며">들어가며&lt;/h2>
 &lt;p>어느 평화로운 날 자고 일어났더니 여기저기 암세포(?)마냥 퍼져있는 이미지들이 있었습니다.&lt;br>
 그것은 트랄라레로&amp;hellip;가 아니라 그놈의 지브리 어쩌고 이미지들&lt;br>
