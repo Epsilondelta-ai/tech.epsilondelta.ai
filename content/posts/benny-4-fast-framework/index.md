@@ -96,12 +96,3 @@ model Account {
   @@unique([provider, providerAccountId])
 }
 ```
-
-## 성능 결과
-
-실제 프로젝트에서 측정한 결과:
-
-- **초기 로딩**: 1.5초
-- **번들 크기**: 65KB (gzipped)
-- **메모리 사용량**: 45MB (개발 서버)
-- **빌드 시간**: 12초
