@@ -1,4 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Home on 엡실론델타 테크블로그</title><link>https://tech.epsilondelta.ai/</link><description>Recent content in Home on 엡실론델타 테크블로그</description><generator>Hugo</generator><language>ko-KR</language><lastBuildDate>Sun, 17 Aug 2025 11:03:24 +0900</lastBuildDate><atom:link href="https://tech.epsilondelta.ai/index.xml" rel="self" type="application/rss+xml"/><item><title>그건 프롬프트 엔지니어링이 아닙니다.</title><link>https://tech.epsilondelta.ai/posts/that-is-not-prompt-engineering/</link><pubDate>Sun, 17 Aug 2025 11:03:24 +0900</pubDate><guid>https://tech.epsilondelta.ai/posts/that-is-not-prompt-engineering/</guid><description>&lt;p>&lt;img src="./this_is_not_prompt_engineering.jpg" alt="">&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Home on 엡실론델타 테크블로그</title><link>https://tech.epsilondelta.ai/</link><description>Recent content in Home on 엡실론델타 테크블로그</description><generator>Hugo</generator><language>ko-KR</language><lastBuildDate>Tue, 30 Sep 2025 15:44:06 +0900</lastBuildDate><atom:link href="https://tech.epsilondelta.ai/index.xml" rel="self" type="application/rss+xml"/><item><title>베니, 템플릿 프레임워크를 만들어라.</title><link>https://tech.epsilondelta.ai/posts/fast-svelte-framework/</link><pubDate>Tue, 30 Sep 2025 15:44:06 +0900</pubDate><guid>https://tech.epsilondelta.ai/posts/fast-svelte-framework/</guid><description>&lt;p>&lt;img src="./001.png" alt="">&lt;/p>
+&lt;p>얼마전에 이런 과제가 있었습니다.&lt;/p>
+&lt;p>&amp;ldquo;기본적인 기능들이 포함되어 있고 빠르게 프로젝트를 시작할 수 있는 프레임워크가 필요합니다.&amp;rdquo;&lt;/p>
+&lt;p>다시 말해 프론트와 백엔드를 아우를 수 있는 풀스택 프레임워크이고,&lt;br>
+환경 변수만 바꿔주면 결제와 OAuth2 로그인이 가능하게끔 할 수 있는 그런 작업을 맡게 됐습니다.&lt;/p>
+&lt;h2 id="풀스택-프레임워크-선택">풀스택 프레임워크 선택&lt;/h2>
+&lt;p>먼저 Next JS가 생각났습니다.&lt;/p>
+&lt;p>지금같은 AI 시대에는 Next JS를 선택하는 것이 굉장히 유리하다고 생각합니다.&lt;br>
+코드도 많고 사용하는 사람이 많기 때문에 공략법이 많이 나와있는 루트를 선택하는 것 같은 느낌입니다.&lt;/p></description></item><item><title>그건 프롬프트 엔지니어링이 아닙니다.</title><link>https://tech.epsilondelta.ai/posts/that-is-not-prompt-engineering/</link><pubDate>Sun, 17 Aug 2025 11:03:24 +0900</pubDate><guid>https://tech.epsilondelta.ai/posts/that-is-not-prompt-engineering/</guid><description>&lt;p>&lt;img src="./this_is_not_prompt_engineering.jpg" alt="">&lt;/p>
 &lt;h2 id="들어가며--llm의-시대-그리고-대-호들갑의-시대">들어가며 : LLM의 시대, 그리고 대 호들갑의 시대&lt;/h2>
 &lt;p>openAI의 GPT-5의 출시와 함께 트만이형도 호들갑의 새 지평을 열게 됩니다.&lt;br>
 &lt;img src="./sam_altman_.png" alt="">&lt;br>
@@ -75,6 +83,11 @@
 &lt;li>&lt;a href="https://www.youtube.com/@EntrepreneurGeoff" target="_blank">YouTube&lt;/a>
 &lt;/li>
 &lt;li>&lt;a href="https://www.linkedin.com/in/geoff-yoon-51a296124/" target="_blank">LinkedIn&lt;/a>
+&lt;/li>
+&lt;/ul></description></item><item><title>베니</title><link>https://tech.epsilondelta.ai/authors/benny/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tech.epsilondelta.ai/authors/benny/</guid><description>&lt;ul>
+&lt;li>&lt;a href="https://github.com/vvsogi" target="_blank">GitHub&lt;/a>
+&lt;/li>
+&lt;li>&lt;a href="https://velog.io/@vvsogi" target="_blank">Velog&lt;/a>
 &lt;/li>
 &lt;/ul></description></item><item><title>지상 최강의 개발자 쥬니니</title><link>https://tech.epsilondelta.ai/authors/juunini/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tech.epsilondelta.ai/authors/juunini/</guid><description>&lt;ul>
 &lt;li>&lt;a href="https://github.com/juunini" target="_blank">GitHub&lt;/a>
