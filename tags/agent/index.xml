@@ -3,6 +3,7 @@
 &lt;li>&lt;a href="https://github.com/Epsilondelta-ai/pi-web" target="_blank">Pi Web&lt;/a>
 을 나의 AI 분신인 &lt;a href="https://github.com/Epsilondelta-ai/juun-ai" target="_blank">JuunAI&lt;/a>
 를 이용해서 만들었다.&lt;/li>
+&lt;li>&lt;code>curl -fsSL https://raw.githubusercontent.com/Epsilondelta-ai/pi-web/main/scripts/install.sh | sh&lt;/code>&lt;/li>
 &lt;li>나의 경우엔 &lt;a href="https://pi.dev/" target="_blank">Pi&lt;/a>
 를 이용해서 엄청난 토큰 효율성을 얻었다.&lt;/li>
 &lt;li>&lt;a href="https://github.com/Epsilondelta-ai/pi-web" target="_blank">Pi Web&lt;/a>
