@@ -16,6 +16,7 @@
 ```bash
 git clone https://github.com/Epsilondelta-ai/tech.epsilondelta.ai.git
 cd tech.epsilondelta.ai
+git submodule update --init
 npm ci
 ```
 
