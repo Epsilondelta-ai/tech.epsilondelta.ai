@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Opensource on 엡실론델타 테크블로그</title><link>https://tech.epsilondelta.ai/tags/opensource/</link><description>Recent content in Opensource on 엡실론델타 테크블로그</description><generator>Hugo</generator><language>ko-KR</language><lastBuildDate>Mon, 25 May 2026 22:41:05 +0900</lastBuildDate><atom:link href="https://tech.epsilondelta.ai/tags/opensource/index.xml" rel="self" type="application/rss+xml"/><item><title>코딩 에이전트와 단축의 예술. 그리고 Pi Web 자랑</title><link>https://tech.epsilondelta.ai/posts/pi-web/</link><pubDate>Mon, 25 May 2026 22:41:05 +0900</pubDate><guid>https://tech.epsilondelta.ai/posts/pi-web/</guid><description>&lt;h2 id="tldr">TL;DR&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/Epsilondelta-ai/pi-web" target="_blank">Pi Web&lt;/a>
+을 나의 AI 분신인 &lt;a href="https://github.com/Epsilondelta-ai/juun-ai" target="_blank">JuunAI&lt;/a>
+를 이용해서 만들었다.&lt;/li>
+&lt;li>나의 경우엔 &lt;a href="https://pi.dev/" target="_blank">Pi&lt;/a>
+를 이용해서 엄청난 토큰 효율성을 얻었다.&lt;/li>
+&lt;li>&lt;a href="https://github.com/Epsilondelta-ai/pi-web" target="_blank">Pi Web&lt;/a>
+으로 핸드폰으로 코딩하세요.&lt;/li>
+&lt;/ul>
+&lt;h2 id="서문">서문&lt;/h2>
+&lt;p>&lt;img src="./images/pi.png" alt="Pi coding agent logo">&lt;/p>
+&lt;p>&lt;a href="https://pi.dev/" target="_blank">Pi&lt;/a>
+ coding agent 라는 것을 아십니까?&lt;br>
+&lt;a href="https://www.youtube.com/watch?v=PzqRRYHHpbw" target="_blank">니콜라스 센세도 좋다고 추천한&lt;/a>
+&lt;br>
+최소한의 기능만을 담고있는 코딩 에이전트입니다.&lt;/p>
+&lt;h2 id="기능도-없는데-왜-씀">기능도 없는데 왜 씀?&lt;/h2>
+&lt;p>&lt;img src="https://tech.epsilondelta.ai/meme/pepe-why.jpg" alt="왜?">&lt;/p>
+&lt;p>다들 &lt;strong>Claude Code&lt;/strong>가 좋다고 찬양하죠?&lt;br>
+저는 좀 다릅니다.&lt;/p>
+&lt;p>클로드 코드의 작동 방식이 저는 마음에 들지 않아요.&lt;br>
+토큰 사용량도 너무 많고, 제 마음에 들게 코드를 작성해주지도 않아요.&lt;br>
+기능도 너무 많아서 오히려 내가 원했던 기능을 안쓰기도 하구요.&lt;br>
+내가 원하는대로 동작하지 않는 경우도 종종 있습니다.&lt;/p></description></item></channel></rss>
