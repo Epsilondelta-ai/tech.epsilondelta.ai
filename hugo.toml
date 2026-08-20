@@ -17,7 +17,8 @@ enableRobotsTXT = true
   #   twitter = 'GoHugoIO' # for meta twitter tag
   titleStrong = '엡실론델타'
   titleLight = '테크블로그'
-  logo = '/epsilondelta_symbol_v3.png'
+  headerLogo = '/branding/symbol-black.png'
+  favicon = '/branding/favicon-green.png'
   featuredTags = [] # 페이지 상단에 강조하고 싶은 태그들을 나열합니다.
   [params.giscus]
     enabled = false
