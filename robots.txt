@@ -1,1 +1,2 @@
+User-agent: facebookexternalhit
 User-agent: *
