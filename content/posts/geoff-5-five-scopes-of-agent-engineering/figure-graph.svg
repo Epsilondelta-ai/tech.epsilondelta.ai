@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Graph Engineering의 역할</title>
+  <desc id="desc">영업 보고서 요청을 여러 작업으로 나누고 병렬로 실행한 뒤 결과를 합쳐 사람의 승인을 거치는 실행 그래프</desc>
+  <defs>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#DED8C8" stroke-width="1" opacity="0.45"/></pattern>
+    <filter id="shadow" x="-25%" y="-25%" width="150%" height="160%"><feDropShadow dx="0" dy="8" stdDeviation="9" flood-color="#17212B" flood-opacity="0.10"/></filter>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#59636E"/></marker>
+  </defs>
+  <rect width="1200" height="675" rx="28" fill="#F7F4EC"/><rect width="1200" height="675" rx="28" fill="url(#grid)"/>
+  <rect x="54" y="42" width="192" height="34" rx="17" fill="#F1E9FF"/>
+  <text x="150" y="65" text-anchor="middle" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="16" font-weight="700" fill="#6D4BB3">GRAPH ENGINEERING</text>
+  <text x="54" y="122" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="38" font-weight="800" fill="#17212B">일의 순서와 역할, 분기와 합류를 실행 가능한 구조로 만든다</text>
+  <text x="54" y="158" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="20" fill="#66717D">모든 Node가 AI일 필요는 없다. 정해진 일은 코드에 맡기고 판단이 필요한 곳에 에이전트를 둔다.</text>
+
+  <g font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="14" font-weight="700">
+    <circle cx="795" cy="207" r="8" fill="#2563EB"/><text x="811" y="212" fill="#59636E">일반 프로그램</text>
+    <circle cx="920" cy="207" r="8" fill="#0F766E"/><text x="936" y="212" fill="#59636E">AI 에이전트</text>
+    <circle cx="1045" cy="207" r="8" fill="#E76F51"/><text x="1061" y="212" fill="#59636E">사람</text>
+  </g>
+
+  <path d="M174 377H235" stroke="#59636E" stroke-width="4" marker-end="url(#arrow)"/>
+  <path d="M397 377C438 377 430 281 479 281M397 377H479M397 377C438 377 430 473 479 473" fill="none" stroke="#59636E" stroke-width="4" marker-end="url(#arrow)"/>
+  <path d="M661 281C710 281 704 377 747 377M661 377H747M661 473C710 473 704 377 747 377" fill="none" stroke="#59636E" stroke-width="4" marker-end="url(#arrow)"/>
+  <path d="M899 377H946M1062 377H1090" stroke="#59636E" stroke-width="4" marker-end="url(#arrow)"/>
+
+  <g filter="url(#shadow)" font-family="Pretendard, 'Noto Sans KR', sans-serif" text-anchor="middle">
+    <rect x="54" y="330" width="120" height="94" rx="22" fill="#FFFFFF" stroke="#59636E" stroke-width="2"/>
+    <text x="114" y="369" font-size="17" font-weight="800" fill="#17212B">주간 보고서</text><text x="114" y="395" font-size="15" fill="#66717D">요청</text>
+
+    <rect x="252" y="330" width="145" height="94" rx="22" fill="#F1E9FF" stroke="#6D4BB3" stroke-width="2"/>
+    <text x="324" y="369" font-size="17" font-weight="800" fill="#402A70">업무 분해</text><text x="324" y="395" font-size="15" fill="#66558A">Orchestrator</text>
+
+    <rect x="486" y="240" width="175" height="82" rx="20" fill="#E8F3FF" stroke="#2563EB" stroke-width="2"/>
+    <text x="573" y="276" font-size="17" font-weight="800" fill="#174EA6">CRM 조회</text><text x="573" y="300" font-size="14" fill="#51677D">정해진 Query</text>
+    <rect x="486" y="336" width="175" height="82" rx="20" fill="#EAF8F2" stroke="#0F766E" stroke-width="2"/>
+    <text x="573" y="372" font-size="17" font-weight="800" fill="#0F665F">고객 메일 분석</text><text x="573" y="396" font-size="14" fill="#51677D">Agent</text>
+    <rect x="486" y="432" width="175" height="82" rx="20" fill="#EAF8F2" stroke="#0F766E" stroke-width="2"/>
+    <text x="573" y="468" font-size="17" font-weight="800" fill="#0F665F">계약 위험 검토</text><text x="573" y="492" font-size="14" fill="#51677D">Agent</text>
+
+    <rect x="754" y="330" width="145" height="94" rx="22" fill="#FFFFFF" stroke="#59636E" stroke-width="2"/>
+    <text x="826" y="369" font-size="17" font-weight="800" fill="#17212B">결과 합류</text><text x="826" y="395" font-size="15" fill="#66717D">누락 확인</text>
+
+    <rect x="953" y="330" width="109" height="94" rx="22" fill="#FFF1E8" stroke="#E76F51" stroke-width="2"/>
+    <text x="1007" y="369" font-size="17" font-weight="800" fill="#A8462E">담당자</text><text x="1007" y="395" font-size="15" fill="#A8462E">승인</text>
+
+    <circle cx="1129" cy="377" r="40" fill="#17212B"/>
+    <path d="M1111 377l12 12 25-29" fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="1129" y="442" font-size="15" font-weight="700" fill="#17212B">보고서 확정</text>
+  </g>
+  <text x="600" y="588" text-anchor="middle" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="18" font-weight="700" fill="#17212B">Graph는 조직도보다 실행 규칙에 가깝다. 누가 무엇을 끝내야 다음으로 가는지가 드러나야 한다.</text>
+</svg>

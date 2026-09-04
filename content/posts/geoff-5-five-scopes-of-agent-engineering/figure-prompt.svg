@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Prompt Engineering의 역할</title>
+  <desc id="desc">막연한 업무 요청을 목표, 제약, 출력 형식, 판단 보류 조건이 있는 계약으로 바꾸고 구조화된 결과를 얻는 과정</desc>
+  <defs>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#DED8C8" stroke-width="1" opacity="0.45"/>
+    </pattern>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#17212B" flood-opacity="0.10"/>
+    </filter>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10Z" fill="#59636E"/>
+    </marker>
+  </defs>
+  <rect width="1200" height="675" rx="28" fill="#F7F4EC"/>
+  <rect width="1200" height="675" rx="28" fill="url(#grid)"/>
+  <rect x="54" y="42" width="196" height="34" rx="17" fill="#D9F3EC"/>
+  <text x="152" y="65" text-anchor="middle" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="16" font-weight="700" fill="#0F766E">PROMPT ENGINEERING</text>
+  <text x="54" y="122" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="38" font-weight="800" fill="#17212B">한 번의 판단에 맡길 일을 분명하게 정한다</text>
+  <text x="54" y="158" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="20" fill="#66717D">막연한 요청을 모델과 호출자 사이의 구체적인 계약으로 바꾸는 일</text>
+
+  <g filter="url(#shadow)">
+    <rect x="54" y="230" width="240" height="290" rx="24" fill="#FFFFFF"/>
+    <rect x="74" y="252" width="84" height="30" rx="15" fill="#FCE8DE"/>
+    <text x="116" y="273" text-anchor="middle" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="15" font-weight="700" fill="#B45336">업무 요청</text>
+    <path d="M90 325h168M90 354h140M90 383h158" stroke="#BCC5CD" stroke-width="12" stroke-linecap="round"/>
+    <text x="174" y="442" text-anchor="middle" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="22" font-weight="700" fill="#17212B">"지난주 영업 현황을</text>
+    <text x="174" y="474" text-anchor="middle" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="22" font-weight="700" fill="#17212B">요약해 줘"</text>
+  </g>
+
+  <path d="M310 375H365" fill="none" stroke="#59636E" stroke-width="4" marker-end="url(#arrow)"/>
+
+  <g filter="url(#shadow)">
+    <rect x="382" y="198" width="350" height="354" rx="24" fill="#FFFFFF" stroke="#0F766E" stroke-width="3"/>
+    <text x="414" y="243" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="25" font-weight="800" fill="#0F766E">Prompt 계약</text>
+    <g font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="18">
+      <rect x="414" y="278" width="286" height="48" rx="12" fill="#E8F3FF"/>
+      <circle cx="438" cy="302" r="7" fill="#2563EB"/><text x="458" y="309" fill="#17212B"><tspan font-weight="700">목표</tspan><tspan dx="14">이탈 징후 파악</tspan></text>
+      <rect x="414" y="338" width="286" height="48" rx="12" fill="#FFF1E8"/>
+      <circle cx="438" cy="362" r="7" fill="#E76F51"/><text x="458" y="369" fill="#17212B"><tspan font-weight="700">범위</tspan><tspan dx="14">지난주 주요 고객</tspan></text>
+      <rect x="414" y="398" width="286" height="48" rx="12" fill="#EAF8F2"/>
+      <circle cx="438" cy="422" r="7" fill="#0F766E"/><text x="458" y="429" fill="#17212B"><tspan font-weight="700">출력</tspan><tspan dx="14">사실·추정·근거</tspan></text>
+      <rect x="414" y="458" width="286" height="62" rx="12" fill="#FFF7D6"/>
+      <circle cx="438" cy="489" r="7" fill="#D89B12"/><text x="458" y="485" fill="#17212B"><tspan font-weight="700">보류 조건</tspan></text><text x="458" y="508" fill="#17212B">정보 부족은 확인 필요로 표시</text>
+    </g>
+  </g>
+
+  <path d="M748 375H798" fill="none" stroke="#59636E" stroke-width="4" marker-end="url(#arrow)"/>
+  <g>
+    <circle cx="824" cy="375" r="34" fill="#0F766E"/>
+    <path d="M810 375l10 10 20-24" fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="824" y="427" text-anchor="middle" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="14" font-weight="700" fill="#59636E">MODEL CALL</text>
+  </g>
+  <path d="M862 375H900" fill="none" stroke="#59636E" stroke-width="4" marker-end="url(#arrow)"/>
+
+  <g filter="url(#shadow)">
+    <rect x="916" y="230" width="230" height="290" rx="24" fill="#FFFFFF"/>
+    <text x="944" y="273" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="23" font-weight="800" fill="#17212B">경영회의 보고서</text>
+    <rect x="944" y="306" width="66" height="27" rx="13" fill="#D9F3EC"/><text x="977" y="325" text-anchor="middle" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="14" font-weight="700" fill="#0F766E">사실</text>
+    <path d="M944 352h166M944 376h142" stroke="#9AA6B2" stroke-width="9" stroke-linecap="round"/>
+    <rect x="944" y="408" width="66" height="27" rx="13" fill="#E8F3FF"/><text x="977" y="427" text-anchor="middle" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="14" font-weight="700" fill="#2563EB">추정</text>
+    <path d="M944 454h150" stroke="#9AA6B2" stroke-width="9" stroke-linecap="round"/>
+    <rect x="944" y="480" width="104" height="27" rx="13" fill="#FFF7D6"/><text x="996" y="499" text-anchor="middle" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="14" font-weight="700" fill="#A66B00">확인 필요</text>
+  </g>
+</svg>

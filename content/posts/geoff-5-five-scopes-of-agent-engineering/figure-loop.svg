@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">두 가지 Loop의 관계</title>
+  <desc id="desc">외부 운영 루프가 에이전트 실행을 시작하고 검증하며, 그 안의 내부 에이전트 루프가 판단, 행동, 관찰, 상태 갱신을 반복하는 구조</desc>
+  <defs>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#DED8C8" stroke-width="1" opacity="0.45"/></pattern>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#17212B" flood-opacity="0.09"/></filter>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#59636E"/></marker>
+    <marker id="arrowBlue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#2563EB"/></marker>
+  </defs>
+  <rect width="1200" height="675" rx="28" fill="#F7F4EC"/><rect width="1200" height="675" rx="28" fill="url(#grid)"/>
+  <rect x="54" y="42" width="184" height="34" rx="17" fill="#FFF7D6"/>
+  <text x="146" y="65" text-anchor="middle" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="16" font-weight="700" fill="#A66B00">LOOP ENGINEERING</text>
+  <text x="54" y="122" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="38" font-weight="800" fill="#17212B">결과를 보고 다음 행동을 바꾸고, 검증된 조건에서 멈춘다</text>
+  <text x="54" y="158" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="20" fill="#66717D">같은 Loop라는 이름 아래 내부 실행과 외부 운영이라는 두 범위가 있다</text>
+
+  <g filter="url(#shadow)">
+    <rect x="54" y="196" width="1092" height="196" rx="26" fill="#FFFFFF" stroke="#E0A61A" stroke-width="3"/>
+    <text x="82" y="230" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="18" font-weight="800" fill="#A66B00">외부 운영 LOOP</text>
+    <text x="82" y="254" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="14" fill="#66717D">에이전트 실행 전체를 관리</text>
+    <g font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="18" font-weight="700" text-anchor="middle">
+      <rect x="118" y="282" width="160" height="60" rx="16" fill="#FFF7D6"/><text x="198" y="319" fill="#17212B">트리거</text>
+      <rect x="366" y="282" width="180" height="60" rx="16" fill="#EAF8F2"/><text x="456" y="319" fill="#17212B">에이전트 실행</text>
+      <rect x="638" y="282" width="160" height="60" rx="16" fill="#E8F3FF"/><text x="718" y="319" fill="#17212B">결과 검증</text>
+      <rect x="890" y="282" width="160" height="60" rx="16" fill="#FFF1E8"/><text x="970" y="319" fill="#17212B">기록·다음 작업</text>
+    </g>
+    <path d="M280 312H354M548 312H626M800 312H878" stroke="#59636E" stroke-width="4" marker-end="url(#arrow)"/>
+    <path d="M970 351C970 377 198 377 198 351" fill="none" stroke="#D89B12" stroke-width="3" marker-end="url(#arrow)"/>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="106" y="430" width="790" height="176" rx="24" fill="#FFFFFF" stroke="#2563EB" stroke-width="3"/>
+    <text x="134" y="465" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="18" font-weight="800" fill="#2563EB">내부 AGENTIC LOOP</text>
+    <text x="134" y="489" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="14" fill="#66717D">에이전트 한 번의 실행 안에서 반복</text>
+    <g font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="17" font-weight="700" text-anchor="middle">
+      <rect x="154" y="519" width="130" height="48" rx="14" fill="#E8F3FF"/><text x="219" y="550" fill="#17212B">판단</text>
+      <rect x="344" y="519" width="130" height="48" rx="14" fill="#EAF8F2"/><text x="409" y="550" fill="#17212B">행동</text>
+      <rect x="534" y="519" width="130" height="48" rx="14" fill="#FFF1E8"/><text x="599" y="550" fill="#17212B">관찰</text>
+      <rect x="724" y="519" width="130" height="48" rx="14" fill="#FFF7D6"/><text x="789" y="550" fill="#17212B">상태 갱신</text>
+    </g>
+    <path d="M286 543H332M476 543H522M666 543H712" stroke="#2563EB" stroke-width="3" marker-end="url(#arrowBlue)"/>
+    <path d="M789 577C789 597 219 597 219 577" fill="none" stroke="#2563EB" stroke-width="3" marker-end="url(#arrowBlue)"/>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="932" y="430" width="214" height="176" rx="24" fill="#17212B"/>
+    <text x="960" y="468" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="18" font-weight="800" fill="#FFFFFF">종료 조건</text>
+    <g font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="16" fill="#E8EDF1">
+      <circle cx="960" cy="505" r="5" fill="#34D399"/><text x="976" y="511">성공</text>
+      <circle cx="960" cy="535" r="5" fill="#FDBA74"/><text x="976" y="541">정보 부족</text>
+      <circle cx="960" cy="565" r="5" fill="#93C5FD"/><text x="976" y="571">진행 정체</text>
+      <circle cx="960" cy="595" r="5" fill="#FCD34D"/><text x="976" y="601">예산 소진</text>
+    </g>
+  </g>
+</svg>
