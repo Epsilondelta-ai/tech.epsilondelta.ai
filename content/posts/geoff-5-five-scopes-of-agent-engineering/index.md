@@ -1,6 +1,6 @@
 +++
 date = '2026-09-04T11:30:22+09:00'
-draft = true # Change to false to publish
+draft = false # Change to false to publish
 title = '프롬프트만 잘 쓰면 끝인 줄 알았다: AI 에이전트 엔지니어링 겉핥기'
 description = 'Prompt, Context, Loop, Graph, Harness Engineering은 무엇이 다르고 실제 업무에서는 어떻게 함께 쓰일까?'
 tags = ['ai', 'agent', 'prompt-engineering', 'context-engineering', 'loop-engineering', 'graph-engineering', 'harness-engineering']
