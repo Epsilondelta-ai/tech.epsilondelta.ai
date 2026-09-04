@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Context Engineering의 역할</title>
+  <desc id="desc">여러 정보원에서 관련성, 최신성, 권한을 기준으로 정보를 선별해 제한된 컨텍스트 창에 넣는 과정</desc>
+  <defs>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#DED8C8" stroke-width="1" opacity="0.45"/></pattern>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#17212B" flood-opacity="0.10"/></filter>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#59636E"/></marker>
+  </defs>
+  <rect width="1200" height="675" rx="28" fill="#F7F4EC"/><rect width="1200" height="675" rx="28" fill="url(#grid)"/>
+  <rect x="54" y="42" width="204" height="34" rx="17" fill="#E8F3FF"/>
+  <text x="156" y="65" text-anchor="middle" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="16" font-weight="700" fill="#2563EB">CONTEXT ENGINEERING</text>
+  <text x="54" y="122" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="34" font-weight="800" fill="#17212B">많이 넣는 일이 아니라, 지금 필요한 것을 고르는 일</text>
+  <text x="54" y="158" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="20" fill="#66717D">Context는 모델이 이번 판단에서 실제로 볼 수 있는 작업대다</text>
+
+  <text x="72" y="220" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="18" font-weight="700" fill="#59636E">가능한 정보 전체</text>
+  <g filter="url(#shadow)" font-family="Pretendard, 'Noto Sans KR', sans-serif">
+    <rect x="60" y="246" width="190" height="92" rx="18" fill="#FFFFFF"/><circle cx="91" cy="292" r="17" fill="#D9F3EC"/><path d="M83 292h16M91 284v16" stroke="#0F766E" stroke-width="3"/><text x="120" y="288" font-size="20" font-weight="800" fill="#17212B">CRM</text><text x="120" y="314" font-size="15" fill="#66717D">고객·계약 기록</text>
+    <rect x="270" y="246" width="190" height="92" rx="18" fill="#FFFFFF"/><circle cx="301" cy="292" r="17" fill="#E8F3FF"/><path d="M291 285h20v15h-20zM291 285l10 8 10-8" fill="none" stroke="#2563EB" stroke-width="2"/><text x="330" y="288" font-size="20" font-weight="800" fill="#17212B">고객 메일</text><text x="330" y="314" font-size="15" fill="#66717D">최근 대화와 반응</text>
+    <rect x="60" y="360" width="190" height="92" rx="18" fill="#FFFFFF"/><circle cx="91" cy="406" r="17" fill="#FFF1E8"/><path d="M82 398h18M82 405h18M82 412h12" stroke="#E76F51" stroke-width="2.5"/><text x="120" y="402" font-size="20" font-weight="800" fill="#17212B">회의 메모</text><text x="120" y="428" font-size="15" fill="#66717D">담당자의 판단</text>
+    <rect x="270" y="360" width="190" height="92" rx="18" fill="#FFFFFF"/><circle cx="301" cy="406" r="17" fill="#FFF7D6"/><path d="M293 395h16v22h-16zM297 401h8M297 407h8M297 413h6" fill="none" stroke="#B77900" stroke-width="2"/><text x="330" y="402" font-size="20" font-weight="800" fill="#17212B">계약서</text><text x="330" y="428" font-size="15" fill="#66717D">조건과 위험 조항</text>
+  </g>
+
+  <path d="M478 349H540" stroke="#59636E" stroke-width="4" marker-end="url(#arrow)"/>
+  <g filter="url(#shadow)">
+    <path d="M558 238H748L704 430H602Z" fill="#FFFFFF" stroke="#2563EB" stroke-width="3"/>
+    <text x="653" y="280" text-anchor="middle" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="23" font-weight="800" fill="#17212B">선별 기준</text>
+    <rect x="590" y="303" width="126" height="34" rx="17" fill="#D9F3EC"/><text x="653" y="326" text-anchor="middle" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="16" font-weight="700" fill="#0F766E">관련성</text>
+    <rect x="604" y="348" width="98" height="34" rx="17" fill="#E8F3FF"/><text x="653" y="371" text-anchor="middle" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="16" font-weight="700" fill="#2563EB">최신성</text>
+    <rect x="618" y="393" width="70" height="34" rx="17" fill="#FFF1E8"/><text x="653" y="416" text-anchor="middle" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="16" font-weight="700" fill="#B45336">권한</text>
+  </g>
+  <path d="M716 349H792" stroke="#59636E" stroke-width="4" marker-end="url(#arrow)"/>
+
+  <g filter="url(#shadow)">
+    <rect x="810" y="218" width="330" height="336" rx="26" fill="#FFFFFF" stroke="#0F766E" stroke-width="3"/>
+    <text x="842" y="262" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="24" font-weight="800" fill="#0F766E">이번 Context Window</text>
+    <rect x="842" y="292" width="266" height="52" rx="12" fill="#EAF8F2"/><circle cx="866" cy="318" r="7" fill="#0F766E"/><text x="885" y="325" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="17" fill="#17212B">지난주 계약 변경 4건</text>
+    <rect x="842" y="357" width="266" height="52" rx="12" fill="#E8F3FF"/><circle cx="866" cy="383" r="7" fill="#2563EB"/><text x="885" y="390" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="17" fill="#17212B">관련 고객 메일 12건</text>
+    <rect x="842" y="422" width="266" height="52" rx="12" fill="#FFF7D6"/><circle cx="866" cy="448" r="7" fill="#D89B12"/><text x="885" y="455" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="17" fill="#17212B">담당자 최신 메모 3건</text>
+    <circle cx="975" cy="515" r="23" fill="#0F766E"/><circle cx="975" cy="515" r="9" fill="#CFF7E8"/>
+    <text x="1012" y="521" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="16" font-weight="700" fill="#59636E">MODEL</text>
+  </g>
+  <text x="653" y="594" text-anchor="middle" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="18" font-weight="700" fill="#17212B">전체 자료를 복사하지 않는다. 이번 판단에 필요한 근거만 투영한다.</text>
+</svg>

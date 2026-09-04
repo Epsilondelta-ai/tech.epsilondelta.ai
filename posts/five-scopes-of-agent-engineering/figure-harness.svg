@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">개별 Agent Harness와 전체 System Harness</title>
+  <desc id="desc">전체 시스템 하네스 안에 그래프와 오케스트레이터가 있고, 그 안에 각 모델을 감싸는 개별 에이전트 하네스가 배치된 구조</desc>
+  <defs>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#DED8C8" stroke-width="1" opacity="0.45"/></pattern>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#17212B" flood-opacity="0.09"/></filter>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#59636E"/></marker>
+  </defs>
+  <rect width="1200" height="675" rx="28" fill="#F7F4EC"/><rect width="1200" height="675" rx="28" fill="url(#grid)"/>
+  <rect x="54" y="42" width="204" height="34" rx="17" fill="#D9F3EC"/>
+  <text x="156" y="65" text-anchor="middle" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="16" font-weight="700" fill="#0F766E">HARNESS ENGINEERING</text>
+  <text x="54" y="122" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="38" font-weight="800" fill="#17212B">모델과 업무 시스템 사이에 실행 환경과 안전장치를 둔다</text>
+  <text x="54" y="158" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="20" fill="#66717D">Harness는 무엇을 감싸느냐에 따라 개별 Agent와 전체 System 두 범위에서 볼 수 있다</text>
+
+  <rect x="54" y="194" width="1092" height="426" rx="30" fill="#FFFFFF" stroke="#17212B" stroke-width="4"/>
+  <rect x="76" y="214" width="208" height="34" rx="17" fill="#17212B"/>
+  <text x="180" y="237" text-anchor="middle" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="16" font-weight="800" fill="#FFFFFF">SYSTEM HARNESS</text>
+  <g font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="15" font-weight="700" text-anchor="middle">
+    <rect x="316" y="214" width="150" height="34" rx="17" fill="#FFF7D6"/><text x="391" y="237" fill="#8B5B00">전역 권한</text>
+    <rect x="480" y="214" width="150" height="34" rx="17" fill="#FFF1E8"/><text x="555" y="237" fill="#A8462E">비용·시간 한도</text>
+    <rect x="644" y="214" width="150" height="34" rx="17" fill="#E8F3FF"/><text x="719" y="237" fill="#174EA6">Checkpoint</text>
+    <rect x="808" y="214" width="150" height="34" rx="17" fill="#EAF8F2"/><text x="883" y="237" fill="#0F665F">감사 로그</text>
+    <rect x="972" y="214" width="150" height="34" rx="17" fill="#F1E9FF"/><text x="1047" y="237" fill="#5B3D96">장애 복구</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="138" y="278" width="924" height="286" rx="26" fill="#F8F5FF" stroke="#6D4BB3" stroke-width="3"/>
+    <rect x="164" y="298" width="230" height="34" rx="17" fill="#E8DEFA"/>
+    <text x="279" y="321" text-anchor="middle" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="16" font-weight="800" fill="#5B3D96">GRAPH / ORCHESTRATOR</text>
+
+    <g>
+      <rect x="204" y="358" width="330" height="162" rx="22" fill="#FFFFFF" stroke="#0F766E" stroke-width="3"/>
+      <text x="228" y="389" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="17" font-weight="800" fill="#0F766E">AGENT HARNESS A</text>
+      <rect x="228" y="410" width="78" height="64" rx="14" fill="#E8F3FF"/>
+      <text x="267" y="438" text-anchor="middle" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="14" font-weight="700" fill="#174EA6">Context</text><text x="267" y="458" text-anchor="middle" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="12" fill="#51677D">선별</text>
+      <circle cx="369" cy="442" r="34" fill="#0F766E"/><circle cx="369" cy="442" r="12" fill="#CFF7E8"/><text x="369" y="497" text-anchor="middle" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="13" font-weight="700" fill="#59636E">MODEL</text>
+      <rect x="432" y="410" width="78" height="64" rx="14" fill="#FFF7D6"/>
+      <text x="471" y="438" text-anchor="middle" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="14" font-weight="700" fill="#8B5B00">Tools</text><text x="471" y="458" text-anchor="middle" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="12" fill="#6F6245">권한</text>
+      <path d="M309 442H329M406 442H427" stroke="#59636E" stroke-width="3" marker-end="url(#arrow)"/>
+    </g>
+
+    <g>
+      <rect x="666" y="358" width="330" height="162" rx="22" fill="#FFFFFF" stroke="#2563EB" stroke-width="3"/>
+      <text x="690" y="389" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="17" font-weight="800" fill="#2563EB">AGENT HARNESS B</text>
+      <rect x="690" y="410" width="78" height="64" rx="14" fill="#E8F3FF"/>
+      <text x="729" y="438" text-anchor="middle" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="14" font-weight="700" fill="#174EA6">Context</text><text x="729" y="458" text-anchor="middle" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="12" fill="#51677D">선별</text>
+      <circle cx="831" cy="442" r="34" fill="#2563EB"/><circle cx="831" cy="442" r="12" fill="#DDEBFF"/><text x="831" y="497" text-anchor="middle" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="13" font-weight="700" fill="#59636E">MODEL</text>
+      <rect x="894" y="410" width="78" height="64" rx="14" fill="#FFF7D6"/>
+      <text x="933" y="438" text-anchor="middle" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="14" font-weight="700" fill="#8B5B00">Tools</text><text x="933" y="458" text-anchor="middle" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="12" fill="#6F6245">권한</text>
+      <path d="M771 442H791M868 442H889" stroke="#59636E" stroke-width="3" marker-end="url(#arrow)"/>
+    </g>
+    <path d="M538 439H650" stroke="#6D4BB3" stroke-width="4" stroke-dasharray="8 8" marker-end="url(#arrow)"/>
+  </g>
+  <text x="600" y="595" text-anchor="middle" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="17" font-weight="700" fill="#17212B">개별 Harness는 한 에이전트를 통제하고, System Harness는 전체 실행의 공통 규칙과 복구를 맡는다.</text>
+</svg>
