@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Context Graph의 네 가지 실패 방식</title>
+  <desc id="desc">오래된 그래프, 예외의 일반화, 시간 순서를 원인으로 오해하는 문제, AI 오류가 다음 에이전트의 선례가 되는 문제와 각각의 대응을 보여준다.</desc>
+  <defs>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#DED8C8" stroke-width="1" opacity=".38"/>
+    </pattern>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="8" stdDeviation="9" flood-color="#17212B" flood-opacity=".09"/>
+    </filter>
+    <marker id="arrowRed" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0L10 5L0 10Z" fill="#E76F51"/>
+    </marker>
+  </defs>
+
+  <rect width="1200" height="675" rx="28" fill="#F7F4EC"/>
+  <rect width="1200" height="675" rx="28" fill="url(#grid)"/>
+  <rect x="48" y="36" width="110" height="32" rx="16" fill="#FFF1E8"/>
+  <text x="103" y="58" text-anchor="middle" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="15" font-weight="900" fill="#B45336">FAILURES</text>
+  <text x="48" y="112" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="34" font-weight="900" fill="#17212B">그래프가 틀리면 AI도 그럴듯하게 틀립니다</text>
+  <text x="48" y="146" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="18" fill="#66717D">연결이 많다고 진실이 되지는 않습니다. 상태와 근거의 성격을 구분해야 합니다.</text>
+
+  <g font-family="Pretendard, 'Noto Sans KR', sans-serif" filter="url(#shadow)">
+    <g>
+      <rect x="48" y="182" width="536" height="184" rx="22" fill="#FFFFFF" stroke="#E76F51" stroke-width="2"/>
+      <circle cx="92" cy="226" r="24" fill="#FFF1E8"/>
+      <path d="M92 210v17l12 7M80 211l4 4M104 211l-4 4" fill="none" stroke="#E76F51" stroke-width="3" stroke-linecap="round"/>
+      <text x="132" y="220" font-size="21" font-weight="900" fill="#17212B">1. 오래된 지도</text>
+      <text x="132" y="246" font-size="15" fill="#66717D">정책과 담당자는 바뀌었는데 Graph는 어제에 멈춤</text>
+      <rect x="76" y="278" width="210" height="52" rx="13" fill="#FFF1E8"/>
+      <text x="181" y="299" text-anchor="middle" font-size="14" font-weight="700" fill="#B45336">Graph: 정책 v3.2</text>
+      <text x="181" y="319" text-anchor="middle" font-size="14" font-weight="800" fill="#17212B">Reality: 정책 v4.0</text>
+      <path d="M310 304H348" stroke="#E76F51" stroke-width="3" marker-end="url(#arrowRed)"/>
+      <rect x="366" y="278" width="190" height="52" rx="13" fill="#D9F3EC"/>
+      <text x="461" y="299" text-anchor="middle" font-size="14" font-weight="800" fill="#0F766E">갱신 시간 측정</text>
+      <text x="461" y="319" text-anchor="middle" font-size="13" fill="#59636E">원천 시스템과 대조</text>
+    </g>
+
+    <g>
+      <rect x="616" y="182" width="536" height="184" rx="22" fill="#FFFFFF" stroke="#B77900" stroke-width="2"/>
+      <circle cx="660" cy="226" r="24" fill="#FFF7D6"/>
+      <text x="660" y="234" text-anchor="middle" font-size="24" font-weight="900" fill="#B77900">%</text>
+      <text x="700" y="220" font-size="21" font-weight="900" fill="#17212B">2. 예외가 정책으로 둔갑</text>
+      <text x="700" y="246" font-size="15" fill="#66717D">장애 보상 20%가 모든 고객의 기본 할인으로 재사용</text>
+      <rect x="644" y="278" width="210" height="52" rx="13" fill="#FFF7D6"/>
+      <text x="749" y="299" text-anchor="middle" font-size="14" font-weight="700" fill="#9A6500">한 번의 예외 20%</text>
+      <text x="749" y="319" text-anchor="middle" font-size="13" fill="#59636E">범위·만료 없음</text>
+      <path d="M878 304H916" stroke="#B77900" stroke-width="3" marker-end="url(#arrowRed)"/>
+      <rect x="934" y="278" width="190" height="52" rx="13" fill="#D9F3EC"/>
+      <text x="1029" y="299" text-anchor="middle" font-size="14" font-weight="800" fill="#0F766E">승인 범위·만료</text>
+      <text x="1029" y="319" text-anchor="middle" font-size="13" fill="#59636E">이후 결과 연결</text>
+    </g>
+
+    <g>
+      <rect x="48" y="394" width="536" height="184" rx="22" fill="#FFFFFF" stroke="#6D5BD0" stroke-width="2"/>
+      <circle cx="92" cy="438" r="24" fill="#EEEAFE"/>
+      <path d="M80 438h24M96 430l8 8-8 8" fill="none" stroke="#6D5BD0" stroke-width="3" stroke-linecap="round"/>
+      <text x="132" y="432" font-size="21" font-weight="900" fill="#17212B">3. 순서를 원인으로 오해</text>
+      <text x="132" y="458" font-size="15" fill="#66717D">A 다음 B가 일어났다는 사실만으로 A가 원인은 아님</text>
+      <rect x="76" y="490" width="210" height="52" rx="13" fill="#EEEAFE"/>
+      <text x="181" y="511" text-anchor="middle" font-size="14" font-weight="700" fill="#6D5BD0">메일 A → 계약 B</text>
+      <text x="181" y="531" text-anchor="middle" font-size="13" fill="#59636E">시간 순서만 확인</text>
+      <path d="M310 516H348" stroke="#6D5BD0" stroke-width="3" marker-end="url(#arrowRed)"/>
+      <rect x="366" y="490" width="190" height="52" rx="13" fill="#D9F3EC"/>
+      <text x="461" y="511" text-anchor="middle" font-size="14" font-weight="800" fill="#0F766E">관찰·보고·검증</text>
+      <text x="461" y="531" text-anchor="middle" font-size="13" fill="#59636E">원인 관계를 구분</text>
+    </g>
+
+    <g>
+      <rect x="616" y="394" width="536" height="184" rx="22" fill="#FFFFFF" stroke="#2563EB" stroke-width="2"/>
+      <circle cx="660" cy="438" r="24" fill="#E8F3FF"/>
+      <path d="M648 438a12 12 0 1 1 6 10M650 450l4-2-1-5" fill="none" stroke="#2563EB" stroke-width="3" stroke-linecap="round"/>
+      <text x="700" y="432" font-size="21" font-weight="900" fill="#17212B">4. AI 오류가 다음 선례로</text>
+      <text x="700" y="458" font-size="15" fill="#66717D">AI의 추정이 확정 사실로 저장되어 다시 행동을 만듦</text>
+      <rect x="644" y="490" width="210" height="52" rx="13" fill="#E8F3FF"/>
+      <text x="749" y="511" text-anchor="middle" font-size="14" font-weight="700" fill="#2563EB">추정 → Graph → Agent</text>
+      <text x="749" y="531" text-anchor="middle" font-size="13" fill="#59636E">오류가 스스로 증폭</text>
+      <path d="M878 516H916" stroke="#2563EB" stroke-width="3" marker-end="url(#arrowRed)"/>
+      <rect x="934" y="490" width="190" height="52" rx="13" fill="#D9F3EC"/>
+      <text x="1029" y="511" text-anchor="middle" font-size="14" font-weight="800" fill="#0F766E">사실·추정 분리</text>
+      <text x="1029" y="531" text-anchor="middle" font-size="13" fill="#59636E">영향 큰 판단은 검토</text>
+    </g>
+  </g>
+
+  <rect x="214" y="606" width="772" height="42" rx="21" fill="#17212B"/>
+  <text x="600" y="633" text-anchor="middle" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="17" font-weight="800" fill="#FFFFFF">직접 관찰한 사실 · 사람의 설명 · AI의 추정 · 검증된 결론을 같은 무게로 저장하지 않습니다</text>
+</svg>

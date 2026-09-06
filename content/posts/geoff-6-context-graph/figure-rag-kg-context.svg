@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">RAG, 지식 그래프, Context Graph 비교</title>
+  <desc id="desc">같은 할인 승인 질문에 RAG는 관련 자료를, 지식 그래프는 엔티티 관계를, Context Graph는 근거에서 결과까지의 판단 경로를 제공하는 차이를 보여준다.</desc>
+  <defs>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#DED8C8" stroke-width="1" opacity=".38"/>
+    </pattern>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#17212B" flood-opacity=".09"/>
+    </filter>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0L10 5L0 10Z" fill="#59636E"/>
+    </marker>
+  </defs>
+
+  <rect width="1200" height="675" rx="28" fill="#F7F4EC"/>
+  <rect width="1200" height="675" rx="28" fill="url(#grid)"/>
+  <text x="52" y="72" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="34" font-weight="900" fill="#17212B">같은 질문, 서로 다른 답의 범위</text>
+  <rect x="52" y="103" width="1096" height="58" rx="20" fill="#FFFFFF" stroke="#CBD2D9" stroke-width="2"/>
+  <circle cx="87" cy="132" r="16" fill="#17212B"/>
+  <path d="M80 132h14M87 125v14" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round"/>
+  <text x="115" y="139" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="22" font-weight="800" fill="#17212B">“이 고객에게 20% 할인을 승인해도 될까?”</text>
+
+  <g font-family="Pretendard, 'Noto Sans KR', sans-serif" filter="url(#shadow)">
+    <rect x="52" y="190" width="348" height="370" rx="24" fill="#FFFFFF" stroke="#2563EB" stroke-width="2"/>
+    <rect x="76" y="214" width="70" height="30" rx="15" fill="#E8F3FF"/>
+    <text x="111" y="235" text-anchor="middle" font-size="16" font-weight="900" fill="#2563EB">RAG</text>
+    <text x="76" y="278" font-size="24" font-weight="900" fill="#17212B">관련 자료를 찾습니다</text>
+    <text x="76" y="306" font-size="16" fill="#66717D">질문과 가까운 문서·문장을 검색</text>
+    <g>
+      <rect x="92" y="345" width="218" height="72" rx="14" fill="#E8F3FF"/>
+      <path d="M112 362h18v26h-18zM116 369h10M116 375h10M116 381h7" fill="none" stroke="#2563EB" stroke-width="2"/>
+      <text x="145" y="376" font-size="17" font-weight="800" fill="#17212B">가격 정책 문서</text>
+      <text x="145" y="399" font-size="14" fill="#66717D">기본 할인 한도 10%</text>
+      <rect x="142" y="433" width="218" height="72" rx="14" fill="#F1F6FC"/>
+      <path d="M162 451l9 16h-18z" fill="#E76F51"/>
+      <text x="195" y="464" font-size="17" font-weight="800" fill="#17212B">장애 보고서</text>
+      <text x="195" y="487" font-size="14" fill="#66717D">최근 SEV-1 3건</text>
+    </g>
+    <rect x="98" y="522" width="256" height="28" rx="14" fill="#2563EB"/>
+    <text x="226" y="542" text-anchor="middle" font-size="15" font-weight="800" fill="#FFFFFF">강점 · 문서 찾기와 근거 인용</text>
+
+    <rect x="426" y="190" width="348" height="370" rx="24" fill="#FFFFFF" stroke="#0F766E" stroke-width="2"/>
+    <rect x="450" y="214" width="122" height="30" rx="15" fill="#D9F3EC"/>
+    <text x="511" y="235" text-anchor="middle" font-size="16" font-weight="900" fill="#0F766E">지식 그래프</text>
+    <text x="450" y="278" font-size="24" font-weight="900" fill="#17212B">관계를 따라갑니다</text>
+    <text x="450" y="306" font-size="16" fill="#66717D">고객·상품·정책의 의미 있는 연결</text>
+    <g stroke="#59636E" stroke-width="2.5">
+      <path d="M516 374L602 414M688 374L602 414M602 414V479"/>
+    </g>
+    <g>
+      <circle cx="516" cy="374" r="43" fill="#E8F3FF" stroke="#2563EB" stroke-width="2"/>
+      <text x="516" y="370" text-anchor="middle" font-size="14" font-weight="700" fill="#2563EB">고객</text>
+      <text x="516" y="391" text-anchor="middle" font-size="16" font-weight="900" fill="#17212B">ACME</text>
+      <circle cx="688" cy="374" r="43" fill="#FFF7D6" stroke="#B77900" stroke-width="2"/>
+      <text x="688" y="370" text-anchor="middle" font-size="14" font-weight="700" fill="#B77900">등급</text>
+      <text x="688" y="391" text-anchor="middle" font-size="16" font-weight="900" fill="#17212B">Enterprise</text>
+      <circle cx="602" cy="457" r="43" fill="#D9F3EC" stroke="#0F766E" stroke-width="2"/>
+      <text x="602" y="453" text-anchor="middle" font-size="14" font-weight="700" fill="#0F766E">정책</text>
+      <text x="602" y="474" text-anchor="middle" font-size="16" font-weight="900" fill="#17212B">할인 10%</text>
+    </g>
+    <rect x="472" y="522" width="256" height="28" rx="14" fill="#0F766E"/>
+    <text x="600" y="542" text-anchor="middle" font-size="15" font-weight="800" fill="#FFFFFF">강점 · 정확한 관계와 경로</text>
+
+    <rect x="800" y="190" width="348" height="370" rx="24" fill="#FFFFFF" stroke="#E76F51" stroke-width="2"/>
+    <rect x="824" y="214" width="146" height="30" rx="15" fill="#FFF1E8"/>
+    <text x="897" y="235" text-anchor="middle" font-size="16" font-weight="900" fill="#B45336">Context Graph</text>
+    <text x="824" y="278" font-size="24" font-weight="900" fill="#17212B">판단 경로를 재생합니다</text>
+    <text x="824" y="306" font-size="16" fill="#66717D">근거부터 승인·실행·결과까지 연결</text>
+
+    <g stroke="#59636E" stroke-width="2.5" marker-end="url(#arrow)">
+      <path d="M852 390H916M944 390H1008M1036 390H1098"/>
+    </g>
+    <g>
+      <circle cx="838" cy="390" r="28" fill="#FFF1E8" stroke="#E76F51" stroke-width="2"/>
+      <text x="838" y="396" text-anchor="middle" font-size="14" font-weight="900" fill="#B45336">근거</text>
+      <circle cx="930" cy="390" r="28" fill="#D9F3EC" stroke="#0F766E" stroke-width="2"/>
+      <text x="930" y="386" text-anchor="middle" font-size="12" font-weight="800" fill="#0F766E">정책</text>
+      <text x="930" y="402" text-anchor="middle" font-size="11" font-weight="800" fill="#17212B">v3.2</text>
+      <circle cx="1022" cy="390" r="28" fill="#FFF7D6" stroke="#B77900" stroke-width="2"/>
+      <text x="1022" y="396" text-anchor="middle" font-size="14" font-weight="900" fill="#B77900">승인</text>
+      <circle cx="1110" cy="390" r="28" fill="#EEEAFE" stroke="#6D5BD0" stroke-width="2"/>
+      <text x="1110" y="396" text-anchor="middle" font-size="14" font-weight="900" fill="#6D5BD0">결과</text>
+    </g>
+    <g font-size="14" font-weight="800">
+      <rect x="824" y="448" width="90" height="30" rx="15" fill="#EEF1F4"/><text x="869" y="468" text-anchor="middle" fill="#59636E">시간</text>
+      <rect x="928" y="448" width="90" height="30" rx="15" fill="#EEF1F4"/><text x="973" y="468" text-anchor="middle" fill="#59636E">출처</text>
+      <rect x="1032" y="448" width="90" height="30" rx="15" fill="#EEF1F4"/><text x="1077" y="468" text-anchor="middle" fill="#59636E">권한</text>
+    </g>
+    <rect x="846" y="522" width="256" height="28" rx="14" fill="#E76F51"/>
+    <text x="974" y="542" text-anchor="middle" font-size="15" font-weight="800" fill="#FFFFFF">강점 · 선례, 감사와 다음 행동</text>
+  </g>
+
+  <text x="600" y="625" text-anchor="middle" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="18" font-weight="800" fill="#17212B">서로 대체하는 기술이 아닙니다. Context Graph는 RAG와 지식 그래프를 함께 쓸 수 있습니다.</text>
+</svg>
