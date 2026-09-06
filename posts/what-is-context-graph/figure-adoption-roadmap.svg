@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Context Graph 도입 로드맵</title>
+  <desc id="desc">전사 그래프부터 시작하지 않고 비용이 큰 판단 하나를 고른 뒤 현재부터 기록하고 사람의 검토를 거쳐 성과가 확인되면 제한된 자동화로 확대하는 네 단계다.</desc>
+  <defs>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#DED8C8" stroke-width="1" opacity=".38"/>
+    </pattern>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="8" stdDeviation="9" flood-color="#17212B" flood-opacity=".09"/>
+    </filter>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0L10 5L0 10Z" fill="#59636E"/>
+    </marker>
+  </defs>
+
+  <rect width="1200" height="675" rx="28" fill="#F7F4EC"/>
+  <rect width="1200" height="675" rx="28" fill="url(#grid)"/>
+  <rect x="48" y="36" width="118" height="32" rx="16" fill="#FFF7D6"/>
+  <text x="107" y="58" text-anchor="middle" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="15" font-weight="900" fill="#9A6500">START SMALL</text>
+  <text x="48" y="112" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="34" font-weight="900" fill="#17212B">전사 그래프보다, 비싼 판단 하나부터 시작합니다</text>
+  <text x="48" y="146" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="18" fill="#66717D">작게 읽고 검증한 뒤, 권한과 결과가 통제되는 범위만 자동화합니다</text>
+
+  <g stroke="#59636E" stroke-width="4" fill="none" marker-end="url(#arrow)">
+    <path d="M305 334H337M578 334H610M851 334H883"/>
+  </g>
+
+  <g font-family="Pretendard, 'Noto Sans KR', sans-serif" filter="url(#shadow)">
+    <g>
+      <rect x="48" y="205" width="258" height="286" rx="24" fill="#FFFFFF" stroke="#E76F51" stroke-width="2"/>
+      <circle cx="89" cy="246" r="22" fill="#FFF1E8"/>
+      <text x="89" y="253" text-anchor="middle" font-size="19" font-weight="900" fill="#B45336">1</text>
+      <text x="124" y="251" font-size="22" font-weight="900" fill="#17212B">판단 하나 고르기</text>
+      <text x="72" y="300" font-size="16" font-weight="800" fill="#B45336">비용이 큰 인수인계</text>
+      <rect x="72" y="320" width="210" height="54" rx="13" fill="#FFF1E8"/>
+      <text x="177" y="343" text-anchor="middle" font-size="15" font-weight="800" fill="#17212B">고객 지원</text>
+      <text x="177" y="364" text-anchor="middle" font-size="14" fill="#66717D">→ 엔지니어링 대기</text>
+      <g font-size="14" fill="#59636E">
+        <text x="76" y="411">✓ 반복 빈도가 높은가</text>
+        <text x="76" y="437">✓ 여러 시스템을 오가는가</text>
+        <text x="76" y="463">✓ 결과를 측정할 수 있는가</text>
+      </g>
+    </g>
+
+    <g>
+      <rect x="321" y="205" width="258" height="286" rx="24" fill="#FFFFFF" stroke="#B77900" stroke-width="2"/>
+      <circle cx="362" cy="246" r="22" fill="#FFF7D6"/>
+      <text x="362" y="253" text-anchor="middle" font-size="19" font-weight="900" fill="#9A6500">2</text>
+      <text x="397" y="251" font-size="22" font-weight="900" fill="#17212B">지금부터 기록</text>
+      <text x="345" y="300" font-size="16" font-weight="800" fill="#9A6500">과거 전체보다 새 판단부터</text>
+      <g>
+        <rect x="345" y="322" width="86" height="34" rx="17" fill="#FFF7D6"/><text x="388" y="345" text-anchor="middle" font-size="14" font-weight="800" fill="#9A6500">근거</text>
+        <rect x="443" y="322" width="112" height="34" rx="17" fill="#FFF7D6"/><text x="499" y="345" text-anchor="middle" font-size="14" font-weight="800" fill="#9A6500">정책 버전</text>
+        <rect x="345" y="368" width="86" height="34" rx="17" fill="#FFF7D6"/><text x="388" y="391" text-anchor="middle" font-size="14" font-weight="800" fill="#9A6500">승인</text>
+        <rect x="443" y="368" width="112" height="34" rx="17" fill="#FFF7D6"/><text x="499" y="391" text-anchor="middle" font-size="14" font-weight="800" fill="#9A6500">실행 결과</text>
+      </g>
+      <text x="450" y="438" text-anchor="middle" font-size="14" fill="#59636E">업무 순간에 source와 시간을 보존</text>
+      <text x="450" y="464" text-anchor="middle" font-size="14" fill="#59636E">추정은 확정 사실과 분리</text>
+    </g>
+
+    <g>
+      <rect x="594" y="205" width="258" height="286" rx="24" fill="#FFFFFF" stroke="#2563EB" stroke-width="2"/>
+      <circle cx="635" cy="246" r="22" fill="#E8F3FF"/>
+      <text x="635" y="253" text-anchor="middle" font-size="19" font-weight="900" fill="#2563EB">3</text>
+      <text x="670" y="251" font-size="22" font-weight="900" fill="#17212B">사람과 검증</text>
+      <text x="618" y="300" font-size="16" font-weight="800" fill="#2563EB">읽기 전용으로 먼저 사용</text>
+      <circle cx="663" cy="358" r="32" fill="#E8F3FF"/>
+      <path d="M648 371c5-18 25-18 30 0M663 345a9 9 0 1 0 0-18 9 9 0 0 0 0 18" fill="none" stroke="#2563EB" stroke-width="2.5"/>
+      <rect x="704" y="326" width="116" height="64" rx="14" fill="#F1F6FC"/>
+      <text x="762" y="351" text-anchor="middle" font-size="14" font-weight="800" fill="#17212B">근거·선례 확인</text>
+      <text x="762" y="374" text-anchor="middle" font-size="14" fill="#66717D">사람이 최종 결정</text>
+      <text x="723" y="434" text-anchor="middle" font-size="14" fill="#59636E">오류 · 수정 · 보류도 기록</text>
+      <text x="723" y="462" text-anchor="middle" font-size="14" fill="#59636E">업무 지표로 A/B 비교</text>
+    </g>
+
+    <g>
+      <rect x="867" y="205" width="285" height="286" rx="24" fill="#FFFFFF" stroke="#0F766E" stroke-width="2"/>
+      <circle cx="908" cy="246" r="22" fill="#D9F3EC"/>
+      <text x="908" y="253" text-anchor="middle" font-size="19" font-weight="900" fill="#0F766E">4</text>
+      <text x="943" y="251" font-size="22" font-weight="900" fill="#17212B">제한된 자동화</text>
+      <text x="891" y="300" font-size="16" font-weight="800" fill="#0F766E">통제되는 범위만 넓히기</text>
+      <g font-size="14" font-weight="800">
+        <rect x="891" y="323" width="112" height="34" rx="17" fill="#D9F3EC"/><text x="947" y="346" text-anchor="middle" fill="#0F766E">검증된 사실</text>
+        <rect x="1015" y="323" width="112" height="34" rx="17" fill="#D9F3EC"/><text x="1071" y="346" text-anchor="middle" fill="#0F766E">최신 권한</text>
+        <rect x="891" y="369" width="112" height="34" rx="17" fill="#D9F3EC"/><text x="947" y="392" text-anchor="middle" fill="#0F766E">되돌릴 수 있음</text>
+        <rect x="1015" y="369" width="112" height="34" rx="17" fill="#D9F3EC"/><text x="1071" y="392" text-anchor="middle" fill="#0F766E">결과 측정</text>
+      </g>
+      <text x="1009" y="439" text-anchor="middle" font-size="14" fill="#59636E">성과와 안전 기준을 통과하면</text>
+      <text x="1009" y="465" text-anchor="middle" font-size="14" fill="#59636E">다음 업무·시스템으로 확대</text>
+    </g>
+  </g>
+
+  <rect x="164" y="530" width="872" height="54" rx="20" fill="#FFF1E8" stroke="#E76F51" stroke-width="2" stroke-dasharray="7 6"/>
+  <text x="600" y="553" text-anchor="middle" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="15" font-weight="900" fill="#B45336">처음부터 하지 않을 일</text>
+  <text x="600" y="574" text-anchor="middle" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="16" font-weight="700" fill="#17212B">Slack·메일 전체 수집 → 전사 Ontology 완성 → 곧바로 자동 실행</text>
+
+  <text x="600" y="628" text-anchor="middle" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="18" font-weight="800" fill="#17212B">확대 기준은 Graph 크기가 아니라 처리 시간·오류·권한 누출·사람의 수정률입니다</text>
+</svg>

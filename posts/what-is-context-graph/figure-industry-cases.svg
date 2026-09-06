@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="780" viewBox="0 0 1200 780" role="img" aria-labelledby="title desc">
+  <title id="title">Context Graph와 유사한 구조를 적용한 산업 사례</title>
+  <desc id="desc">Zuora, Infinitus, Mercedes-Benz, Pinterest, GT Golf, General Mills가 지원, 보험 확인, 결함 관리, 데이터 분석, 주문 입력, 공급망 판단을 개선한 공개 성과를 요약한다.</desc>
+  <defs>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#DED8C8" stroke-width="1" opacity=".38"/>
+    </pattern>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#17212B" flood-opacity=".09"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="780" rx="28" fill="#F7F4EC"/>
+  <rect width="1200" height="780" rx="28" fill="url(#grid)"/>
+  <rect x="48" y="34" width="122" height="32" rx="16" fill="#D9F3EC"/>
+  <text x="109" y="56" text-anchor="middle" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="15" font-weight="900" fill="#0F766E">AX CASES</text>
+  <text x="48" y="108" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="34" font-weight="900" fill="#17212B">현장에서 바뀐 것은 ‘검색’보다 업무의 흐름이었습니다</text>
+  <text x="48" y="141" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="18" fill="#66717D">흩어진 맥락을 연결하자 부서 간 대기, 반복 확인과 수작업이 줄었습니다</text>
+
+  <g font-family="Pretendard, 'Noto Sans KR', sans-serif" filter="url(#shadow)">
+    <g>
+      <rect x="48" y="174" width="344" height="250" rx="22" fill="#FFFFFF" stroke="#2563EB" stroke-width="2"/>
+      <circle cx="88" cy="214" r="20" fill="#E8F3FF"/>
+      <path d="M78 214h20M88 204v20" stroke="#2563EB" stroke-width="3" stroke-linecap="round"/>
+      <text x="120" y="210" font-size="22" font-weight="900" fill="#17212B">Zuora</text>
+      <text x="120" y="233" font-size="14" font-weight="700" fill="#66717D">B2B SaaS · 고객 지원</text>
+      <rect x="72" y="260" width="296" height="52" rx="13" fill="#F4F7FB"/>
+      <text x="88" y="282" font-size="15" font-weight="700" fill="#66717D">지원팀 → 엔지니어링 대기</text>
+      <text x="88" y="303" font-size="15" font-weight="800" fill="#2563EB">공유 production context로 직접 조사</text>
+      <text x="72" y="357" font-size="31" font-weight="900" fill="#2563EB">L3 에스컬레이션 -90%</text>
+      <text x="72" y="392" font-size="16" font-weight="700" fill="#59636E">월 60+건을 엔지니어링 없이 해결</text>
+    </g>
+
+    <g>
+      <rect x="428" y="174" width="344" height="250" rx="22" fill="#FFFFFF" stroke="#0F766E" stroke-width="2"/>
+      <circle cx="468" cy="214" r="20" fill="#D9F3EC"/>
+      <path d="M458 217c8-17 14-17 21 0M468 204v24" fill="none" stroke="#0F766E" stroke-width="3" stroke-linecap="round"/>
+      <text x="500" y="210" font-size="22" font-weight="900" fill="#17212B">Infinitus</text>
+      <text x="500" y="233" font-size="14" font-weight="700" fill="#66717D">헬스케어 · 보험 확인</text>
+      <rect x="452" y="260" width="296" height="52" rx="13" fill="#F1F8F6"/>
+      <text x="468" y="282" font-size="15" font-weight="700" fill="#66717D">같은 보험 조건도 매번 다시 전화</text>
+      <text x="468" y="303" font-size="15" font-weight="800" fill="#0F766E">검증된 답은 조회하고 통화 생략</text>
+      <text x="452" y="357" font-size="31" font-weight="900" fill="#0F766E">4~5일 → 수초</text>
+      <text x="452" y="392" font-size="16" font-weight="700" fill="#59636E">복잡한 규칙 조회 1초 미만</text>
+    </g>
+
+    <g>
+      <rect x="808" y="174" width="344" height="250" rx="22" fill="#FFFFFF" stroke="#E76F51" stroke-width="2"/>
+      <circle cx="848" cy="214" r="20" fill="#FFF1E8"/>
+      <path d="M837 220l9-17 7 11 7-8" fill="none" stroke="#E76F51" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="880" y="210" font-size="22" font-weight="900" fill="#17212B">Mercedes-Benz</text>
+      <text x="880" y="233" font-size="14" font-weight="700" fill="#66717D">자동차 · 결함 관리</text>
+      <rect x="832" y="260" width="296" height="52" rx="13" fill="#FFF7F3"/>
+      <text x="848" y="282" font-size="15" font-weight="700" fill="#66717D">결함·로그·요구사항이 여러 시스템에</text>
+      <text x="848" y="303" font-size="15" font-weight="800" fill="#B45336">Rovo가 중복과 빠진 맥락 확인</text>
+      <text x="832" y="355" font-size="28" font-weight="900" fill="#E76F51">보고 품질 +90%</text>
+      <text x="832" y="391" font-size="16" font-weight="700" fill="#59636E">중복 결함 탐지 속도 +85%</text>
+    </g>
+
+    <g>
+      <rect x="48" y="454" width="344" height="250" rx="22" fill="#FFFFFF" stroke="#6D5BD0" stroke-width="2"/>
+      <circle cx="88" cy="494" r="20" fill="#EEEAFE"/>
+      <path d="M78 503v-12h7v12M89 503v-20h7v20M100 503v-28h7v28" fill="none" stroke="#6D5BD0" stroke-width="3"/>
+      <text x="120" y="490" font-size="22" font-weight="900" fill="#17212B">Pinterest</text>
+      <text x="120" y="513" font-size="14" font-weight="700" fill="#66717D">데이터 분석 · Analytics Agent</text>
+      <rect x="72" y="540" width="296" height="52" rx="13" fill="#F7F5FE"/>
+      <text x="88" y="562" font-size="15" font-weight="700" fill="#66717D">과거 SQL의 판단 방식이 개인에게</text>
+      <text x="88" y="583" font-size="15" font-weight="800" fill="#6D5BD0">의도·Join·품질을 재사용 가능한 선례로</text>
+      <text x="72" y="637" font-size="29" font-weight="900" fill="#6D5BD0">2개월 내 분석가 40%</text>
+      <text x="72" y="672" font-size="16" font-weight="700" fill="#59636E">사내 #1 Analytics Agent</text>
+    </g>
+
+    <g>
+      <rect x="428" y="454" width="344" height="250" rx="22" fill="#FFFFFF" stroke="#B77900" stroke-width="2"/>
+      <circle cx="468" cy="494" r="20" fill="#FFF7D6"/>
+      <path d="M458 486h20v16h-20zM458 486l10 8 10-8" fill="none" stroke="#B77900" stroke-width="2.5"/>
+      <text x="500" y="490" font-size="22" font-weight="900" fill="#17212B">GT Golf</text>
+      <text x="500" y="513" font-size="14" font-weight="700" fill="#66717D">유통 · 이메일 주문 입력</text>
+      <rect x="452" y="540" width="296" height="52" rx="13" fill="#FFFBED"/>
+      <text x="468" y="562" font-size="15" font-weight="700" fill="#66717D">주문 해석·상품·창고 선택을 수작업</text>
+      <text x="468" y="583" font-size="15" font-weight="800" fill="#9A6500">실제 업무를 관찰해 Agent에 적용</text>
+      <text x="452" y="637" font-size="31" font-weight="900" fill="#B77900">10분+ → 30초</text>
+      <text x="452" y="672" font-size="16" font-weight="700" fill="#59636E">이메일 주문 초안 82% 자동화</text>
+    </g>
+
+    <g>
+      <rect x="808" y="454" width="344" height="250" rx="22" fill="#FFFFFF" stroke="#167C80" stroke-width="2"/>
+      <circle cx="848" cy="494" r="20" fill="#DEF4F1"/>
+      <path d="M837 499h22M841 499v-10h6v10M851 499v-18h6v18" fill="none" stroke="#167C80" stroke-width="3"/>
+      <text x="880" y="490" font-size="22" font-weight="900" fill="#17212B">General Mills</text>
+      <text x="880" y="513" font-size="14" font-weight="700" fill="#66717D">소비재 · 공급망 판단</text>
+      <rect x="832" y="540" width="296" height="52" rx="13" fill="#F1F8F6"/>
+      <text x="848" y="562" font-size="15" font-weight="700" fill="#66717D">주문·공장·생산 여력·비용을 연결</text>
+      <text x="848" y="583" font-size="15" font-weight="800" fill="#167C80">AI가 선택지를 좁히고 사람이 판단</text>
+      <text x="832" y="637" font-size="31" font-weight="900" fill="#167C80">연 $14M 절감</text>
+      <text x="832" y="672" font-size="16" font-weight="700" fill="#59636E">현업이 추천의 70%+ 수용</text>
+    </g>
+  </g>
+
+  <text x="600" y="748" text-anchor="middle" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="14" fill="#66717D">각 수치는 기업·공급사가 공개한 사례 기준이며, 독립 비교 연구 결과는 아닙니다.</text>
+</svg>
