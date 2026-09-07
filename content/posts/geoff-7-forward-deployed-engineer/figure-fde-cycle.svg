@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">FDE가 현업과 함께 구현하고 검증하는 반복 과정</title>
+  <desc id="desc">현업 관찰, 설계와 구현, 실제 사례 검증, 운영 인계가 이어진다. 검증과 운영 중에 발견한 예외는 설계와 구현으로 되돌아간다. 현업 담당자, 고객 IT, FDE가 업무 기준과 시스템 조건을 함께 확인하며 진행한다.</desc>
+  <defs>
+    <marker id="forward" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#A8B2B5"/></marker>
+    <marker id="feedback" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#127C78"/></marker>
+  </defs>
+  <rect width="1200" height="760" rx="24" fill="#F7F4EC"/>
+  <g font-family="'Apple SD Gothic Neo', Pretendard, 'Noto Sans KR', sans-serif" fill="#20303B">
+    <text x="52" y="63" font-size="16" font-weight="700" letter-spacing="2" fill="#127C78">FDE · WORKING LOOP</text>
+    <text x="52" y="119" font-size="35" font-weight="800">현업의 반응이 다음 구현을 바꿉니다</text>
+    <text x="52" y="159" font-size="21" fill="#617076">업무 하나를 함께 들여다보고, 만들고, 실제 결과로 다시 확인합니다.</text>
+
+    <g fill="none" stroke="#A8B2B5" stroke-width="3" marker-end="url(#forward)">
+      <path d="M224 280H381"/><path d="M514 280H671"/><path d="M804 280H961"/>
+    </g>
+    <g>
+      <circle cx="160" cy="280" r="57" fill="#E2EAE7"/>
+      <g fill="none" stroke="#127C78" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M128 280c18-26 46-26 64 0-18 26-46 26-64 0Z"/><circle cx="160" cy="280" r="10"/>
+      </g>
+      <text x="160" y="370" text-anchor="middle" font-size="24" font-weight="800">01  현업 관찰</text>
+      <text x="160" y="409" text-anchor="middle" font-size="20" fill="#617076">어디서 업무가 막히고</text>
+      <text x="160" y="438" text-anchor="middle" font-size="20" fill="#617076">어떤 예외가 있는가?</text>
+    </g>
+    <g>
+      <circle cx="450" cy="280" r="57" fill="#E1E8F7"/>
+      <g fill="none" stroke="#275BCA" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M431 268l-14 12 14 12M469 268l14 12-14 12M458 261l-16 38"/>
+      </g>
+      <text x="450" y="370" text-anchor="middle" font-size="24" font-weight="800">02  설계 · 구현</text>
+      <text x="450" y="409" text-anchor="middle" font-size="20" fill="#617076">데이터와 업무 규칙을</text>
+      <text x="450" y="438" text-anchor="middle" font-size="20" fill="#617076">실제 기능으로 연결</text>
+    </g>
+    <g>
+      <circle cx="740" cy="280" r="57" fill="#F5E3D9"/>
+      <g fill="none" stroke="#D86B4A" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="720" y="254" width="40" height="52" rx="4"/><path d="M729 269h22M729 282l6 6 14-16M729 297h22"/>
+      </g>
+      <text x="740" y="370" text-anchor="middle" font-size="24" font-weight="800">03  실제 사례 검증</text>
+      <text x="740" y="409" text-anchor="middle" font-size="20" fill="#617076">정상 사례와 예외에서</text>
+      <text x="740" y="438" text-anchor="middle" font-size="20" fill="#617076">제대로 작동하는가?</text>
+    </g>
+    <g>
+      <circle cx="1030" cy="280" r="57" fill="#E2EAE7"/>
+      <g fill="none" stroke="#127C78" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M1001 262h22c5 0 7 3 7 6 0-3 2-6 7-6h22v40h-22c-5 0-7 3-7 6 0-3-2-6-7-6h-22ZM1030 268v40M1009 273h12M1039 273h12M1009 283h12M1039 283h12"/>
+      </g>
+      <text x="1030" y="370" text-anchor="middle" font-size="24" font-weight="800">04  운영 인계</text>
+      <text x="1030" y="409" text-anchor="middle" font-size="20" fill="#617076">고객팀이 운영하고</text>
+      <text x="1030" y="438" text-anchor="middle" font-size="20" fill="#617076">고칠 수 있게 남기기</text>
+    </g>
+
+    <g fill="none" stroke="#127C78" stroke-width="3" stroke-linecap="round">
+      <path d="M740 464V530"/>
+      <path d="M1030 464V504Q1030 530 1004 530H476Q450 530 450 504V467" marker-end="url(#feedback)"/>
+    </g>
+    <circle cx="740" cy="530" r="5" fill="#127C78"/>
+    <text x="740" y="576" text-anchor="middle" font-size="21" font-weight="700" fill="#127C78">검증 · 운영에서 찾은 예외를 다음 구현에 반영</text>
+
+    <path d="M52 626H1148" stroke="#D5D9D2" stroke-width="1.5"/>
+    <text x="52" y="670" font-size="18" fill="#617076">함께하는 사람</text>
+    <g font-size="21" font-weight="800">
+      <circle cx="254" cy="663" r="6" fill="#D86B4A"/><text x="272" y="671">현업 담당자</text>
+      <text x="428" y="671" font-weight="400" fill="#A8B2B5">+</text>
+      <circle cx="478" cy="663" r="6" fill="#127C78"/><text x="496" y="671">고객 IT</text>
+      <text x="610" y="671" font-weight="400" fill="#A8B2B5">+</text>
+      <circle cx="660" cy="663" r="6" fill="#275BCA"/><text x="678" y="671">FDE</text>
+    </g>
+    <text x="252" y="711" font-size="20" fill="#617076">업무 기준과 시스템 조건을 함께 확인하고, 결과를 보며 고칩니다.</text>
+  </g>
+</svg>
