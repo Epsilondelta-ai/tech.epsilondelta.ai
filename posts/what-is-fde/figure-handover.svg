@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="780" viewBox="0 0 1200 780" role="img" aria-labelledby="title desc">
+  <title id="title">FDE 프로젝트 뒤에 남겨야 할 두 종류의 지식과 운영 역량</title>
+  <desc id="desc">고객의 정책, 판단 근거, 승인, 실행 결과는 고객의 업무 지식으로 남긴다. 구축팀은 고객 고유 정보와 분리한 일반화된 연결 도구, 설계 패턴, 시험 방법을 재사용한다. 소유권과 접근 및 재사용 범위를 정하고, 고객팀에는 코드와 설정, 테스트, 장애 대응 문서와 직접 수정하고 복구할 수 있는 역량을 인계한다. AWS FDE 파트너 모델의 Context Graph 설명은 구축팀의 지식에 무게가 있다.</desc>
+  <defs>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#DED8C8" stroke-width="1" opacity=".24"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0 0L10 5L0 10Z" fill="#275BCA"/>
+    </marker>
+  </defs>
+  <rect width="1200" height="780" rx="24" fill="#F7F4EC"/>
+  <rect width="1200" height="780" rx="24" fill="url(#grid)"/>
+  <g font-family="Pretendard, 'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif" fill="#20303B">
+    <text x="44" y="65" font-size="34" font-weight="800">엔지니어가 떠나도, 지식과 운영 역량은 남아야 합니다</text>
+    <text x="44" y="103" font-size="20" fill="#566674">고객의 업무 기록과 구축팀의 구현 노하우는 구분해서 관리합니다</text>
+
+    <rect x="44" y="138" width="540" height="308" rx="20" fill="#FFFFFF" stroke="#C6D4E9" stroke-width="1.5"/>
+    <rect x="616" y="138" width="540" height="308" rx="20" fill="#FFFFFF" stroke="#B9D7D2" stroke-width="1.5"/>
+
+    <g fill="none" stroke="#275BCA" stroke-width="2.5" stroke-linejoin="round">
+      <path d="M72 164h20l7 8h29v34H72Z" fill="#EAF0FD"/>
+      <path d="M72 179h56"/>
+    </g>
+    <text x="143" y="186" font-size="26" font-weight="800" fill="#275BCA">고객에 남는 업무 지식</text>
+    <text x="72" y="237" font-size="20">“이 납기 예외를 왜 승인했는가?”</text>
+
+    <g fill="none" stroke="#275BCA" stroke-width="2.5" marker-end="url(#arrow)">
+      <path d="M286 290H330"/>
+      <path d="M451 315V348"/>
+      <path d="M334 374H290"/>
+    </g>
+    <rect x="72" y="263" width="214" height="54" rx="12" fill="#EAF0FD"/>
+    <rect x="334" y="263" width="222" height="54" rx="12" fill="#EAF0FD"/>
+    <rect x="334" y="350" width="222" height="54" rx="12" fill="#EAF0FD"/>
+    <rect x="72" y="350" width="214" height="54" rx="12" fill="#EAF0FD"/>
+    <g font-size="21" font-weight="700" fill="#275BCA" text-anchor="middle">
+      <text x="179" y="298">정책</text>
+      <text x="445" y="298">판단 근거</text>
+      <text x="445" y="385">승인</text>
+      <text x="179" y="385">실행 결과</text>
+    </g>
+    <text x="72" y="431" font-size="17" fill="#566674">고객의 계약·업무·결정에 관한 기록</text>
+
+    <g fill="none" stroke="#127C78" stroke-width="2.5" stroke-linejoin="round">
+      <path d="M644 164h20l7 8h29v34h-56Z" fill="#E8F3EE"/>
+      <path d="M644 179h56"/>
+    </g>
+    <text x="714" y="186" font-size="26" font-weight="800" fill="#127C78">구축팀이 재사용하는 방법</text>
+    <text x="644" y="237" font-size="20">“승인 기능을 어떻게 만들고 시험했는가?”</text>
+    <g fill="#E8F3EE">
+      <rect x="644" y="263" width="484" height="44" rx="11"/>
+      <rect x="644" y="314" width="484" height="44" rx="11"/>
+      <rect x="644" y="365" width="484" height="44" rx="11"/>
+    </g>
+    <g fill="none" stroke="#127C78" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M663 285h9m12 0h9m-21-7h12v14h-12Z"/>
+      <path d="M662 328h12v12h-12Zm17 0h12v12h-12Zm-17 17h29"/>
+      <path d="M667 377h23v20h-23Zm3 9 5 5 10-11"/>
+    </g>
+    <g font-size="20" font-weight="700" fill="#127C78">
+      <text x="716" y="292">일반화한 연결 도구</text>
+      <text x="716" y="343">설계 패턴</text>
+      <text x="716" y="394">시험 방법</text>
+    </g>
+    <text x="644" y="431" font-size="17" fill="#566674">고객 고유 정보와 분리한 구현 노하우</text>
+
+    <rect x="44" y="466" width="1112" height="64" rx="16" fill="#F6E7DD"/>
+    <g fill="none" stroke="#B55235" stroke-width="2.4" stroke-linecap="round">
+      <path d="M76 493v-7a9 9 0 0 1 18 0v7"/>
+      <rect x="71" y="493" width="28" height="23" rx="5"/>
+      <path d="M85 501v7"/>
+    </g>
+    <text x="120" y="493" font-size="20" font-weight="800" fill="#9F432B">소유·접근·재사용 범위를 명확히</text>
+    <text x="120" y="519" font-size="19" fill="#9F432B">고객의 계약·영업 데이터를 다른 고객에게 자동으로 옮기는 구조가 아닙니다</text>
+
+    <rect x="44" y="552" width="1112" height="168" rx="20" fill="#FFFFFF" stroke="#CBD2D5" stroke-width="1.5"/>
+    <text x="72" y="591" font-size="25" font-weight="800">고객팀의 운영 인계</text>
+    <path d="M304 622V694M570 622V694M836 622V694" stroke="#DBE0E2" stroke-width="1.5"/>
+    <g fill="none" stroke="#20303B" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M88 625h32v30H88Zm9 8-5 7 5 7m14-14 5 7-5 7m-7-16-3 18"/>
+      <path d="M350 625h27v30h-27Zm6 15 6 6 10-13"/>
+      <path d="M617 625h20l10 10v20h-30Zm20 0v10h10m-24 5h18m-18 7h13"/>
+      <circle cx="888" cy="635" r="10"/><path d="M879 642l-17 17m3-10 7 7m-4-10 7 7"/>
+    </g>
+    <g font-size="21" font-weight="700">
+      <text x="140" y="647">코드·설정</text>
+      <text x="399" y="647">테스트</text>
+      <text x="670" y="647">장애 대응 문서</text>
+      <text x="918" y="647">직접 운영할 역량</text>
+    </g>
+    <g font-size="19" fill="#566674">
+      <text x="80" y="682">연결과 업무 규칙을 확인</text>
+      <text x="346" y="682">수정 뒤에도 결과를 검증</text>
+      <text x="612" y="682">장애 때 복구 순서를 확인</text>
+      <text x="868" y="682">고객 담당자가 수정·복구</text>
+    </g>
+    <text x="600" y="756" font-size="18" text-anchor="middle" fill="#566674">AWS 파트너 모델의 Context Graph 설명은 오른쪽 ‘구축 지식’에 무게가 있습니다</text>
+  </g>
+</svg>
