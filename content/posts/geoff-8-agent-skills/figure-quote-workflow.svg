@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">견적 초안에 Skill, Tool, 검사 코드와 양식이 기여하는 역할</title>
+  <desc id="desc">가상의 견적 업무 구성입니다. Skill은 확인 순서와 예외 판단을 안내하고, 별도로 연결·인증한 Tool은 최신 가격과 계약을 조회합니다. 검사 코드와 회사 양식을 함께 사용해 에이전트가 초안을 작성하고 검증합니다. 검사에 통과하면 검토 가능한 견적 초안을 반환하고, 미확인 정보나 충돌이 있으면 보류하고 추가 확인합니다. 가격 확정과 발송은 별도 승인·권한 절차입니다.</desc>
+  <defs>
+    <marker id="blue-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#275BCA"/></marker>
+    <marker id="teal-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#127C78"/></marker>
+    <marker id="coral-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#D86B4A"/></marker>
+  </defs>
+  <rect width="1200" height="760" rx="24" fill="#F7F4EC"/>
+  <g font-family="'Apple SD Gothic Neo', Pretendard, 'Noto Sans KR', sans-serif" fill="#20303B">
+    <text x="48" y="72" font-size="40" font-weight="800">좋은 견적 초안은 이렇게 만들어집니다</text>
+    <text x="48" y="114" font-size="24" fill="#617076">가상의 견적 업무 · 업무 방법, 최신 자료, 검사를 연결합니다.</text>
+
+    <rect x="406" y="168" width="338" height="135" rx="16" fill="#E2EAE7"/>
+    <text x="432" y="212" font-size="30" font-weight="800" fill="#127C78">Skill</text>
+    <text x="432" y="254" font-size="26">확인 순서 · 예외 판단</text>
+    <text x="432" y="285" font-size="22" fill="#617076">어떻게 처리할지 안내</text>
+    <path d="M575 304V354" fill="none" stroke="#127C78" stroke-width="3" marker-end="url(#teal-arrow)"/>
+
+    <path d="M335 406H398" fill="none" stroke="#275BCA" stroke-width="3" marker-end="url(#blue-arrow)"/>
+    <rect x="48" y="340" width="286" height="132" rx="16" fill="#E7EDF8"/>
+    <text x="72" y="382" font-size="30" font-weight="800" fill="#275BCA">Tool</text>
+    <text x="72" y="422" font-size="25">최신 가격 · 계약 조회</text>
+    <text x="72" y="453" font-size="22" fill="#617076">시스템 연결·인증은 별도</text>
+
+    <path d="M335 570H367V488H398" fill="none" stroke="#275BCA" stroke-width="3" marker-end="url(#blue-arrow)"/>
+    <rect x="48" y="505" width="286" height="132" rx="16" fill="#FFFFFF" stroke="#D8DEDA" stroke-width="2"/>
+    <text x="72" y="548" font-size="28" font-weight="800">검사 코드 · 양식</text>
+    <text x="72" y="588" font-size="24">합계·필수 항목 검사</text>
+    <text x="72" y="620" font-size="22" fill="#617076">회사의 문서 형식 적용</text>
+
+    <rect x="406" y="362" width="338" height="174" rx="16" fill="#275BCA"/>
+    <text x="575" y="411" text-anchor="middle" font-size="32" font-weight="800" fill="#FFFFFF">초안 작성 · 검사</text>
+    <text x="575" y="456" text-anchor="middle" font-size="24" fill="#FFFFFF">에이전트가 자료를 종합</text>
+    <text x="575" y="498" text-anchor="middle" font-size="22" fill="#FFFFFF">근거 · 금액 · 필수 항목 확인</text>
+
+    <path d="M745 449H797" fill="none" stroke="#127C78" stroke-width="3"/>
+    <circle cx="797" cy="449" r="5" fill="#127C78"/>
+    <path d="M797 449V405H875" fill="none" stroke="#127C78" stroke-width="3" marker-end="url(#teal-arrow)"/>
+    <text x="791" y="379" font-size="22" fill="#127C78">검사 통과</text>
+    <rect x="883" y="343" width="269" height="124" rx="16" fill="#E2EAE7"/>
+    <text x="1017" y="391" text-anchor="middle" font-size="29" font-weight="700" fill="#127C78">검토 가능한</text>
+    <text x="1017" y="436" text-anchor="middle" font-size="34" font-weight="800" fill="#127C78">견적 초안</text>
+
+    <path d="M797 449V586H875" fill="none" stroke="#D86B4A" stroke-width="3" marker-end="url(#coral-arrow)"/>
+    <text x="801" y="529" font-size="22" fill="#B94F30">미확인·충돌</text>
+    <rect x="883" y="548" width="269" height="100" rx="16" fill="#F5E3D9"/>
+    <text x="1017" y="587" text-anchor="middle" font-size="27" font-weight="800" fill="#A3462C">보류 · 추가 확인</text>
+    <text x="1017" y="622" text-anchor="middle" font-size="22" fill="#A3462C">정보를 확인한 뒤 재검토</text>
+
+    <path d="M48 690H1152" stroke="#D8DEDA" stroke-width="2"/>
+    <text x="600" y="731" text-anchor="middle" font-size="26" font-weight="700">가격 확정과 발송은 별도 승인·권한 절차를 거칩니다.</text>
+  </g>
+</svg>

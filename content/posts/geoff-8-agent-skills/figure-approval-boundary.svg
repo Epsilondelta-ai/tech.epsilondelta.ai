@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="780" viewBox="0 0 1200 780" role="img" aria-labelledby="title desc">
+  <title id="title">승인 지침과 업무 시스템의 실행 검사는 다릅니다</title>
+  <desc id="desc">위는 승인 후 발송하라는 자연어 지침만 있고 발송 도구에는 승인 검사가 없는 가상 구성입니다. 에이전트가 지침을 놓치면 미승인 발송을 막을 검사가 없습니다. 아래는 업무 시스템이 승인 상태와 승인된 금액·수량·버전의 일치를 검사하는 구성입니다. 검사를 통과하면 발송하고, 승인이 없거나 내용이 다르면 보류합니다. 지침만으로 승인 절차를 강제할 수 있다는 뜻이 아닙니다.</desc>
+  <defs>
+    <marker id="coral-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#D86B4A"/></marker>
+    <marker id="teal-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#127C78"/></marker>
+  </defs>
+  <rect width="1200" height="780" rx="24" fill="#F7F4EC"/>
+  <g font-family="'Apple SD Gothic Neo', Pretendard, 'Noto Sans KR', sans-serif" fill="#20303B">
+    <text x="48" y="72" font-size="40" font-weight="800">“승인 후 발송”을 실제로 지키게 하려면</text>
+    <text x="48" y="114" font-size="24" fill="#617076">가상 비교 · 지침을 쓰는 일과 실행을 통제하는 일을 함께 합니다.</text>
+
+    <text x="48" y="183" font-size="28" font-weight="800" fill="#B94F30">지침에만 적은 경우</text>
+    <rect x="48" y="223" width="287" height="116" rx="14" fill="#FFFFFF" stroke="#D8DEDA" stroke-width="2"/>
+    <text x="191" y="269" text-anchor="middle" font-size="28" font-weight="800">“승인 후 발송”</text>
+    <text x="191" y="309" text-anchor="middle" font-size="22" fill="#617076">Skill의 자연어 지침</text>
+    <path d="M336 281H431" fill="none" stroke="#D86B4A" stroke-width="3" marker-end="url(#coral-arrow)"/>
+    <rect x="439" y="223" width="327" height="116" rx="14" fill="#FFFFFF" stroke="#D8DEDA" stroke-width="2"/>
+    <text x="602" y="269" text-anchor="middle" font-size="29" font-weight="800">발송 도구</text>
+    <text x="602" y="309" text-anchor="middle" font-size="22" fill="#B94F30">승인 상태를 검사하지 않음</text>
+    <path d="M767 281H882" fill="none" stroke="#D86B4A" stroke-width="3" stroke-dasharray="6 6" marker-end="url(#coral-arrow)"/>
+    <rect x="890" y="223" width="262" height="116" rx="14" fill="#F5E3D9"/>
+    <text x="1021" y="269" text-anchor="middle" font-size="24" fill="#A3462C">지침을 놓치면</text>
+    <text x="1021" y="309" text-anchor="middle" font-size="28" font-weight="800" fill="#A3462C">미승인 발송 가능</text>
+
+    <path d="M48 381H1152" stroke="#D8DEDA" stroke-width="2"/>
+    <text x="48" y="432" font-size="28" font-weight="800" fill="#127C78">업무 시스템에서 검사하는 경우</text>
+    <rect x="48" y="507" width="230" height="106" rx="14" fill="#FFFFFF" stroke="#D8DEDA" stroke-width="2"/>
+    <text x="163" y="570" text-anchor="middle" font-size="30" font-weight="800">발송 요청</text>
+    <path d="M279 560H376" fill="none" stroke="#127C78" stroke-width="3" marker-end="url(#teal-arrow)"/>
+    <rect x="384" y="485" width="394" height="150" rx="16" fill="#E2EAE7" stroke="#127C78" stroke-width="2"/>
+    <text x="581" y="532" text-anchor="middle" font-size="26" font-weight="800" fill="#127C78">승인 상태 + 내용 일치 확인</text>
+    <text x="581" y="574" text-anchor="middle" font-size="24">승인된 금액·수량·버전인가?</text>
+    <text x="581" y="611" text-anchor="middle" font-size="22" fill="#617076">업무 시스템이 실행 전에 검사</text>
+
+    <path d="M779 560H834" fill="none" stroke="#127C78" stroke-width="3"/>
+    <circle cx="834" cy="560" r="5" fill="#127C78"/>
+    <path d="M834 560V500H936" fill="none" stroke="#127C78" stroke-width="3" marker-end="url(#teal-arrow)"/>
+    <text x="854" y="480" font-size="22" fill="#127C78">통과</text>
+    <rect x="944" y="455" width="208" height="90" rx="14" fill="#E2EAE7"/>
+    <text x="1048" y="511" text-anchor="middle" font-size="28" font-weight="800" fill="#127C78">일치하면 발송</text>
+
+    <path d="M834 560V639H936" fill="none" stroke="#D86B4A" stroke-width="3" marker-end="url(#coral-arrow)"/>
+    <text x="854" y="619" font-size="22" fill="#B94F30">실패</text>
+    <rect x="944" y="585" width="208" height="108" rx="14" fill="#F5E3D9"/>
+    <text x="1048" y="625" text-anchor="middle" font-size="24" fill="#A3462C">없거나 다르면</text>
+    <text x="1048" y="668" text-anchor="middle" font-size="31" font-weight="800" fill="#A3462C">보류</text>
+
+    <path d="M48 721H1152" stroke="#D8DEDA" stroke-width="2"/>
+    <text x="600" y="761" text-anchor="middle" font-size="26" font-weight="700">지침은 절차를 안내하고, 실행 시스템은 조건을 검사합니다.</text>
+  </g>
+</svg>
