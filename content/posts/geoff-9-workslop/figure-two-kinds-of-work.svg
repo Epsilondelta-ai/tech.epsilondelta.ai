@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">부실 AI 제보를 확인하는 재작업과 유효 AI 제보를 해결하는 후속 작업의 차이</title>
+  <desc id="desc">curl 사례에서 구분하는 두 종류의 일을 개념적으로 비교합니다. 왼쪽은 가짜 문제와 같은 부실 AI 제보의 진위를 확인하고 반박하느라 생기는 피할 수 있었던 재작업입니다. 오른쪽은 확인된 진짜 문제를 담은 유효 AI 제보의 우선순위를 정하고 수정하는 가치 있는 후속 작업입니다. 두 경우 모두 일이 늘 수 있지만 필요한 대응은 다릅니다.</desc>
+  <defs>
+    <marker id="coral-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#D86B4A"/></marker>
+    <marker id="teal-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#127C78"/></marker>
+  </defs>
+  <rect width="1200" height="720" rx="24" fill="#F7F4EC"/>
+  <g font-family="'Apple SD Gothic Neo', Pretendard, 'Noto Sans KR', sans-serif" fill="#20303B">
+    <text x="48" y="72" font-size="40" font-weight="800">늘어난 일의 성격부터 구분합니다</text>
+    <text x="48" y="114" font-size="24" fill="#617076">curl 사례로 살펴보는 두 종류의 일</text>
+    <path d="M600 163V558" stroke="#D8DEDA" stroke-width="2"/>
+
+    <text x="309" y="206" text-anchor="middle" font-size="34" font-weight="800" fill="#B94F30">부실한 AI 제보</text>
+    <text x="309" y="248" text-anchor="middle" font-size="25" fill="#617076">예: 가짜 문제</text>
+    <path d="M309 273V311" fill="none" stroke="#D86B4A" stroke-width="3" marker-end="url(#coral-arrow)"/>
+    <text x="309" y="355" text-anchor="middle" font-size="30" font-weight="700">진위 확인 · 반박</text>
+    <path d="M309 380V417" fill="none" stroke="#D86B4A" stroke-width="3" marker-end="url(#coral-arrow)"/>
+    <text x="309" y="463" text-anchor="middle" font-size="31" font-weight="800" fill="#B94F30">피할 수 있었던 재작업</text>
+    <text x="309" y="521" text-anchor="middle" font-size="25">입력·품질·검수 기준 개선</text>
+
+    <text x="891" y="206" text-anchor="middle" font-size="34" font-weight="800" fill="#127C78">유효한 AI 제보</text>
+    <text x="891" y="248" text-anchor="middle" font-size="25" fill="#617076">확인된 진짜 문제</text>
+    <path d="M891 273V311" fill="none" stroke="#127C78" stroke-width="3" marker-end="url(#teal-arrow)"/>
+    <text x="891" y="355" text-anchor="middle" font-size="30" font-weight="700">우선순위 판단 · 수정</text>
+    <path d="M891 380V417" fill="none" stroke="#127C78" stroke-width="3" marker-end="url(#teal-arrow)"/>
+    <text x="891" y="463" text-anchor="middle" font-size="31" font-weight="800" fill="#127C78">가치 있는 후속 작업</text>
+    <text x="891" y="521" text-anchor="middle" font-size="25">처리 역량·일정 조정</text>
+
+    <path d="M48 595H1152" stroke="#D8DEDA" stroke-width="2"/>
+    <text x="600" y="642" text-anchor="middle" font-size="28" font-weight="800">둘 다 일이 늘 수 있지만, 필요한 대응은 다릅니다.</text>
+    <text x="600" y="686" text-anchor="middle" font-size="22" fill="#617076">가짜 문제의 확인과 진짜 문제의 해결, 무엇이 늘었는지 살펴봅니다.</text>
+  </g>
+</svg>

@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="740" viewBox="0 0 1200 740" role="img" aria-labelledby="title desc">
+  <title id="title">보고서와 법원 서면을 넘긴 뒤 여러 담당자에게 발생한 재검토 업무</title>
+  <desc id="desc">두 실제 사례의 추가 확인과 수정 업무를 비교합니다. Deloitte는 호주 DEWR에 보고서를 납품했습니다. DEWR의 인용 검토와 정정 요구에 이어 Deloitte가 보고서를 정정했고, DEWR는 수정본을 다시 공개했습니다. Mata v. Avianca 사건에서는 원고 측 변호사가 조사한 판례를 동료 변호사가 검토·제출했지만 판례의 독립적인 확인이 빠졌고, 상대방 변호사와 법원이 존재하지 않는 판례를 재검색했습니다. 보고서 사례의 개별 오류가 모두 AI로 생성됐다고 표시하는 그림은 아닙니다.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#275BCA"/></marker>
+    <marker id="coral-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#D86B4A"/></marker>
+  </defs>
+  <rect width="1200" height="740" rx="24" fill="#F7F4EC"/>
+  <g font-family="'Apple SD Gothic Neo', Pretendard, 'Noto Sans KR', sans-serif" fill="#20303B">
+    <text x="48" y="72" font-size="40" font-weight="800">넘긴 산출물은 누군가의 재검토가 됐습니다</text>
+    <text x="48" y="114" font-size="24" fill="#617076">사례별 추가 확인·수정 업무 · 누가 만들고 누가 다시 확인했는가</text>
+
+    <text x="48" y="192" font-size="28" font-weight="800" fill="#275BCA">호주 정부 보고서의 납품 이후</text>
+    <rect x="48" y="229" width="240" height="130" rx="14" fill="#E7EDF8"/>
+    <rect x="332" y="229" width="252" height="130" rx="14" fill="#FFFFFF" stroke="#D8DEDA" stroke-width="2"/>
+    <rect x="628" y="229" width="240" height="130" rx="14" fill="#F5E3D9"/>
+    <rect x="912" y="229" width="240" height="130" rx="14" fill="#E2EAE7"/>
+    <g fill="none" stroke="#275BCA" stroke-width="3" marker-end="url(#arrow)">
+      <path d="M289 294H324"/>
+      <path d="M585 294H620"/>
+      <path d="M869 294H904"/>
+    </g>
+    <g text-anchor="middle">
+      <text x="168" y="271" font-size="24" fill="#275BCA">Deloitte</text>
+      <text x="168" y="322" font-size="28" font-weight="800">보고서 납품</text>
+      <text x="458" y="271" font-size="24" fill="#617076">DEWR · 발주기관</text>
+      <text x="458" y="316" font-size="26" font-weight="800">인용 검토</text>
+      <text x="458" y="346" font-size="22">정정 요구</text>
+      <text x="748" y="271" font-size="24" fill="#A3462C">Deloitte</text>
+      <text x="748" y="322" font-size="28" font-weight="800">보고서 정정</text>
+      <text x="1032" y="271" font-size="24" fill="#127C78">DEWR · 발주기관</text>
+      <text x="1032" y="322" font-size="28" font-weight="800">수정본 재공개</text>
+    </g>
+
+    <path d="M48 399H1152" stroke="#D8DEDA" stroke-width="2"/>
+    <text x="48" y="447" font-size="28" font-weight="800" fill="#275BCA">Mata v. Avianca 사건의 서면 제출</text>
+    <rect x="48" y="480" width="240" height="138" rx="14" fill="#E7EDF8"/>
+    <rect x="332" y="480" width="252" height="138" rx="14" fill="#FFFFFF" stroke="#D8DEDA" stroke-width="2"/>
+    <rect x="666" y="480" width="486" height="138" rx="14" fill="#F5E3D9"/>
+    <path d="M289 549H324" fill="none" stroke="#275BCA" stroke-width="3" marker-end="url(#arrow)"/>
+    <path d="M585 549H658" fill="none" stroke="#D86B4A" stroke-width="3" marker-end="url(#coral-arrow)"/>
+    <g text-anchor="middle">
+      <text x="168" y="519" font-size="23" fill="#275BCA">원고 측 변호사</text>
+      <text x="168" y="568" font-size="26" font-weight="800">조사·서면 작성</text>
+      <text x="458" y="519" font-size="23" fill="#617076">동료 변호사</text>
+      <text x="458" y="558" font-size="27" font-weight="800">검토·제출</text>
+      <text x="458" y="598" font-size="22" fill="#A3462C">판례 독립 확인 누락</text>
+      <text x="909" y="519" font-size="23" fill="#A3462C">추가 조사</text>
+      <text x="909" y="561" font-size="30" font-weight="800">상대방 변호사 · 법원</text>
+      <text x="909" y="598" font-size="23">존재하지 않는 판례 재검색</text>
+    </g>
+    <path d="M48 670H1152" stroke="#D8DEDA" stroke-width="2"/>
+    <text x="600" y="713" text-anchor="middle" font-size="25" font-weight="700">검토·정정의 부담은 산출물을 만든 사람 밖으로도 퍼집니다.</text>
+  </g>
+</svg>

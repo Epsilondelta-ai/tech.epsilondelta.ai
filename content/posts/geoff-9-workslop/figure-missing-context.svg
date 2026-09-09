@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">업무 목적과 현업 기준의 누락, 작성 시간만 보는 측정이 재작업과 연결되는 방식</title>
+  <desc id="desc">원고의 가상 고객 이탈 보고서를 설명하는 진단 틀입니다. 결정할 목적이 불명확하거나 현업 기준이 빠지면 형식은 갖췄지만 필요한 조건이 누락된 보고서가 나올 수 있고, 수신자는 다시 확인하고 수정해야 합니다. 작성 시간만 측정하면 이렇게 다른 사람에게 넘어간 일과 비용이 성과표에서 빠지기 쉽습니다.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#275BCA"/></marker>
+    <marker id="coral-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#D86B4A"/></marker>
+  </defs>
+  <rect width="1200" height="720" rx="24" fill="#F7F4EC"/>
+  <g font-family="'Apple SD Gothic Neo', Pretendard, 'Noto Sans KR', sans-serif" fill="#20303B">
+    <text x="48" y="72" font-size="40" font-weight="800">업무 조건이 빠지면, 보고서를 다시 봐야 합니다</text>
+    <text x="48" y="114" font-size="24" fill="#617076">가상의 고객 이탈 보고서 · 설명을 위한 진단 틀</text>
+
+    <rect x="48" y="185" width="310" height="108" rx="14" fill="#E7EDF8"/>
+    <text x="72" y="228" font-size="28" font-weight="800" fill="#275BCA">목적이 불명확</text>
+    <text x="72" y="268" font-size="24">무엇을 결정할까?</text>
+    <rect x="48" y="324" width="310" height="108" rx="14" fill="#E7EDF8"/>
+    <text x="72" y="367" font-size="28" font-weight="800" fill="#275BCA">현업 기준 누락</text>
+    <text x="72" y="407" font-size="24">어떤 고객·조건일까?</text>
+    <path d="M359 239H413V279H467" fill="none" stroke="#275BCA" stroke-width="3" marker-end="url(#arrow)"/>
+    <path d="M359 378H413V354H467" fill="none" stroke="#275BCA" stroke-width="3" marker-end="url(#arrow)"/>
+
+    <rect x="475" y="220" width="306" height="194" rx="16" fill="#FFFFFF" stroke="#D8DEDA" stroke-width="2"/>
+    <text x="628" y="269" text-anchor="middle" font-size="25">형식은 갖췄지만</text>
+    <text x="628" y="319" text-anchor="middle" font-size="28" font-weight="800">필요한 조건은 누락</text>
+    <text x="628" y="370" text-anchor="middle" font-size="22" fill="#617076">목적·대상·기간·단위</text>
+
+    <path d="M782 317H860" fill="none" stroke="#D86B4A" stroke-width="3" marker-end="url(#coral-arrow)"/>
+    <rect x="868" y="220" width="284" height="194" rx="16" fill="#F5E3D9"/>
+    <text x="1010" y="269" text-anchor="middle" font-size="26">수신자가</text>
+    <text x="1010" y="319" text-anchor="middle" font-size="30" font-weight="800" fill="#A3462C">다시 확인·수정</text>
+    <text x="1010" y="370" text-anchor="middle" font-size="25">재작업 발생</text>
+
+    <rect x="48" y="484" width="310" height="108" rx="14" fill="#E2EAE7"/>
+    <text x="72" y="527" font-size="28" font-weight="800" fill="#127C78">작성 시간만 측정</text>
+    <text x="72" y="567" font-size="24">검토 시간도 셌을까?</text>
+    <path d="M359 538H467" fill="none" stroke="#275BCA" stroke-width="3" marker-end="url(#arrow)"/>
+    <path d="M1010 415V476" fill="none" stroke="#D86B4A" stroke-width="3" marker-end="url(#coral-arrow)"/>
+    <rect x="475" y="484" width="677" height="108" rx="14" fill="#FFFFFF" stroke="#D8DEDA" stroke-width="2"/>
+    <text x="502" y="526" font-size="28" font-weight="800">넘어간 일과 비용이 성과표에서 빠집니다</text>
+    <text x="502" y="568" font-size="24" fill="#617076">어디에서 일이 늘었는지 놓치기 쉽습니다.</text>
+
+    <path d="M48 638H1152" stroke="#D8DEDA" stroke-width="2"/>
+    <text x="600" y="684" text-anchor="middle" font-size="28" font-weight="700">목적·현업 기준·검토 시간을 함께 확인합니다.</text>
+  </g>
+</svg>

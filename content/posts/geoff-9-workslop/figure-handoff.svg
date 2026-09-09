@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">업무 기준과 근거를 갖춘 초안을 검사하고 다음 업무로 인계하는 흐름</title>
+  <desc id="desc">가상의 보고서 업무 흐름입니다. 작성자와 수신자가 결정할 일과 필수 정보를 합의합니다. 초안에 주장별 근거와 미확인 항목을 붙입니다. 업무의 위험과 항목에 맞는 검사 및 담당자 검토를 거쳐 다음 업무로 인계하고, 미흡하면 근거와 초안을 보완합니다. 사람 승인이 필요한 업무는 별도 권한을 확인합니다.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#275BCA"/></marker>
+    <marker id="return-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#D86B4A"/></marker>
+  </defs>
+  <rect width="1200" height="720" rx="24" fill="#F7F4EC"/>
+  <g font-family="'Apple SD Gothic Neo', Pretendard, 'Noto Sans KR', sans-serif" fill="#20303B">
+    <text x="48" y="72" font-size="40" font-weight="800">넘겨받은 사람이 이어서 일하려면</text>
+    <text x="48" y="114" font-size="24" fill="#617076">가상의 보고서 업무 흐름 · 기준과 근거를 함께 전달합니다.</text>
+
+    <g font-size="28" font-weight="800">
+      <text x="48" y="191">1. 기준 합의</text>
+      <text x="336" y="191">2. 초안 작성</text>
+      <text x="624" y="191">3. 검사·검토</text>
+      <text x="912" y="191">4. 다음 업무로</text>
+    </g>
+    <g fill="#FFFFFF" stroke="#D8DEDA" stroke-width="2">
+      <rect x="48" y="223" width="236" height="205" rx="14"/>
+      <rect x="336" y="223" width="236" height="205" rx="14"/>
+      <rect x="624" y="223" width="236" height="205" rx="14"/>
+    </g>
+    <rect x="912" y="223" width="240" height="205" rx="14" fill="#E2EAE7"/>
+    <g fill="none" stroke="#275BCA" stroke-width="3" marker-end="url(#arrow)">
+      <path d="M285 325H328"/>
+      <path d="M573 325H616"/>
+      <path d="M861 325H904"/>
+    </g>
+
+    <text x="70" y="270" font-size="28" font-weight="700">결정할 일</text>
+    <text x="70" y="316" font-size="26">대상·기간·단위</text>
+    <text x="70" y="362" font-size="27">필수 정보</text>
+    <text x="70" y="405" font-size="22" fill="#617076">작성자 + 수신자</text>
+
+    <text x="358" y="270" font-size="28" font-weight="700">초안</text>
+    <text x="358" y="316" font-size="26">주장별 근거</text>
+    <text x="358" y="362" font-size="26">미확인 항목</text>
+    <text x="358" y="405" font-size="22" fill="#617076">확인한 범위도 표시</text>
+
+    <text x="646" y="270" font-size="26" font-weight="700">업무별 검사</text>
+    <text x="646" y="316" font-size="26">담당자 검토</text>
+    <text x="646" y="362" font-size="22" fill="#617076">항목·책임에 맞게</text>
+    <text x="646" y="405" font-size="22" fill="#617076">인계 기준 충족 확인</text>
+
+    <text x="934" y="270" font-size="27" font-weight="800" fill="#127C78">다음 업무 시작</text>
+    <text x="934" y="316" font-size="24">남은 일·상태 전달</text>
+    <text x="934" y="366" font-size="22" fill="#617076">사람 승인 필요 시</text>
+    <text x="934" y="404" font-size="24" fill="#127C78">별도 권한 확인</text>
+
+    <path d="M742 429V522H454V436" fill="none" stroke="#D86B4A" stroke-width="3" marker-end="url(#return-arrow)"/>
+    <text x="598" y="499" text-anchor="middle" font-size="24" font-weight="700" fill="#B94F30">미흡하면 근거·초안 보완</text>
+
+    <path d="M48 588H1152" stroke="#D8DEDA" stroke-width="2"/>
+    <text x="600" y="632" text-anchor="middle" font-size="25" font-weight="700">검사·검토는 업무의 위험과 항목에 맞춰 구성합니다.</text>
+    <text x="600" y="676" text-anchor="middle" font-size="22" fill="#617076">검토할 자료·담당자·시간을 정하고, 승인이 필요한 작업은 실행 권한도 확인합니다.</text>
+  </g>
+</svg>
