@@ -1,6 +1,6 @@
 +++
 date = '2026-09-09T00:00:00+09:00'
-draft = true
+draft = false
 title = 'Workslop이란? AI로 시간을 아꼈는데, 왜 팀은 더 바빠졌을까?'
 description = 'AI가 빨리 만든 보고서를 동료가 다시 만들고 있다면? 실제 사례로 살펴보는 Workslop의 원인과 해결 방법, 팀 전체의 생산성을 확인하는 기준.'
 tags = ['ax', 'ai', 'workslop', 'agent', 'productivity']
