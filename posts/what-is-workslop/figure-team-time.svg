@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">가상의 보고서 업무에서 작성은 45분 줄지만 팀 전체 투입시간은 5분 늘어난 비교</title>
+  <desc id="desc">사람별 투입시간을 합산한 가상 계산입니다. 기존 방식은 작성·자가검수 60분, 수신자 확인·수정 20분, 추가 조율·재처리 10분으로 총 90분입니다. AI 활용 후에는 각각 15분, 45분, 35분으로 총 95분입니다. 두 누적 막대는 동일한 0분 기준과 1분당 8픽셀 척도를 사용합니다. 작성 단계에서 45분을 절약했지만 팀 전체는 5분 늘었습니다. 실제 측정 통계나 업무 경과시간이 아니며 검토 전체를 낭비로 보는 비교도 아닙니다.</desc>
+  <rect width="1200" height="760" rx="24" fill="#F7F4EC"/>
+  <g font-family="'Apple SD Gothic Neo', Pretendard, 'Noto Sans KR', sans-serif" fill="#20303B">
+    <text x="48" y="72" font-size="40" font-weight="800">작성 시간만 보면 놓치는 팀의 시간</text>
+    <text x="48" y="114" font-size="24" fill="#617076">가상의 보고서 업무 · 사람별 투입시간 · 항목 간 중복 없음</text>
+
+    <rect x="48" y="155" width="22" height="22" rx="4" fill="#275BCA"/>
+    <text x="82" y="175" font-size="24">작성·자가검수</text>
+    <rect x="410" y="155" width="22" height="22" rx="4" fill="#127C78"/>
+    <text x="444" y="175" font-size="24">수신자 확인·수정</text>
+    <rect x="800" y="155" width="22" height="22" rx="4" fill="#D86B4A"/>
+    <text x="834" y="175" font-size="24">추가 조율·재처리</text>
+
+    <g stroke="#D8DEDA" stroke-width="1.5">
+      <path d="M260 232V504"/>
+      <path d="M420 232V504"/>
+      <path d="M580 232V504"/>
+      <path d="M740 232V504"/>
+      <path d="M900 232V504"/>
+      <path d="M1060 232V504"/>
+    </g>
+    <text x="48" y="315" font-size="28" font-weight="800">기존 방식</text>
+    <text x="48" y="443" font-size="28" font-weight="800">AI 활용 후</text>
+    <text x="1148" y="238" text-anchor="end" font-size="22" fill="#617076">합계</text>
+
+    <!-- Shared scale: x = 260 + 8 * minutes. Segment widths: 480, 160, 80. -->
+    <rect x="260" y="270" width="480" height="72" fill="#275BCA"/>
+    <rect x="740" y="270" width="160" height="72" fill="#127C78"/>
+    <rect x="900" y="270" width="80" height="72" fill="#D86B4A"/>
+    <g fill="#FFFFFF" font-size="28" font-weight="800" text-anchor="middle">
+      <text x="500" y="315">60</text>
+      <text x="820" y="315">20</text>
+      <text x="940" y="315">10</text>
+    </g>
+    <text x="1148" y="315" text-anchor="end" font-size="30" font-weight="800">90분</text>
+
+    <!-- Shared scale: segment widths 120, 360, 280; total 760 px = 95 min. -->
+    <rect x="260" y="398" width="120" height="72" fill="#275BCA"/>
+    <rect x="380" y="398" width="360" height="72" fill="#127C78"/>
+    <rect x="740" y="398" width="280" height="72" fill="#D86B4A"/>
+    <g fill="#FFFFFF" font-size="28" font-weight="800" text-anchor="middle">
+      <text x="320" y="443">15</text>
+      <text x="560" y="443">45</text>
+      <text x="880" y="443">35</text>
+    </g>
+    <text x="1148" y="443" text-anchor="end" font-size="30" font-weight="800">95분</text>
+
+    <path d="M260 504H1060" stroke="#AAB6B5" stroke-width="2"/>
+    <g font-size="24" fill="#617076" text-anchor="middle">
+      <text x="260" y="538">0</text>
+      <text x="420" y="538">20</text>
+      <text x="580" y="538">40</text>
+      <text x="740" y="538">60</text>
+      <text x="900" y="538">80</text>
+      <text x="1060" y="538">100분</text>
+    </g>
+
+    <path d="M600 575V647" stroke="#D8DEDA" stroke-width="2"/>
+    <text x="309" y="594" text-anchor="middle" font-size="25">작성 단계</text>
+    <text x="309" y="644" text-anchor="middle" font-size="44" font-weight="800" fill="#127C78">−45분</text>
+    <text x="891" y="594" text-anchor="middle" font-size="25">팀 전체</text>
+    <text x="891" y="644" text-anchor="middle" font-size="44" font-weight="800" fill="#B94F30">+5분</text>
+
+    <path d="M48 675H1152" stroke="#D8DEDA" stroke-width="2"/>
+    <text x="600" y="709" text-anchor="middle" font-size="24" font-weight="700">필요한 검토와 피할 수 있었던 재작업은 구분합니다.</text>
+    <text x="600" y="742" text-anchor="middle" font-size="22" fill="#617076">사람별 투입시간을 합산한 가상 예시입니다.</text>
+  </g>
+</svg>
