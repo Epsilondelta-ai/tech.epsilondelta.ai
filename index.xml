@@ -1,4 +1,22 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Home on 엡실론델타 테크블로그</title><link>https://tech.epsilondelta.ai/</link><description>Recent content in Home on 엡실론델타 테크블로그</description><generator>Hugo</generator><language>ko-KR</language><lastBuildDate>Tue, 08 Sep 2026 00:00:00 +0900</lastBuildDate><atom:link href="https://tech.epsilondelta.ai/index.xml" rel="self" type="application/rss+xml"/><item><title>Agent Skills란? 범용 에이전트에 우리 회사 일을 가르치는 방법</title><link>https://tech.epsilondelta.ai/posts/what-are-agent-skills/</link><pubDate>Tue, 08 Sep 2026 00:00:00 +0900</pubDate><guid>https://tech.epsilondelta.ai/posts/what-are-agent-skills/</guid><description>&lt;p>&lt;img src="./thumbnail.jpg" alt="숙련자가 정리한 업무 지침·예시·양식·검사 도구를 SKILL.md 폴더로 묶고, 에이전트가 이를 참고해 만든 견적 초안을 사람이 검토하는 개념 일러스트">&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Home on 엡실론델타 테크블로그</title><link>https://tech.epsilondelta.ai/</link><description>Recent content in Home on 엡실론델타 테크블로그</description><generator>Hugo</generator><language>ko-KR</language><lastBuildDate>Wed, 09 Sep 2026 14:59:57 +0900</lastBuildDate><atom:link href="https://tech.epsilondelta.ai/index.xml" rel="self" type="application/rss+xml"/><item><title>옆 회사의 AI 시스템을 우리 회사로 긴빠이 칠 수 있나?</title><link>https://tech.epsilondelta.ai/posts/neighbour-company-ai-ginppai/</link><pubDate>Wed, 09 Sep 2026 14:59:57 +0900</pubDate><guid>https://tech.epsilondelta.ai/posts/neighbour-company-ai-ginppai/</guid><description>&lt;blockquote>
+&lt;p>이 글은 비개발자를 대상으로 작성된 글입니다.&lt;br>
+기술적으로 디테일한 부분들은 모두 생략됐고 알아듣기 쉬운 형식으로 작성되었습니다.&lt;/p>&lt;/blockquote>
+&lt;hr>
+&lt;p>옆 회사에서 AI를 도입하고 잘 쓰고있더라 하면 호기심이 생깁니다.&lt;br>
+그럼 자연스레 이런 생각이 들 수도 있겠죠?&lt;br>
+&amp;ldquo;쟤네껄 긴빠이(?)쳐서 우리 회사에 도입하면 좋지 않을까?&amp;rdquo;&lt;/p>
+&lt;p>&lt;img src="./images/thumbnail.webp" alt="">&lt;/p>
+&lt;h1 id="tldr">TL;DR&lt;/h1>
+&lt;p>시작하기 전에 전부 읽을 시간이 없는 분들을 위해 액기스만 뽑아놓겠습니다.&lt;/p>
+&lt;ul>
+&lt;li>못하는건 아니지만 쉽지 않다&lt;/li>
+&lt;li>긴빠이 치는게 중요한게 아니라 우리 회사의 방식에 맞는지가 중요하다&lt;/li>
+&lt;li>잘 만들어보고 싶다면 &lt;a href="mailto:contact@epsilondelta.ai">contact@epsilondelta.ai&lt;/a>
+ 로 연락주세요!&lt;/li>
+&lt;/ul>
+&lt;h1 id="긴빠이-칠-수-있는거였어">긴빠이 칠 수 있는거였어?!&lt;/h1>
+&lt;p>어&amp;hellip; 아뇨, 누구나 이런 생각을 해보지 않을까 해서 해본 얘기고&lt;br>
+가능하다곤 해도 그게 그렇게 손쉽게 되는건 아닙니다.&lt;/p></description></item><item><title>Agent Skills란? 범용 에이전트에 우리 회사 일을 가르치는 방법</title><link>https://tech.epsilondelta.ai/posts/what-are-agent-skills/</link><pubDate>Tue, 08 Sep 2026 00:00:00 +0900</pubDate><guid>https://tech.epsilondelta.ai/posts/what-are-agent-skills/</guid><description>&lt;p>&lt;img src="./thumbnail.jpg" alt="숙련자가 정리한 업무 지침·예시·양식·검사 도구를 SKILL.md 폴더로 묶고, 에이전트가 이를 참고해 만든 견적 초안을 사람이 검토하는 개념 일러스트">&lt;/p>
 &lt;h2 id="들어가며">들어가며&lt;/h2>
 &lt;p>같은 회사에서 같은 AI를 쓰는데 누구에게 맡겼느냐에 따라 결과가 달라집니다. 한 사람은 바로 쓸 만한 보고서를 받아오고 다른 사람은 처음부터 다시 고칩니다. 잘 쓰는 사람의 프롬프트를 공유해 보지만 얼마 지나지 않아 비슷한 문제가 반복됩니다. 우리 조직에서도 낯설지 않은 풍경일 겁니다.&lt;/p>
 &lt;p>광고대행사 Brainlabs도 담당자마다 SEO 진단의 품질이 달랐다고 합니다. 웹사이트가 검색에서 잘 발견되는지 살피는 업무인데 그날 담당자가 무엇을 기억했느냐에 따라 확인하는 내용이 달라졌다는 겁니다. 이 회사는 팀이 축적한 진단 기준과 좋은 결과의 예시를 Agent Skills에 담아 함께 쓰기 시작했습니다. 직원들은 브랜드 자료와 고객 보고서 등으로 범위를 넓히며 4주 동안 약 400개의 스킬을 만들었습니다. &lt;a href="https://claude.com/customers/brainlabs" target="_blank">Brainlabs 고객 인터뷰&lt;/a>
