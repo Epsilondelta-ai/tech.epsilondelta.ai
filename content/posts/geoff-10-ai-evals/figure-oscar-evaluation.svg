@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="560" viewBox="0 0 800 560" role="img" aria-labelledby="title desc">
+  <title id="title">Oscar Health 첫 개발 배치 451개 질문의 항목별 평가 결과와 회사의 성공 기준</title>
+  <desc id="desc">모든 막대는 동일한 0에서 100퍼센트 척도를 사용합니다. 사실·출처 항목의 첫 개발 배치 결과는 84퍼센트로 회사 기준 90퍼센트에 못 미칩니다. 빠짐없는 답변은 결과 92퍼센트와 기준 90퍼센트, 질문 관련성은 결과 99퍼센트와 기준 90퍼센트, 명료성·말투는 결과 100퍼센트와 기준 99퍼센트입니다. 막대가 개발 배치 결과이고 짙은 세로선이 회사가 정한 기준입니다.</desc>
+  <rect width="800" height="560" rx="18" fill="#F7F4EC"/>
+  <g font-family="'Apple SD Gothic Neo', Pretendard, 'Noto Sans KR', sans-serif" fill="#20303B">
+    <text x="32" y="56" font-size="30" font-weight="800">문장은 좋아도, 근거는 따로 봐야 합니다</text>
+    <text x="32" y="94" font-size="20" fill="#617076">Oscar Health · 첫 개발 배치 451개 질문</text>
+
+    <rect x="32" y="121" width="18" height="18" rx="3" fill="#127C78"/>
+    <text x="60" y="137" font-size="18">첫 개발 배치 결과</text>
+    <path d="M276 117V142" stroke="#20303B" stroke-width="3"/>
+    <text x="288" y="137" font-size="18">회사가 정한 기준</text>
+
+    <g font-size="18" fill="#617076" text-anchor="middle">
+      <text x="236" y="181">0</text>
+      <text x="331" y="181">25</text>
+      <text x="426" y="181">50</text>
+      <text x="521" y="181">75</text>
+      <text x="616" y="181">100%</text>
+    </g>
+    <text x="675" y="181" text-anchor="middle" font-size="19" font-weight="700">결과</text>
+    <text x="752" y="181" text-anchor="middle" font-size="19" font-weight="700">기준</text>
+    <g stroke="#D8DEDA" stroke-width="1.2">
+      <path d="M236 197V481"/>
+      <path d="M331 197V481"/>
+      <path d="M426 197V481"/>
+      <path d="M521 197V481"/>
+      <path d="M616 197V481"/>
+    </g>
+
+    <!-- Shared 0–100 scale: x=236, full width=380; 1 percentage point=3.8 px. -->
+    <text x="32" y="237" font-size="22" font-weight="700">사실·출처</text>
+    <rect x="236" y="214" width="319.2" height="32" fill="#D86B4A"/>
+    <path d="M578 206V254" stroke="#20303B" stroke-width="3"/>
+    <text x="675" y="237" text-anchor="middle" font-size="23" font-weight="800" fill="#B94F30">84%</text>
+    <text x="752" y="237" text-anchor="middle" font-size="22">90%</text>
+
+    <text x="32" y="313" font-size="22" font-weight="700">빠짐없는 답변</text>
+    <rect x="236" y="290" width="349.6" height="32" fill="#127C78"/>
+    <path d="M578 282V330" stroke="#20303B" stroke-width="3"/>
+    <text x="675" y="313" text-anchor="middle" font-size="23" font-weight="800" fill="#127C78">92%</text>
+    <text x="752" y="313" text-anchor="middle" font-size="22">90%</text>
+
+    <text x="32" y="389" font-size="22" font-weight="700">질문 관련성</text>
+    <rect x="236" y="366" width="376.2" height="32" fill="#127C78"/>
+    <path d="M578 358V406" stroke="#20303B" stroke-width="3"/>
+    <text x="675" y="389" text-anchor="middle" font-size="23" font-weight="800" fill="#127C78">99%</text>
+    <text x="752" y="389" text-anchor="middle" font-size="22">90%</text>
+
+    <text x="32" y="465" font-size="22" font-weight="700">명료성·말투</text>
+    <rect x="236" y="442" width="380" height="32" fill="#127C78"/>
+    <path d="M612.2 434V482" stroke="#20303B" stroke-width="3"/>
+    <text x="675" y="465" text-anchor="middle" font-size="23" font-weight="800" fill="#127C78">100%</text>
+    <text x="752" y="465" text-anchor="middle" font-size="22">99%</text>
+
+    <path d="M32 508H768" stroke="#D8DEDA" stroke-width="1.5"/>
+    <text x="32" y="540" font-size="20" font-weight="700">사실·출처는 기준 미달, 다른 세 항목은 기준 충족</text>
+  </g>
+</svg>
