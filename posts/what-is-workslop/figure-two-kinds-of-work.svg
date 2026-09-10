@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="480" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
   <title id="title">부실 AI 제보를 확인하는 재작업과 유효 AI 제보를 해결하는 후속 작업의 차이</title>
   <desc id="desc">curl 사례에서 구분하는 두 종류의 일을 개념적으로 비교합니다. 왼쪽은 가짜 문제와 같은 부실 AI 제보의 진위를 확인하고 반박하느라 생기는 피할 수 있었던 재작업입니다. 오른쪽은 확인된 진짜 문제를 담은 유효 AI 제보의 우선순위를 정하고 수정하는 가치 있는 후속 작업입니다. 두 경우 모두 일이 늘 수 있지만 필요한 대응은 다릅니다.</desc>
   <defs>
