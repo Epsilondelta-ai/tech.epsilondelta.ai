@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="520" viewBox="0 0 800 520" role="img" aria-labelledby="title desc">
+  <title id="title">실제 업무 사례와 합격 기준으로 AI 시스템을 실행하고 결과를 평가하는 반복 과정</title>
+  <desc id="desc">실제 업무의 입력과 합격 기준을 함께 준비하고 모델, 지침, 자료, 도구로 구성한 AI 시스템을 실행합니다. 답변과 행동뿐 아니라 파일과 업무 시스템에 남은 실제 상태를 요청과 대조합니다. 합격과 실패의 근거를 기록하고 모델, 지침, 자료 또는 도구가 바뀌면 같은 사례로 다시 시험합니다.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#275BCA"/></marker>
+    <marker id="return-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#127C78"/></marker>
+  </defs>
+  <rect width="800" height="520" rx="18" fill="#F7F4EC"/>
+  <g font-family="'Apple SD Gothic Neo', Pretendard, 'Noto Sans KR', sans-serif" fill="#20303B">
+    <text x="32" y="56" font-size="30" font-weight="800">같은 업무로 AI의 변화를 확인합니다</text>
+    <text x="32" y="94" font-size="20" fill="#617076">답변뿐 아니라 행동과 실제 결과까지 평가합니다.</text>
+
+    <g font-size="22" font-weight="800">
+      <text x="32" y="173">업무 사례</text>
+      <text x="220" y="173">AI 시스템 실행</text>
+      <text x="420" y="173">결과 확인</text>
+      <text x="620" y="173">판정 기록</text>
+    </g>
+    <rect x="32" y="200" width="164" height="156" rx="12" fill="#FFFFFF" stroke="#D8DEDA" stroke-width="1.5"/>
+    <rect x="220" y="200" width="176" height="156" rx="12" fill="#275BCA"/>
+    <rect x="420" y="200" width="176" height="156" rx="12" fill="#FFFFFF" stroke="#D8DEDA" stroke-width="1.5"/>
+    <rect x="620" y="200" width="148" height="156" rx="12" fill="#E2EAE7"/>
+    <g fill="none" stroke="#275BCA" stroke-width="2.5" marker-end="url(#arrow)">
+      <path d="M198 276H214"/>
+      <path d="M398 276H414"/>
+      <path d="M598 276H614"/>
+    </g>
+    <g text-anchor="middle">
+      <text x="114" y="242" font-size="22" font-weight="700">실제 업무</text>
+      <text x="114" y="279" font-size="19">입력·합격 기준</text>
+      <text x="114" y="318" font-size="20">함께 준비</text>
+
+      <text x="308" y="242" font-size="21" font-weight="700" fill="#FFFFFF">모델 · 지침</text>
+      <text x="308" y="279" font-size="21" fill="#FFFFFF">자료 · 도구</text>
+      <text x="308" y="318" font-size="18" fill="#FFFFFF">실제 구성으로</text>
+
+      <text x="508" y="242" font-size="21" font-weight="700">답변·행동</text>
+      <text x="508" y="279" font-size="18">파일·시스템 상태</text>
+      <text x="508" y="318" font-size="20">요청과 대조</text>
+
+      <text x="694" y="242" font-size="21" font-weight="800" fill="#127C78">합격 / 실패</text>
+      <text x="694" y="279" font-size="18">근거·오류 기록</text>
+      <text x="694" y="318" font-size="18">개선에 활용</text>
+    </g>
+    <path d="M694 357V423H114V362" fill="none" stroke="#127C78" stroke-width="2.5" marker-end="url(#return-arrow)"/>
+    <text x="404" y="405" text-anchor="middle" font-size="20" font-weight="700" fill="#127C78">모델·지침·자료·도구가 바뀌면 같은 사례로 재시험</text>
+    <text x="400" y="486" text-anchor="middle" font-size="20" fill="#617076">평가 기준과 실행 버전을 함께 남깁니다.</text>
+  </g>
+</svg>
