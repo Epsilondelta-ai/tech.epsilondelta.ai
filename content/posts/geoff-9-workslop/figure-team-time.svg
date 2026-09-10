@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="506.6666666667" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
   <title id="title">가상의 보고서 업무에서 작성은 45분 줄지만 팀 전체 투입시간은 5분 늘어난 비교</title>
   <desc id="desc">사람별 투입시간을 합산한 가상 계산입니다. 기존 방식은 작성·자가검수 60분, 수신자 확인·수정 20분, 추가 조율·재처리 10분으로 총 90분입니다. AI 활용 후에는 각각 15분, 45분, 35분으로 총 95분입니다. 두 누적 막대는 동일한 0분 기준과 1분당 8픽셀 척도를 사용합니다. 작성 단계에서 45분을 절약했지만 팀 전체는 5분 늘었습니다. 실제 측정 통계나 업무 경과시간이 아니며 검토 전체를 낭비로 보는 비교도 아닙니다.</desc>
   <rect width="1200" height="760" rx="24" fill="#F7F4EC"/>
