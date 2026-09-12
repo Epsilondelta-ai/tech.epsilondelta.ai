@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Human-in-the-Loop on 엡실론델타 테크블로그</title><link>https://tech.epsilondelta.ai/tags/human-in-the-loop/</link><description>Recent content in Human-in-the-Loop on 엡실론델타 테크블로그</description><generator>Hugo</generator><language>ko-KR</language><lastBuildDate>Sat, 12 Sep 2026 00:00:00 +0900</lastBuildDate><atom:link href="https://tech.epsilondelta.ai/tags/human-in-the-loop/index.xml" rel="self" type="application/rss+xml"/><item><title>AI는 이미 처리했다는데, 팀장은 승인한 적이 없습니다</title><link>https://tech.epsilondelta.ai/posts/ai-agent-approval-workflows/</link><pubDate>Sat, 12 Sep 2026 00:00:00 +0900</pubDate><guid>https://tech.epsilondelta.ai/posts/ai-agent-approval-workflows/</guid><description>&lt;h2 id="들어가며">들어가며&lt;/h2>
+&lt;p>&lt;img src="./thumbnail.webp" alt="AI가 12만 원 환불을 완료했다고 알리지만 고객지원 팀장은 승인한 적이 없어 당황하는 AI 생성 가상 업무 장면">&lt;/p>
+&lt;p>가상의 쇼핑몰 고객지원팀을 생각해보겠습니다. 이 회사는 10만 원을 넘는 환불에는 팀장 승인이 필요합니다. AI 에이전트를 도입하면서 담당자는 이 규정을 업무 지침에 넣었습니다. 주문을 조회하고 반품 상태를 확인하는 도구에 환불 기능도 연결했습니다.&lt;/p>
+&lt;p>어느 날 담당자가 주문번호를 넣고 환불 처리를 요청합니다. 잠시 뒤 AI가 답합니다.&lt;/p>
+&lt;blockquote>
+&lt;p>12만 원 환불을 완료했습니다.&lt;/p>&lt;/blockquote>
+&lt;p>처리 내역을 보던 팀장은 당황합니다. 자신은 이 건을 승인한 적이 없습니다. 담당자는 AI에게 분명히 규정을 알려줬다고 합니다. 어디서 잘못된 걸까요?&lt;/p></description></item></channel></rss>
