@@ -1,0 +1,7 @@
+/* Fit post images within both limits without enlarging or distorting them. */
+.markdown-body img:not(.emoji):not(g-emoji img) {
+  width: auto;
+  height: auto;
+  max-width: min(100%, 800px);
+  max-height: 500px;
+}

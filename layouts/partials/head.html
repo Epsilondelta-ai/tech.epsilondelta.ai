@@ -13,6 +13,11 @@
 </title>
 
 {{ partialCached "head/css.html" . }}
+{{ if and .IsPage (eq .Section "posts") }}
+  {{ with resources.Get "css/post-images.css" | minify | fingerprint }}
+    <link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous">
+  {{ end }}
+{{ end }}
 {{ partialCached "head/js.html" . }}
 
 {{ template "_internal/google_analytics.html" . }}
