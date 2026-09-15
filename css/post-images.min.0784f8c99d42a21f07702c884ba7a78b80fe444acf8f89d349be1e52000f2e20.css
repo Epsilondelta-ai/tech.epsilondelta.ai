@@ -1,0 +1,1 @@
+.markdown-body img:not(.emoji):not(g-emoji img){width:auto;height:auto;max-width:min(100%,800px);max-height:500px}
