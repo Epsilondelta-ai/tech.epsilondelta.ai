@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Durable-Execution on 엡실론델타 테크블로그</title><link>https://tech.epsilondelta.ai/tags/durable-execution/</link><description>Recent content in Durable-Execution on 엡실론델타 테크블로그</description><generator>Hugo</generator><language>ko-KR</language><lastBuildDate>Mon, 21 Sep 2026 00:00:00 +0900</lastBuildDate><atom:link href="https://tech.epsilondelta.ai/tags/durable-execution/index.xml" rel="self" type="application/rss+xml"/><item><title>AI가 멈췄습니다. 방금 그 발주, 다시 눌러도 될까요?</title><link>https://tech.epsilondelta.ai/posts/durable-execution/</link><pubDate>Mon, 21 Sep 2026 00:00:00 +0900</pubDate><guid>https://tech.epsilondelta.ai/posts/durable-execution/</guid><description>&lt;h2 id="들어가며">들어가며&lt;/h2>
+&lt;p>&lt;img src="thumbnail.webp" alt="ERP에는 발주가 생성됐지만 에이전트는 완료 응답을 받지 못한 가상 상황">&lt;/p>
+&lt;p>구매팀이 AI 에이전트에게 발주 업무를 맡겼다고 생각해보겠습니다. 에이전트는 거래처를 확인하고 발주서를 작성했습니다. 팀장도 내용을 검토해 승인했습니다. 이제 사내 ERP에 발주를 넣으면 됩니다.&lt;/p>
+&lt;p>그런데 실행 직후 연결 오류가 뜹니다. 담당자가 묻습니다.&lt;/p>
+&lt;blockquote>
+&lt;p>방금 발주가 들어간 건가요? 다시 실행해도 되나요?&lt;/p>&lt;/blockquote>
+&lt;p>에이전트 화면에는 완료 표시가 없습니다. ERP에는 이미 발주가 들어갔을 수도 있습니다. 그대로 두면 주문을 놓칠까 걱정되고 다시 실행하면 같은 물건을 두 번 주문할까 걱정됩니다. 결국 담당자가 ERP를 열고 거래 내역부터 찾습니다.&lt;/p></description></item></channel></rss>
