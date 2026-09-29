@@ -1,4 +1,13 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Ai on 엡실론델타 테크블로그</title><link>https://tech.epsilondelta.ai/tags/ai/</link><description>Recent content in Ai on 엡실론델타 테크블로그</description><generator>Hugo</generator><language>ko-KR</language><lastBuildDate>Mon, 28 Sep 2026 00:00:00 +0900</lastBuildDate><atom:link href="https://tech.epsilondelta.ai/tags/ai/index.xml" rel="self" type="application/rss+xml"/><item><title>싼 AI로 바꿨는데, 왜 일하는 데 돈이 더 들까요?</title><link>https://tech.epsilondelta.ai/posts/ai-finops/</link><pubDate>Mon, 28 Sep 2026 00:00:00 +0900</pubDate><guid>https://tech.epsilondelta.ai/posts/ai-finops/</guid><description>&lt;h2 id="들어가며">들어가며&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Ai on 엡실론델타 테크블로그</title><link>https://tech.epsilondelta.ai/tags/ai/</link><description>Recent content in Ai on 엡실론델타 테크블로그</description><generator>Hugo</generator><language>ko-KR</language><lastBuildDate>Tue, 29 Sep 2026 00:00:00 +0900</lastBuildDate><atom:link href="https://tech.epsilondelta.ai/tags/ai/index.xml" rel="self" type="application/rss+xml"/><item><title>“인사팀에 문의하세요”로 끝나는 AI, 직원은 또 기다립니다</title><link>https://tech.epsilondelta.ai/posts/hr-ai/</link><pubDate>Tue, 29 Sep 2026 00:00:00 +0900</pubDate><guid>https://tech.epsilondelta.ai/posts/hr-ai/</guid><description>&lt;h2 id="들어가며">들어가며&lt;/h2>
+&lt;p>&lt;img src="thumbnail.webp" alt="챗봇의 안내를 받은 뒤에도 재직증명서 발급을 위해 인사팀과 다시 통화하는 직원">&lt;/p>
+&lt;p>이런 상황을 상상해보겠습니다. 회사가 인사팀의 반복 문의를 줄이려고 AI 챗봇을 도입했습니다. 취업규칙과 복지 안내서를 넣고 직원들에게 사용법도 알렸습니다.&lt;/p>
+&lt;p>직원이 챗봇에 묻습니다.&lt;/p>
+&lt;blockquote>
+&lt;p>재직증명서를 영문으로 발급받고 싶어요.&lt;/p>&lt;/blockquote>
+&lt;p>챗봇은 발급 절차를 친절하게 설명합니다. 그런데 마지막 문장이 이렇습니다.&lt;/p>
+&lt;blockquote>
+&lt;p>영문 증명서 발급은 인사팀에 문의해 주세요.&lt;/p>&lt;/blockquote>
+&lt;p>직원은 인사팀 담당자를 찾아 메신저를 보냅니다. 담당자는 용도와 필요한 정보를 다시 묻고 발급 시스템에 접속합니다. 챗봇과 대화는 했는데 실제 발급 업무는 이제 시작입니다.&lt;/p></description></item><item><title>싼 AI로 바꿨는데, 왜 일하는 데 돈이 더 들까요?</title><link>https://tech.epsilondelta.ai/posts/ai-finops/</link><pubDate>Mon, 28 Sep 2026 00:00:00 +0900</pubDate><guid>https://tech.epsilondelta.ai/posts/ai-finops/</guid><description>&lt;h2 id="들어가며">들어가며&lt;/h2>
 &lt;p>&lt;img src="thumbnail.webp" alt="AI 사용료는 줄었지만 견적서 검토와 수정 시간이 늘어난 상황">&lt;/p>
 &lt;p>이런 상황을 상상해보겠습니다. 구매팀은 AI로 견적서를 읽고 거래처별 비교표를 만듭니다. 사용량과 요금이 함께 늘자 개발팀이 더 저렴한 모델로 바꿨습니다. 다음 달 AI 사용료는 절반으로 줄었습니다.&lt;/p>
 &lt;p>그런데 구매 담당자는 야근을 합니다. 할인 조건을 놓치거나 배송비를 다른 항목에 넣는 일이 잦아져 원본과 비교표를 다시 대조하고 있습니다.&lt;/p>
