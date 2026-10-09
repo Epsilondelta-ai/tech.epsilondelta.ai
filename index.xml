@@ -1,4 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Home on 엡실론델타 테크블로그</title><link>https://tech.epsilondelta.ai/</link><description>Recent content in Home on 엡실론델타 테크블로그</description><generator>Hugo</generator><language>ko-KR</language><lastBuildDate>Sat, 03 Oct 2026 00:00:00 +0900</lastBuildDate><atom:link href="https://tech.epsilondelta.ai/index.xml" rel="self" type="application/rss+xml"/><item><title>창고에는 쌓였는데 매장에는 없습니다. AI는 무엇을 예측한 걸까요?</title><link>https://tech.epsilondelta.ai/posts/demand-forecasting-inventory-ax/</link><pubDate>Sat, 03 Oct 2026 00:00:00 +0900</pubDate><guid>https://tech.epsilondelta.ai/posts/demand-forecasting-inventory-ax/</guid><description>&lt;h2 id="들어가며">들어가며&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Home on 엡실론델타 테크블로그</title><link>https://tech.epsilondelta.ai/</link><description>Recent content in Home on 엡실론델타 테크블로그</description><generator>Hugo</generator><language>ko-KR</language><lastBuildDate>Fri, 09 Oct 2026 00:00:00 +0900</lastBuildDate><atom:link href="https://tech.epsilondelta.ai/index.xml" rel="self" type="application/rss+xml"/><item><title>AI는 “처리했습니다”라는데, 왜 아무도 결과를 찾지 못할까요?</title><link>https://tech.epsilondelta.ai/posts/agent-observability/</link><pubDate>Fri, 09 Oct 2026 00:00:00 +0900</pubDate><guid>https://tech.epsilondelta.ai/posts/agent-observability/</guid><description>&lt;h2 id="들어가며">들어가며&lt;/h2>
+&lt;p>&lt;img src="thumbnail.webp" alt="AI의 등록 완료 답변과 구매 시스템의 조회 결과가 일치하지 않는 가상 상황">&lt;/p>
+&lt;p>어떤 회사의 구매 담당자가 AI에게 승인받은 발주를 구매 시스템에 등록해 달라고 했다고 해보겠습니다. AI는 잠시 뒤 답합니다.&lt;/p>
+&lt;blockquote>
+&lt;p>발주 등록을 완료했습니다.&lt;/p>&lt;/blockquote>
+&lt;p>담당자는 다음 일을 시작합니다. 그런데 물류팀에서 연락이 옵니다.&lt;/p>
+&lt;blockquote>
+&lt;p>발주 건이 조회되지 않는데요. 어느 번호로 등록하셨나요?&lt;/p>&lt;/blockquote>
+&lt;p>대화 기록에는 요청과 완료 답변이 있습니다. 담당자는 개발팀에 화면을 보내고 개발팀은 같은 요청을 다시 해봅니다. 이번에는 정상적으로 등록됩니다. 처음에는 왜 안 됐을까요?&lt;/p></description></item><item><title>창고에는 쌓였는데 매장에는 없습니다. AI는 무엇을 예측한 걸까요?</title><link>https://tech.epsilondelta.ai/posts/demand-forecasting-inventory-ax/</link><pubDate>Sat, 03 Oct 2026 00:00:00 +0900</pubDate><guid>https://tech.epsilondelta.ai/posts/demand-forecasting-inventory-ax/</guid><description>&lt;h2 id="들어가며">들어가며&lt;/h2>
 &lt;p>&lt;img src="thumbnail.webp" alt="창고의 충분한 재고와 두 매장의 품절·과잉 재고가 동시에 생기는 가상 상황">&lt;/p>
 &lt;p>어떤 식품 유통회사에서 이런 일이 생겼다고 해보겠습니다. 금요일 오후 한 매장에서는 인기 상품이 떨어져 고객을 돌려보냅니다. 다른 매장에서는 같은 상품을 할인해서 팔고 있습니다. 유통기한이 얼마 남지 않았기 때문입니다. 물류센터에도 재고는 있습니다. 다만 오늘 배송 차량은 이미 출발했습니다.&lt;/p>
 &lt;p>월요일 회의에서 영업 책임자가 묻습니다.&lt;/p>

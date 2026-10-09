@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Agentops on 엡실론델타 테크블로그</title><link>https://tech.epsilondelta.ai/tags/agentops/</link><description>Recent content in Agentops on 엡실론델타 테크블로그</description><generator>Hugo</generator><language>ko-KR</language><lastBuildDate>Fri, 09 Oct 2026 00:00:00 +0900</lastBuildDate><atom:link href="https://tech.epsilondelta.ai/tags/agentops/index.xml" rel="self" type="application/rss+xml"/><item><title>AI는 “처리했습니다”라는데, 왜 아무도 결과를 찾지 못할까요?</title><link>https://tech.epsilondelta.ai/posts/agent-observability/</link><pubDate>Fri, 09 Oct 2026 00:00:00 +0900</pubDate><guid>https://tech.epsilondelta.ai/posts/agent-observability/</guid><description>&lt;h2 id="들어가며">들어가며&lt;/h2>
+&lt;p>&lt;img src="thumbnail.webp" alt="AI의 등록 완료 답변과 구매 시스템의 조회 결과가 일치하지 않는 가상 상황">&lt;/p>
+&lt;p>어떤 회사의 구매 담당자가 AI에게 승인받은 발주를 구매 시스템에 등록해 달라고 했다고 해보겠습니다. AI는 잠시 뒤 답합니다.&lt;/p>
+&lt;blockquote>
+&lt;p>발주 등록을 완료했습니다.&lt;/p>&lt;/blockquote>
+&lt;p>담당자는 다음 일을 시작합니다. 그런데 물류팀에서 연락이 옵니다.&lt;/p>
+&lt;blockquote>
+&lt;p>발주 건이 조회되지 않는데요. 어느 번호로 등록하셨나요?&lt;/p>&lt;/blockquote>
+&lt;p>대화 기록에는 요청과 완료 답변이 있습니다. 담당자는 개발팀에 화면을 보내고 개발팀은 같은 요청을 다시 해봅니다. 이번에는 정상적으로 등록됩니다. 처음에는 왜 안 됐을까요?&lt;/p></description></item></channel></rss>
