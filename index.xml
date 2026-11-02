@@ -1,4 +1,16 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Home on 엡실론델타 테크블로그</title><link>https://tech.epsilondelta.ai/</link><description>Recent content in Home on 엡실론델타 테크블로그</description><generator>Hugo</generator><language>ko-KR</language><lastBuildDate>Mon, 02 Nov 2026 00:00:00 +0900</lastBuildDate><atom:link href="https://tech.epsilondelta.ai/index.xml" rel="self" type="application/rss+xml"/><item><title>AI 에이전트에게 컴퓨터를 맡길 때 무엇을 막고 무엇을 열어둘까</title><link>https://tech.epsilondelta.ai/posts/agent-sandbox/</link><pubDate>Mon, 02 Nov 2026 00:00:00 +0900</pubDate><guid>https://tech.epsilondelta.ai/posts/agent-sandbox/</guid><description>&lt;h2 id="들어가며">들어가며&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Home on 엡실론델타 테크블로그</title><link>https://tech.epsilondelta.ai/</link><description>Recent content in Home on 엡실론델타 테크블로그</description><generator>Hugo</generator><language>ko-KR</language><lastBuildDate>Mon, 02 Nov 2026 14:00:57 +0900</lastBuildDate><atom:link href="https://tech.epsilondelta.ai/index.xml" rel="self" type="application/rss+xml"/><item><title>당신이 잠든 사이 서비스가 죽었다면? - 바이브코딩으로 서비스를 만들면 끝이 아니다 1편</title><link>https://tech.epsilondelta.ai/posts/service-died-while-you-were-sleeping/</link><pubDate>Mon, 02 Nov 2026 14:00:57 +0900</pubDate><guid>https://tech.epsilondelta.ai/posts/service-died-while-you-were-sleeping/</guid><description>&lt;h2 id="자고-일어났더니-4시간이나-서비스가-죽어있었다면">자고 일어났더니 4시간이나 서비스가 죽어있었다면?&lt;/h2>
+&lt;p>당신은 평소처럼 기분좋게 아침을 맞이하며 잠에서 깨어납니다.&lt;br>
+그리고 여느 때 처럼 당신의 서비스에 유저가 얼마나 늘었을지 구글 애널리틱스를 통해 확인하죠.&lt;/p>
+&lt;p>그런데 어라?&lt;br>
+왜 최근 4시간동안 활성 사용자가 0명일까요?&lt;br>
+해외 사용자도 있을거라 0명일 수가 없을텐데 말이죠?&lt;/p>
+&lt;p>이상한 마음에 서비스를 켰는데 아무것도 나오지 않습니다&amp;hellip;&lt;/p>
+&lt;p>&lt;img src="./images/1.webp" alt="">&lt;/p>
+&lt;h2 id="이럴-땐-어떻게-해야하지">이럴 땐 어떻게 해야하지?&lt;/h2>
+&lt;p>&amp;lsquo;모니터링&amp;rsquo; 이라는게 이럴 때 필요하죠.&lt;/p>
+&lt;p>&lt;img src="./images/2.jpeg" alt="">&lt;/p>
+&lt;p>쉽게 설명하자면, 누군가 내 서비스에 들어와서 계속 새로고침을 누르다가&lt;br>
+아무것도 안나오면 나한테 알려주는거에요.&lt;/p></description></item><item><title>AI 에이전트에게 컴퓨터를 맡길 때 무엇을 막고 무엇을 열어둘까</title><link>https://tech.epsilondelta.ai/posts/agent-sandbox/</link><pubDate>Mon, 02 Nov 2026 00:00:00 +0900</pubDate><guid>https://tech.epsilondelta.ai/posts/agent-sandbox/</guid><description>&lt;h2 id="들어가며">들어가며&lt;/h2>
 &lt;p>&lt;img src="01-input-copies.webp" alt="구매 담당자가 필요한 입력 사본만 격리된 작업 공간에 넣고 원본은 별도 보관하는 모습">&lt;/p>
 &lt;p>우리 회사 구매팀이 거래처 스무 곳에서 받은 단가표 엑셀 파일과 계약서 초안을 모아 AI 에이전트에게 비교 분석을 맡겼다고 가정해봅시다. 사내 규정을 찾아 답해주던 챗봇과 달리, 이 에이전트는 직접 파이썬 코드를 짜서 시트를 합치고 수식을 검증한 뒤 요약 차트와 보고서 파일을 만들어냅니다. 사람 손으로 이틀 걸리던 취합 업무가 몇 분 만에 끝나니 현업 반응도 무척 좋습니다.&lt;/p>
 &lt;p>하지만 적용 범위를 넓히려는 순간 현실적인 걱정이 뒤따릅니다. 에이전트가 코드를 돌리는 컴퓨터 안에 다른 부서 자료가 함께 들어 있지는 않은지, 생성된 스크립트가 원본 폴더를 덮어쓰거나 외부로 단가표를 보내버릴 가능성은 없는지 따져 봐야 합니다. 개발팀이나 공급사가 “샌드박스 환경에서 돌아가니 안전하다”고 설명하더라도, 그 말만으로는 무엇이 막혀 있고 무엇이 열려 있는지 판단하기 어렵습니다.&lt;/p></description></item><item><title>AI 채점자의 합격 판정, 어디까지 믿고 맡길 수 있을까요?</title><link>https://tech.epsilondelta.ai/posts/llm-judge-calibration/</link><pubDate>Sun, 01 Nov 2026 00:00:00 +0900</pubDate><guid>https://tech.epsilondelta.ai/posts/llm-judge-calibration/</guid><description>&lt;h2 id="들어가며">들어가며&lt;/h2>
