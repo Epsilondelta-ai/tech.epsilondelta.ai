@@ -1,4 +1,15 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Home on 엡실론델타 테크블로그</title><link>https://tech.epsilondelta.ai/</link><description>Recent content in Home on 엡실론델타 테크블로그</description><generator>Hugo</generator><language>ko-KR</language><lastBuildDate>Mon, 02 Nov 2026 14:00:57 +0900</lastBuildDate><atom:link href="https://tech.epsilondelta.ai/index.xml" rel="self" type="application/rss+xml"/><item><title>당신이 잠든 사이 서비스가 죽었다면? - 바이브코딩으로 서비스를 만들면 끝이 아니다 1편</title><link>https://tech.epsilondelta.ai/posts/service-died-while-you-were-sleeping/</link><pubDate>Mon, 02 Nov 2026 14:00:57 +0900</pubDate><guid>https://tech.epsilondelta.ai/posts/service-died-while-you-were-sleeping/</guid><description>&lt;h2 id="자고-일어났더니-4시간이나-서비스가-죽어있었다면">자고 일어났더니 4시간이나 서비스가 죽어있었다면?&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Home on 엡실론델타 테크블로그</title><link>https://tech.epsilondelta.ai/</link><description>Recent content in Home on 엡실론델타 테크블로그</description><generator>Hugo</generator><language>ko-KR</language><lastBuildDate>Tue, 03 Nov 2026 11:00:57 +0900</lastBuildDate><atom:link href="https://tech.epsilondelta.ai/index.xml" rel="self" type="application/rss+xml"/><item><title>서비스는 살아있지만 고장났음 - 바이브코딩으로 서비스를 만들면 끝이 아니다 2편</title><link>https://tech.epsilondelta.ai/posts/my-service-is-sick/</link><pubDate>Tue, 03 Nov 2026 11:00:57 +0900</pubDate><guid>https://tech.epsilondelta.ai/posts/my-service-is-sick/</guid><description>&lt;h2 id="분명-모니터링에서는-이상이-없는데-왜-매출이-갑자기-0원이-됐지">분명 모니터링에서는 이상이 없는데 왜 매출이 갑자기 0원이 됐지?&lt;/h2>
+&lt;p>여러분은 평소처럼 방문자 통계와 매출 상태를 보고있었습니다.&lt;br>
+그런데 이상하게 말이죠? 어제부터 매출이 계속 0원 상태인거에요?&lt;/p>
+&lt;p>UptimeRobot으로 모니터링을 걸어놔서 서비스가 죽으면 알림이 올텐데 말이죠?&lt;br>
+그리고 방문자 통계는 평소처럼 잘 유지되고 있구요.&lt;/p>
+&lt;p>&amp;ldquo;분명 이틀 전까지는 매출이 꾸준히 있었는데 왜 갑자기 0원이 된거지?&amp;rdquo;&lt;/p>
+&lt;p>이상한 마음에 직접 가서 카드 결제를 누르니&lt;br>
+에러가 발생하며 결제가 완료되지가 않았어요.&lt;/p>
+&lt;h2 id="왜-이런-상황이-생기는거지">왜 이런 상황이 생기는거지?&lt;/h2>
+&lt;p>개발자들에겐 일상이지만,&lt;br>
+개발 지식이 없이 바이브코딩으로 서비스를 만들고&lt;br>
+이런 상황을 접한 분들은 많이 당황스러우실겁니다.&lt;/p></description></item><item><title>당신이 잠든 사이 서비스가 죽었다면? - 바이브코딩으로 서비스를 만들면 끝이 아니다 1편</title><link>https://tech.epsilondelta.ai/posts/service-died-while-you-were-sleeping/</link><pubDate>Mon, 02 Nov 2026 14:00:57 +0900</pubDate><guid>https://tech.epsilondelta.ai/posts/service-died-while-you-were-sleeping/</guid><description>&lt;h2 id="자고-일어났더니-4시간이나-서비스가-죽어있었다면">자고 일어났더니 4시간이나 서비스가 죽어있었다면?&lt;/h2>
 &lt;p>당신은 평소처럼 기분좋게 아침을 맞이하며 잠에서 깨어납니다.&lt;br>
 그리고 여느 때 처럼 당신의 서비스에 유저가 얼마나 늘었을지 구글 애널리틱스를 통해 확인하죠.&lt;/p>
 &lt;p>그런데 어라?&lt;br>
