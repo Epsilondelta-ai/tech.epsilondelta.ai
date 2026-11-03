@@ -9,7 +9,10 @@
 &lt;h2 id="왜-이런-상황이-생기는거지">왜 이런 상황이 생기는거지?&lt;/h2>
 &lt;p>개발자들에겐 일상이지만,&lt;br>
 개발 지식이 없이 바이브코딩으로 서비스를 만들고&lt;br>
-이런 상황을 접한 분들은 많이 당황스러우실겁니다.&lt;/p></description></item><item><title>당신이 잠든 사이 서비스가 죽었다면? - 바이브코딩으로 서비스를 만들면 끝이 아니다 1편</title><link>https://tech.epsilondelta.ai/posts/service-died-while-you-were-sleeping/</link><pubDate>Mon, 02 Nov 2026 14:00:57 +0900</pubDate><guid>https://tech.epsilondelta.ai/posts/service-died-while-you-were-sleeping/</guid><description>&lt;h2 id="자고-일어났더니-4시간이나-서비스가-죽어있었다면">자고 일어났더니 4시간이나 서비스가 죽어있었다면?&lt;/h2>
+이런 상황을 접한 분들은 많이 당황스러우실겁니다.&lt;/p></description></item><item><title>사내 AI가 멈춘 날, 어떤 업무를 계속하고 무엇을 멈춰야 할까요?</title><link>https://tech.epsilondelta.ai/posts/ai-continuity/</link><pubDate>Tue, 03 Nov 2026 00:00:00 +0900</pubDate><guid>https://tech.epsilondelta.ai/posts/ai-continuity/</guid><description>&lt;h2 id="들어가며">들어가며&lt;/h2>
+&lt;p>&lt;img src="01-outage-intake.webp" alt="AI 응답이 멈춘 동안 접수 기록을 유지하고 담당자가 처리 범위를 정하는 모습">&lt;/p>
+&lt;p>월요일 오전 열 시, 고객 문의를 분류하고 환불 심사와 거래처 발주서 초안 작성을 돕던 사내 AI 에이전트가 갑자기 응답을 멈췄다고 가정해봅시다. 상담 화면에는 시간 초과 알림만 뜨고 문의함에는 미처리 접수 건이 매분 쌓여갑니다. 현업 부서장들의 메신저에는 &amp;ldquo;지금 들어오는 환불 요청은 수기로 처리해도 되나요?&amp;rdquo;, &amp;ldquo;방금 에이전트가 발주 버튼을 눌렀는지 모르겠는데 다시 넣을까요?&amp;rdquo; 같은 질문이 쏟아집니다.&lt;/p>
+&lt;p>이런 순간 경영진이 기술 조직에 먼저 던지는 질문은 대체로 비슷합니다. &amp;ldquo;우리 예비 모델 안 붙여뒀습니까?&amp;rdquo;, &amp;ldquo;언제 복구됩니까?&amp;rdquo; 하지만 장애 현장에서 회사의 손실과 고객 신뢰를 가르는 기준은 업무를 어떻게 운영하느냐에 있습니다.&lt;/p></description></item><item><title>당신이 잠든 사이 서비스가 죽었다면? - 바이브코딩으로 서비스를 만들면 끝이 아니다 1편</title><link>https://tech.epsilondelta.ai/posts/service-died-while-you-were-sleeping/</link><pubDate>Mon, 02 Nov 2026 14:00:57 +0900</pubDate><guid>https://tech.epsilondelta.ai/posts/service-died-while-you-were-sleeping/</guid><description>&lt;h2 id="자고-일어났더니-4시간이나-서비스가-죽어있었다면">자고 일어났더니 4시간이나 서비스가 죽어있었다면?&lt;/h2>
 &lt;p>당신은 평소처럼 기분좋게 아침을 맞이하며 잠에서 깨어납니다.&lt;br>
 그리고 여느 때 처럼 당신의 서비스에 유저가 얼마나 늘었을지 구글 애널리틱스를 통해 확인하죠.&lt;/p>
 &lt;p>그런데 어라?&lt;br>
