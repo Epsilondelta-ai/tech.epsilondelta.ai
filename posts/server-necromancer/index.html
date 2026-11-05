@@ -1,0 +1,50 @@
+<!doctype html><html lang=ko-KR dir=ltr><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><link rel=icon type=image/png sizes=512x512 href="/branding/favicon-green.png?v=2"><link rel=stylesheet as=style crossorigin href=https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css><title>서비스가 죽어도 스스로 살아나게 하는 법 - 바이브코딩으로 서비스를 만들면 끝이 아니다 4편 | 엡실론델타 테크블로그
+</title>
+  
+  
+  
+    
+      
+        <link rel="stylesheet" href="/css/main.2a4114ab4152b63547d4ab8350324227a3b4921ff6419fe26f168d991430b7c1.css" integrity="sha256-KkEUq0FStjVH1KuDUDJCJ6O0kh/2QZ/ibxaNmRQwt8E=" crossorigin="anonymous">
+      
+    
+  
+
+
+  
+  
+  
+    
+      
+        <link rel="stylesheet" href="/css/paginate.7849dd485462f5ab42a4e3993e59bc4488f147f34d1761588345540df3378015.css" integrity="sha256-eEndSFRi9atCpOOZPlm8RIjxR/NNF2FYg0VUDfM3gBU=" crossorigin="anonymous">
+      
+    
+  
+
+
+
+<link rel=stylesheet href=/css/post-images.min.0784f8c99d42a21f07702c884ba7a78b80fe444acf8f89d349be1e52000f2e20.css integrity="sha256-B4T4yZ1Coh8HcCyIS6eni4D+RErPj4nTSb4eUgAPLiA=" crossorigin=anonymous><script src=/js/main.23cd0c7d837263b9eaeb96ee2d9ccfa2969daa3fa00fa1c1fe8701a9b87251a1.js integrity="sha256-I80MfYNyY7nq65buLZzPopadqj+gD6HB/ocBqbhyUaE=" crossorigin=anonymous></script><script async src="https://www.googletagmanager.com/gtag/js?id=G-DDER1G2WGD"></script><script>var dnt,doNotTrack=!1;if(!1&&(dnt=navigator.doNotTrack||window.doNotTrack||navigator.msDoNotTrack,doNotTrack=dnt=="1"||dnt=="yes"),!doNotTrack){window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag("js",new Date),gtag("config","G-DDER1G2WGD")}</script><meta property="og:url" content="https://tech.epsilondelta.ai/posts/server-necromancer/"><meta property="og:site_name" content="엡실론델타 테크블로그"><meta property="og:title" content="서비스가 죽어도 스스로 살아나게 하는 법 - 바이브코딩으로 서비스를 만들면 끝이 아니다 4편"><meta property="og:description" content="내가 손쓸 수 없는 시간에 서비스가 죽었다면? 예를들면 세벽 3시에 알림이 울렸는데 못듣고 계속 잤다거나,
+운전중인데 알림이 왔다던가,
+엄마한테 혼나고 있는데(?) 알림이 왔다던가
+살다보면 이런 식으로 내가 손쓸 수 없는 상황에 문제가 터질 때가 있습니다.
+어쩔 수 없으니 여러분의 서비스를 그 시간동안 그냥 방치해야 하는걸까요?
+이럴때도 다 방법이 있습니다.
+서버가 죽었을 때 자동으로 대처할 수 있는 방법들 서버가 죽으면 자동으로 다시 켜기 현재 버전이 잘못되었다면 이전 버전으로 롤백하기 대표적으로는 이렇게 두 가지가 있습니다.
+위의 두가지는 대체로 다른 양상에 의해 나타납니다."><meta property="og:locale" content="ko_KR"><meta property="og:type" content="article"><meta property="article:section" content="posts"><meta property="article:published_time" content="2026-11-05T11:00:57+09:00"><meta property="article:modified_time" content="2026-11-05T11:00:57+09:00"><meta property="og:image" content="https://tech.epsilondelta.ai/posts/server-necromancer/images/thumbnail.webp"><meta name=twitter:card content="summary_large_image"><meta name=twitter:image content="https://tech.epsilondelta.ai/posts/server-necromancer/images/thumbnail.webp"><meta name=twitter:title content="서비스가 죽어도 스스로 살아나게 하는 법 - 바이브코딩으로 서비스를 만들면 끝이 아니다 4편"><meta name=twitter:description content="내가 손쓸 수 없는 시간에 서비스가 죽었다면? 예를들면 세벽 3시에 알림이 울렸는데 못듣고 계속 잤다거나,
+운전중인데 알림이 왔다던가,
+엄마한테 혼나고 있는데(?) 알림이 왔다던가
+살다보면 이런 식으로 내가 손쓸 수 없는 상황에 문제가 터질 때가 있습니다.
+어쩔 수 없으니 여러분의 서비스를 그 시간동안 그냥 방치해야 하는걸까요?
+이럴때도 다 방법이 있습니다.
+서버가 죽었을 때 자동으로 대처할 수 있는 방법들 서버가 죽으면 자동으로 다시 켜기 현재 버전이 잘못되었다면 이전 버전으로 롤백하기 대표적으로는 이렇게 두 가지가 있습니다.
+위의 두가지는 대체로 다른 양상에 의해 나타납니다."><meta itemprop=name content="서비스가 죽어도 스스로 살아나게 하는 법 - 바이브코딩으로 서비스를 만들면 끝이 아니다 4편"><meta itemprop=description content="내가 손쓸 수 없는 시간에 서비스가 죽었다면? 예를들면 세벽 3시에 알림이 울렸는데 못듣고 계속 잤다거나,
+운전중인데 알림이 왔다던가,
+엄마한테 혼나고 있는데(?) 알림이 왔다던가
+살다보면 이런 식으로 내가 손쓸 수 없는 상황에 문제가 터질 때가 있습니다.
+어쩔 수 없으니 여러분의 서비스를 그 시간동안 그냥 방치해야 하는걸까요?
+이럴때도 다 방법이 있습니다.
+서버가 죽었을 때 자동으로 대처할 수 있는 방법들 서버가 죽으면 자동으로 다시 켜기 현재 버전이 잘못되었다면 이전 버전으로 롤백하기 대표적으로는 이렇게 두 가지가 있습니다.
+위의 두가지는 대체로 다른 양상에 의해 나타납니다."><meta itemprop=datePublished content="2026-11-05T11:00:57+09:00"><meta itemprop=dateModified content="2026-11-05T11:00:57+09:00"><meta itemprop=wordCount content="381"><meta itemprop=image content="https://tech.epsilondelta.ai/posts/server-necromancer/images/thumbnail.webp"><meta itemprop=keywords content="지상 최강의 개발자 쥬니니"><link rel=canonical href=https://tech.epsilondelta.ai/posts/server-necromancer/><meta name=description content><meta name=author content="지상 최강의 개발자 쥬니니"><script id=MathJax-script async src=https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js></script><script>MathJax={tex:{displayMath:[["\\[","\\]"],["$$","$$"]],inlineMath:[["\\(","\\)"]]},loader:{load:["ui/safe"]}}</script></head><body><header class="sticky top-0 z-50 py-6 px-8 bg-white shadow-md"><div class="container m-auto flex items-center justify-between"><h1><a href=/ class="flex items-center gap-3 text-xl"><img class=h-[1.6rem] src=/branding/symbol-black.png alt="엡실론델타 심볼"><p><strong>엡실론델타</strong>
+테크블로그</p></a></h1><nav class="md:block hidden"><ul class="flex gap-4"><li><a href=/tags/>Tags</a></li><li><a href=/authors/>Authors</a></li></ul></nav><button id=navButton class="relative z-12 md:hidden block" aria-label="Toggle menu" aria-expanded=false aria-controls=menu><svg class="w-6 h-6" fill="none" stroke="currentcolor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"/></svg></button><nav class="fixed top-0 md:-right-full! -right-full h-full w-full bg-gray-900/30" id=navMenu style="transition:all .5s"><ul class="flex flex-col gap-2 w-[12rem] h-full ml-auto p-6 pt-24 bg-white"><li><a href=/tags/>Tags</a></li><li><a href=/authors/>Authors</a></li></ul></nav><script>const navButton=document.getElementById("navButton"),navMenu=document.getElementById("navMenu");navButton.addEventListener("click",function(){navMenu.classList.contains("-right-full")?(navMenu.classList.remove("-right-full"),navMenu.classList.add("right-0"),navButton.setAttribute("aria-expanded","true")):(navMenu.classList.remove("right-0"),navMenu.classList.add("-right-full"),navButton.setAttribute("aria-expanded","false"))}),navMenu.addEventListener("click",function(e){if(e.target.tagName!=="NAV")return;navMenu.classList.remove("right-0"),navMenu.classList.add("-right-full"),navButton.setAttribute("aria-expanded","false")})</script></div></header><main class=p-8><article class="container mx-auto"><h1 class="text-3xl font-bold mb-6">서비스가 죽어도 스스로 살아나게 하는 법 - 바이브코딩으로 서비스를 만들면 끝이 아니다 4편</h1><div class="mb-10 md:text-left text-right"><a class="text-gray-500 text-sm" href=/authors/juunini/><img class="inline-block w-8 h-8 rounded-full mr-2" src=/authors/juunini/profile.jpg alt>
+지상 최강의 개발자 쥬니니
+</a><span class="md:inline hidden">ㆍ</span><br class="md:hidden block"><time class="text-gray-500 text-sm" datetime=2026-11-05T11:00:57+09:00>2026. 11. 5</time></div><div class="markdown-body mb-10!"><h2 id=내가-손쓸-수-없는-시간에-서비스가-죽었다면>내가 손쓸 수 없는 시간에 서비스가 죽었다면?</h2><p>예를들면 세벽 3시에 알림이 울렸는데 못듣고 계속 잤다거나,<br>운전중인데 알림이 왔다던가,<br>엄마한테 혼나고 있는데(?) 알림이 왔다던가</p><p><img src=./images/1.jpeg alt></p><p>살다보면 이런 식으로 내가 손쓸 수 없는 상황에 문제가 터질 때가 있습니다.<br>어쩔 수 없으니 여러분의 서비스를 그 시간동안 그냥 방치해야 하는걸까요?</p><p>이럴때도 다 방법이 있습니다.</p><h2 id=서버가-죽었을-때-자동으로-대처할-수-있는-방법들>서버가 죽었을 때 자동으로 대처할 수 있는 방법들</h2><ul><li>서버가 죽으면 자동으로 다시 켜기</li><li>현재 버전이 잘못되었다면 이전 버전으로 롤백하기</li></ul><p>대표적으로는 이렇게 두 가지가 있습니다.<br>위의 두가지는 대체로 다른 양상에 의해 나타납니다.</p><h3 id=서버가-죽으면-자동으로-다시-켜기>서버가 죽으면 자동으로 다시 켜기</h3><p>서버가 죽는 원인은 꽤 다양한데<br>그 중에 자동으로 대처가 가능한 상황을 꼽자면</p><p>&ldquo;특정 동작에서 코드 에러로 인해 서비스가 죽는 경우&rdquo;</p><p>정도가 있겠네요.<br>근본적인 해결은 그 부분을 고치는거지만,<br>당장 손을 쓸 수 없는 상황이라면 일단 서비스가 다시 잘 살아나기만 해도 괜찮을겁니다.</p><p>이런걸 자동으로 해주는 플랫폼이라면</p><ul><li>Vercel, Netflify 같은 서버리스</li><li>Railway, Render, Fly.io 같은 PaaS</li></ul><p>이렇게 볼 수 있겠습니다.<br>서버리스 방식과 PaaS 방식이 어떻게 다른지 말씀드리자면</p><h4 id=서버리스-방식>서버리스 방식</h4><p>서버리스 방식은 일정 시간 사용자의 요청이 없다면 서버가 꺼져있다가<br>사용자가 들어오면 그 때 켜져서 동작합니다.</p><p><img src=./images/2.gif alt></p><p>사용자가 많지 않은 초창기일 땐 꺼져있는 시간만큼 비용을 아낄 수 있으니 좋죠.<br>다만 사용자가 늘어 항상 실행되어야 되는 수준이 된다면 계속 유지할지 고민해보셔야 할겁니다.</p><p>그래도 서비스가 죽으면 어차피 사용자가 없어도 꺼졌다 켜지니<br>똑같은 방식으로 다시 켜지기에 이 부분에 대해 큰 고민이 필요하진 않죠.</p><p>하지만 소켓 통신 같은걸 사용한다면 서버리스의 이점을 누릴 수 없으므로 PaaS를 사용하셔야 합니다.</p><h4 id=paas-방식>PaaS 방식</h4><p>내가 직접 PC나 VM을 다루지 않아도<br>나의 코드를 대신 실행시켜주고 관리해주는 플랫폼입니다.<br>서버리스와는 다르게 이쪽은 서버가 24시간 실행되고 있는 상태를 유지합니다.</p><p>PaaS 방식의 플랫폼에 배포했다면, 앱이 죽을 경우 &lsquo;재시도 횟수&rsquo; 를 설정해서<br>만약 서버를 켜자마자 죽는 상황이라면 재시도 횟수만큼 시도한 뒤<br>이전 버전으로 롤백해주거나 하는 설정도 가능하기에<br>내가 손쓸 수 없는 상황일 때 자동으로 다시 켜지기도 합니다.</p><p>그리고 배포 한 코드에 문제가 있어서<br>실행에 문제가 생긴다면 새 버전의 배포를 막고 기존 버전으로 계속 유지해주기도 합니다.</p><h2 id=자동으로-조치할-수-없는-경우>자동으로 조치할 수 없는 경우</h2><p>사실 위에 언급한 &lsquo;서버가 꺼졌다. 혹은 멈췄다.&rsquo;, &lsquo;배포가 망가졌다&rsquo;<br>이런거 말고는 거의 모든 경우 자동으로 조치하기 어렵습니다.<br>개발자들이 겪는 전통적인(?) 문제들을 예로 들어보자면</p><p><img src=./images/3.jpeg alt></p><ul><li>DB가 임계점(?)을 돌파해서 느려질 때</li><li>사용자가 갑자기 늘었는데 현재의 구성으로는 늘어난 사용자를 감당할 수 없을 때</li><li>외부 서비스 장애로 인해 중요 기능을 사용할 수 없을 때</li></ul><p>이런 경우는 자동으로 조치할 수가 없습니다.<br>원인을 찾고 해결해야 할 수 밖에 없죠.</p><p>다음 글에서는 그렇게 자동으로 조치할 수 없는 문제까지도<br>자동으로 조치하기 위한 시도는 뭐가 있을지 알아보겠습니다.</p></div><script src=https://giscus.app/client.js data-repo=Epsilondelta-ai/tech.epsilondelta.ai data-repo-id=R_kgDOOI-8tA data-category=General data-category-id=DIC_kwDOOI-8tM4CoGbb data-mapping=pathname data-strict=1 data-reactions-enabled=1 data-emit-metadata=0 data-input-position=top data-theme=light data-lang=ko data-loading=lazy crossorigin=anonymous async></script></article></main><footer class="py-4 px-8 bg-white border-t border-t-gray-200"><div class="text-center text-gray-400 md:text-base text-sm"><p>Copyright 2026. EpsilonDelta All rights reserved.</p></div></footer></body></html>

@@ -1,4 +1,18 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Home on 엡실론델타 테크블로그</title><link>https://tech.epsilondelta.ai/</link><description>Recent content in Home on 엡실론델타 테크블로그</description><generator>Hugo</generator><language>ko-KR</language><lastBuildDate>Wed, 04 Nov 2026 11:00:57 +0900</lastBuildDate><atom:link href="https://tech.epsilondelta.ai/index.xml" rel="self" type="application/rss+xml"/><item><title>자고 일어나니 요금폭탄 - 바이브코딩으로 서비스를 만들면 끝이 아니다 3편</title><link>https://tech.epsilondelta.ai/posts/bill-explosion/</link><pubDate>Wed, 04 Nov 2026 11:00:57 +0900</pubDate><guid>https://tech.epsilondelta.ai/posts/bill-explosion/</guid><description>&lt;h2 id="충격실화-자고-일어났는데-요금폭탄을-맞아서-집이-날아갈-수-있음">[충격실화] 자고 일어났는데 (요금)폭탄을 맞아서 집이 날아갈 수 있음&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Home on 엡실론델타 테크블로그</title><link>https://tech.epsilondelta.ai/</link><description>Recent content in Home on 엡실론델타 테크블로그</description><generator>Hugo</generator><language>ko-KR</language><lastBuildDate>Thu, 05 Nov 2026 11:00:57 +0900</lastBuildDate><atom:link href="https://tech.epsilondelta.ai/index.xml" rel="self" type="application/rss+xml"/><item><title>서비스가 죽어도 스스로 살아나게 하는 법 - 바이브코딩으로 서비스를 만들면 끝이 아니다 4편</title><link>https://tech.epsilondelta.ai/posts/server-necromancer/</link><pubDate>Thu, 05 Nov 2026 11:00:57 +0900</pubDate><guid>https://tech.epsilondelta.ai/posts/server-necromancer/</guid><description>&lt;h2 id="내가-손쓸-수-없는-시간에-서비스가-죽었다면">내가 손쓸 수 없는 시간에 서비스가 죽었다면?&lt;/h2>
+&lt;p>예를들면 세벽 3시에 알림이 울렸는데 못듣고 계속 잤다거나,&lt;br>
+운전중인데 알림이 왔다던가,&lt;br>
+엄마한테 혼나고 있는데(?) 알림이 왔다던가&lt;/p>
+&lt;p>&lt;img src="./images/1.jpeg" alt="">&lt;/p>
+&lt;p>살다보면 이런 식으로 내가 손쓸 수 없는 상황에 문제가 터질 때가 있습니다.&lt;br>
+어쩔 수 없으니 여러분의 서비스를 그 시간동안 그냥 방치해야 하는걸까요?&lt;/p>
+&lt;p>이럴때도 다 방법이 있습니다.&lt;/p>
+&lt;h2 id="서버가-죽었을-때-자동으로-대처할-수-있는-방법들">서버가 죽었을 때 자동으로 대처할 수 있는 방법들&lt;/h2>
+&lt;ul>
+&lt;li>서버가 죽으면 자동으로 다시 켜기&lt;/li>
+&lt;li>현재 버전이 잘못되었다면 이전 버전으로 롤백하기&lt;/li>
+&lt;/ul>
+&lt;p>대표적으로는 이렇게 두 가지가 있습니다.&lt;br>
+위의 두가지는 대체로 다른 양상에 의해 나타납니다.&lt;/p></description></item><item><title>자고 일어나니 요금폭탄 - 바이브코딩으로 서비스를 만들면 끝이 아니다 3편</title><link>https://tech.epsilondelta.ai/posts/bill-explosion/</link><pubDate>Wed, 04 Nov 2026 11:00:57 +0900</pubDate><guid>https://tech.epsilondelta.ai/posts/bill-explosion/</guid><description>&lt;h2 id="충격실화-자고-일어났는데-요금폭탄을-맞아서-집이-날아갈-수-있음">[충격실화] 자고 일어났는데 (요금)폭탄을 맞아서 집이 날아갈 수 있음&lt;/h2>
 &lt;p>여러분이 바이브코딩으로 서버를 두는 서비스를 만들었다면&lt;br>
 &lt;a href="https://firebase.google.com/" target="_blank">Firebase&lt;/a>
 나 &lt;a href="https://supabase.com/" target="_blank">Supabase&lt;/a>
