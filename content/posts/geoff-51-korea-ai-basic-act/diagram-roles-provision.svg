@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="850" viewBox="0 0 800 850" role="img" aria-labelledby="title desc"><title id="title">역할은 제공 관계마다 정해진다</title><desc id="desc">법 제2조의 역할 정의와 제공 관계. 영향받는 자는 제공 사슬의 다음 판매자가 아니며 안전과 기본권에 중대한 영향을 받는 사람이다. 가이드라인 해설은 법적 구속력이 없다.</desc>
+<rect width="800" height="850" rx="22" fill="#f5f2e9"/>
+<g font-family="Noto Sans CJK KR, Noto Sans KR, sans-serif">
+<text x="32" y="53" font-size="34" fill="#172c3b" font-weight="700" text-anchor="start">역할은 제공 관계마다 정해진다</text>
+<rect x="55" y="90" width="690" height="112" rx="16" fill="#ffffff" stroke="#c5d3d0" stroke-width="2"/>
+<text x="80" y="133" font-size="30" fill="#236c69" font-weight="700" text-anchor="start">개발사업자 · 제2조제7호가목</text>
+<text x="80" y="175" font-size="29" fill="#172c3b" font-weight="500" text-anchor="start">인공지능을 개발하여 제공</text>
+<rect x="55" y="260" width="690" height="112" rx="16" fill="#ffffff" stroke="#c5d3d0" stroke-width="2"/>
+<text x="80" y="303" font-size="30" fill="#236c69" font-weight="700" text-anchor="start">이용사업자 · 제2조제7호나목</text>
+<text x="80" y="345" font-size="29" fill="#172c3b" font-weight="500" text-anchor="start">제공받은 AI로 제품·서비스 제공</text>
+<rect x="55" y="430" width="690" height="112" rx="16" fill="#ffffff" stroke="#c5d3d0" stroke-width="2"/>
+<text x="80" y="473" font-size="30" fill="#236c69" font-weight="700" text-anchor="start">이용자 · 제2조제8호</text>
+<text x="80" y="515" font-size="29" fill="#172c3b" font-weight="500" text-anchor="start">AI 제품·서비스를 제공받는 관계</text>
+<path d="M400 206 L400 253" stroke="#236c69" stroke-width="3" fill="none"/>
+<path d="M393 244 L400 253 L407 244" stroke="#236c69" stroke-width="3" fill="none"/>
+<path d="M400 376 L400 423" stroke="#236c69" stroke-width="3" fill="none"/>
+<path d="M393 414 L400 423 L407 414" stroke="#236c69" stroke-width="3" fill="none"/>
+<rect x="55" y="573" width="690" height="108" rx="16" fill="#e5eeea" stroke="#c5d3d0" stroke-width="2"/>
+<text x="80" y="615" font-size="30" fill="#236c69" font-weight="700" text-anchor="start">영향받는 자 · 제2조제9호</text>
+<text x="80" y="656" font-size="28" fill="#172c3b" font-weight="500" text-anchor="start">안전·기본권에 중대한 영향을 받는 사람</text>
+<text x="40" y="729" font-size="27" fill="#ad4936" font-weight="700" text-anchor="start">채용 가이드라인 해설 · 법적 구속력 없음</text>
+<text x="40" y="771" font-size="28" fill="#172c3b" font-weight="500" text-anchor="start">공급사: 이용사업자 / 구매 기업: 이용자</text>
+<text x="40" y="812" font-size="28" fill="#172c3b" font-weight="500" text-anchor="start">구직자: 영향받는 자 · 변경·제공 구조도 확인</text>
+</g></svg>

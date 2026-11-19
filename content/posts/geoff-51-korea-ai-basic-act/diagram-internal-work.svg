@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="770" viewBox="0 0 800 770" role="img" aria-labelledby="title desc"><title id="title">사내 업무용은 두 층위로 검토한다</title><desc id="desc">제공 행위와 사업자 정의 검토를 먼저 하고, 사업자에 해당하는 경우 내부 업무용 투명성 예외를 별도로 검토한다. 시행령 제23조제4항제2호는 법 전체를 면제하지 않는다.</desc>
+<rect width="800" height="770" rx="22" fill="#f5f2e9"/>
+<g font-family="Noto Sans CJK KR, Noto Sans KR, sans-serif">
+<text x="32" y="53" font-size="34" fill="#172c3b" font-weight="700" text-anchor="start">사내 업무용은 두 층위로 검토한다</text>
+<rect x="32" y="87" width="736" height="219" rx="16" fill="#ffffff" stroke="#c5d3d0" stroke-width="2"/>
+<text x="56" y="132" font-size="31" fill="#236c69" font-weight="700" text-anchor="start">1  제공 행위와 역할부터</text>
+<text x="56" y="178" font-size="29" fill="#172c3b" font-weight="500" text-anchor="start">외부 제공 없는 내부 실험·테스트·참고</text>
+<text x="56" y="220" font-size="29" fill="#172c3b" font-weight="500" text-anchor="start">→ 개발사업자에 해당하지 않는 경우</text>
+<text x="56" y="268" font-size="26" fill="#ad4936" font-weight="500" text-anchor="start">가이드라인의 해설 · 법적 구속력 없음</text>
+<path d="M400 315 L400 350" stroke="#236c69" stroke-width="3" fill="none"/>
+<path d="M393 341 L400 350 L407 341" stroke="#236c69" stroke-width="3" fill="none"/>
+<rect x="32" y="360" width="736" height="243" rx="16" fill="#ffffff" stroke="#c5d3d0" stroke-width="2"/>
+<text x="56" y="406" font-size="31" fill="#236c69" font-weight="700" text-anchor="start">2  사업자라면 특정 의무 예외 검토</text>
+<text x="56" y="451" font-size="29" fill="#172c3b" font-weight="500" text-anchor="start">시행령 제23조제4항제2호</text>
+<text x="56" y="494" font-size="29" fill="#172c3b" font-weight="500" text-anchor="start">내부 업무 용도로만 사용하는 경우</text>
+<text x="56" y="536" font-size="29" fill="#172c3b" font-weight="500" text-anchor="start">→ 제31조 투명성 의무 전부·일부</text>
+<text x="87" y="578" font-size="29" fill="#172c3b" font-weight="500" text-anchor="start">적용하지 않을 수 있음</text>
+<text x="40" y="659" font-size="29" fill="#ad4936" font-weight="700" text-anchor="start">다른 의무까지 일괄 면제되는 것은 아님</text>
+<text x="40" y="707" font-size="28" fill="#172c3b" font-weight="500" text-anchor="start">계열사·협력사 제공 여부도 사실관계로 확인</text>
+</g></svg>

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1130" viewBox="0 0 800 1130" role="img" aria-labelledby="title desc"><title id="title">서비스별로 한 줄씩, 질문을 남긴다</title><desc id="desc">실무 운영 제안인 서비스 인벤토리. 완성 배너만 활용하는 조건과 고객에게 생성 기능을 제공하는 조건, 면접 솔루션 구매 기업의 역할과 시스템 분류를 구별한다. 부족한 사실은 미결로 남기고 제공 구조가 바뀌면 재검토한다.</desc>
+<rect width="800" height="1130" rx="22" fill="#f5f2e9"/>
+<g font-family="Noto Sans CJK KR, Noto Sans KR, sans-serif">
+<text x="32" y="53" font-size="34" fill="#172c3b" font-weight="700" text-anchor="start">서비스별로 한 줄씩, 질문을 남긴다</text>
+<rect x="32" y="93" width="736" height="204" rx="16" fill="#ffffff" stroke="#c5d3d0" stroke-width="2"/>
+<text x="56" y="137" font-size="30" fill="#236c69" font-weight="700" text-anchor="start">마케팅 · 완성 배너만 활용한다면</text>
+<text x="56" y="184" font-size="28" fill="#172c3b" font-weight="500" text-anchor="start">AI 생성 기능 제공 없음 → 이용자 검토</text>
+<text x="56" y="224" font-size="28" fill="#172c3b" font-weight="500" text-anchor="start">확인: 고객에게 생성 기능이 열리는가?</text>
+<text x="56" y="264" font-size="28" fill="#172c3b" font-weight="500" text-anchor="start">광고·콘텐츠 관련 다른 법령도 확인</text>
+<rect x="32" y="319" width="736" height="204" rx="16" fill="#ffffff" stroke="#c5d3d0" stroke-width="2"/>
+<text x="56" y="363" font-size="30" fill="#236c69" font-weight="700" text-anchor="start">고객용 앱 · 생성 기능을 제공한다면</text>
+<text x="56" y="410" font-size="28" fill="#172c3b" font-weight="500" text-anchor="start">외부 모델 API 연결 → 이용사업자 검토</text>
+<text x="56" y="450" font-size="28" fill="#172c3b" font-weight="500" text-anchor="start">확인: 사전 고지·다운로드 경로별 표시</text>
+<text x="56" y="490" font-size="28" fill="#172c3b" font-weight="500" text-anchor="start">가상 결과물·고영향 여부도 각각 검토</text>
+<rect x="32" y="545" width="736" height="204" rx="16" fill="#ffffff" stroke="#c5d3d0" stroke-width="2"/>
+<text x="56" y="589" font-size="30" fill="#236c69" font-weight="700" text-anchor="start">채용 · 외부 면접 솔루션 구매·사용</text>
+<text x="56" y="636" font-size="28" fill="#172c3b" font-weight="500" text-anchor="start">공급사: 이용사업자 / 구매 기업: 이용자</text>
+<text x="56" y="676" font-size="28" fill="#172c3b" font-weight="500" text-anchor="start">구직자: 영향받는 자 검토</text>
+<text x="56" y="716" font-size="28" fill="#172c3b" font-weight="500" text-anchor="start">확인: 생성 기능·고영향·실질적 인사 확정</text>
+<rect x="32" y="777" width="736" height="154" rx="16" fill="#e5eeea" stroke="#c5d3d0" stroke-width="2"/>
+<text x="56" y="821" font-size="31" fill="#236c69" font-weight="700" text-anchor="start">각 행에 함께 남길 근거</text>
+<text x="56" y="865" font-size="28" fill="#172c3b" font-weight="500" text-anchor="start">제공 상대 · 모델 출처 · 중대한 기능 변경</text>
+<text x="56" y="907" font-size="27" fill="#172c3b" font-weight="500" text-anchor="start">공급자 조치 문서 · 법무 매핑 · 가이드 판본</text>
+<text x="40" y="981" font-size="29" fill="#ad4936" font-weight="700" text-anchor="start">자료가 부족하면 미결 → 자료 질의·상담</text>
+<text x="40" y="1024" font-size="28" fill="#172c3b" font-weight="500" text-anchor="start">제공 전환·다운로드 추가·기능 변경 시 재검토</text>
+<text x="40" y="1084" font-size="27" fill="#236c69" font-weight="500" text-anchor="start">실무 운영 제안 · 법정 일괄 제출 양식이 아님</text>
+</g></svg>
