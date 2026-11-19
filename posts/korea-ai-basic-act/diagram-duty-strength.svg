@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1000" viewBox="0 0 800 1000" role="img" aria-labelledby="title desc"><title id="title">조문마다 요구하는 강도가 다르다</title><desc id="desc">제33조 사전 검토는 의무, 장관 확인 요청은 선택, 제34조 고영향 사업자 책무는 의무, 제35조 기본권 영향평가는 노력의무이다. 공급자 제1~3호 조치 인정은 조건부이며 다른 의무까지 면제하지 않는다.</desc>
+<rect width="800" height="1000" rx="22" fill="#f5f2e9"/>
+<g font-family="Noto Sans CJK KR, Noto Sans KR, sans-serif">
+<text x="32" y="53" font-size="34" fill="#172c3b" font-weight="700" text-anchor="start">조문마다 요구하는 강도가 다르다</text>
+<rect x="32" y="89" width="736" height="166" rx="16" fill="#ffffff" stroke="#c5d3d0" stroke-width="2"/>
+<text x="56" y="132" font-size="31" fill="#236c69" font-weight="700" text-anchor="start">제33조 · 사전 검토는 의무</text>
+<text x="56" y="176" font-size="28" fill="#172c3b" font-weight="500" text-anchor="start">AI 제품·서비스 제공 사업자가 사전 검토</text>
+<text x="56" y="221" font-size="30" fill="#ad4936" font-weight="700" text-anchor="start">필요시 장관 확인 요청은 선택</text>
+<rect x="32" y="279" width="736" height="312" rx="16" fill="#ffffff" stroke="#c5d3d0" stroke-width="2"/>
+<text x="56" y="322" font-size="31" fill="#236c69" font-weight="700" text-anchor="start">제34조 · 고영향 사업자 책무는 의무</text>
+<text x="56" y="367" font-size="28" fill="#172c3b" font-weight="500" text-anchor="start">① 위험관리  ② 설명 방안  ③ 이용자 보호</text>
+<text x="56" y="409" font-size="28" fill="#172c3b" font-weight="500" text-anchor="start">④ 사람의 관리·감독</text>
+<text x="56" y="451" font-size="28" fill="#172c3b" font-weight="500" text-anchor="start">⑤ 문서 작성·5년 보관</text>
+<text x="56" y="493" font-size="28" fill="#172c3b" font-weight="500" text-anchor="start">주요 내용·관리감독자 연락처 등 게시</text>
+<text x="56" y="542" font-size="29" fill="#ad4936" font-weight="700" text-anchor="start">공급자 ①~③ 조치 인정은 조건부</text>
+<text x="56" y="577" font-size="27" fill="#172c3b" font-weight="500" text-anchor="start">중대한 기능 변경 없이 제공하는 경우</text>
+<rect x="32" y="615" width="736" height="175" rx="16" fill="#ffffff" stroke="#c5d3d0" stroke-width="2"/>
+<text x="56" y="659" font-size="30" fill="#236c69" font-weight="700" text-anchor="start">제35조 · 기본권 영향평가는 노력의무</text>
+<text x="56" y="704" font-size="29" fill="#172c3b" font-weight="500" text-anchor="start">인공지능취약계층 특성 반영</text>
+<text x="56" y="751" font-size="27" fill="#172c3b" font-weight="500" text-anchor="start">국가기관등 구매·이용 시 실시 제품 우선 고려</text>
+<text x="40" y="846" font-size="29" fill="#ad4936" font-weight="700" text-anchor="start">①~③ 인정으로 ④·⑤·사전 검토까지</text>
+<text x="40" y="889" font-size="29" fill="#ad4936" font-weight="700" text-anchor="start">일괄 면제되지 않음</text>
+<text x="40" y="950" font-size="27" fill="#172c3b" font-weight="500" text-anchor="start">장관 확인 요청은 모든 서비스의 사전 허가가 아님</text>
+</g></svg>

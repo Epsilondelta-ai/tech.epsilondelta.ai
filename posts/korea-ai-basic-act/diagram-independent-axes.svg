@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="830" viewBox="0 0 800 830" role="img" aria-labelledby="title desc"><title id="title">생성형과 고영향은 독립된 질문</title><desc id="desc">생성형 해당 여부와 고영향 해당 여부를 독립적으로 확인한다. 생성형이면서 고영향일 수 있고 생성 기능이 없어도 고영향일 수 있다. 고영향은 법정 영역과 위험의 중대성을 함께 검토한다.</desc>
+<rect width="800" height="830" rx="22" fill="#f5f2e9"/>
+<g font-family="Noto Sans CJK KR, Noto Sans KR, sans-serif">
+<text x="32" y="53" font-size="34" fill="#172c3b" font-weight="700" text-anchor="start">생성형과 고영향은 독립된 질문</text>
+<text x="400" y="109" font-size="29" fill="#236c69" font-weight="700" text-anchor="middle">생성 기능이 있는가? · 제2조제5호</text>
+<text x="255" y="154" font-size="29" fill="#172c3b" font-weight="700" text-anchor="middle">없음</text>
+<text x="590" y="154" font-size="29" fill="#172c3b" font-weight="700" text-anchor="middle">있음</text>
+<rect x="103" y="176" width="310" height="139" rx="16" fill="#ffffff" stroke="#c5d3d0" stroke-width="2"/>
+<text x="258" y="228" font-size="31" fill="#236c69" font-weight="700" text-anchor="middle">비생성형</text>
+<text x="258" y="277" font-size="29" fill="#172c3b" font-weight="600" text-anchor="middle">고영향 비해당</text>
+<rect x="438" y="176" width="310" height="139" rx="16" fill="#e5eeea" stroke="#c5d3d0" stroke-width="2"/>
+<text x="593" y="228" font-size="31" fill="#236c69" font-weight="700" text-anchor="middle">생성형</text>
+<text x="593" y="277" font-size="29" fill="#172c3b" font-weight="600" text-anchor="middle">고영향 비해당</text>
+<rect x="103" y="335" width="310" height="139" rx="16" fill="#f3e3d9" stroke="#c5d3d0" stroke-width="2"/>
+<text x="258" y="387" font-size="31" fill="#236c69" font-weight="700" text-anchor="middle">비생성형</text>
+<text x="258" y="436" font-size="29" fill="#172c3b" font-weight="600" text-anchor="middle">고영향 해당</text>
+<rect x="438" y="335" width="310" height="139" rx="16" fill="#dce6e1" stroke="#c5d3d0" stroke-width="2"/>
+<text x="593" y="387" font-size="31" fill="#236c69" font-weight="700" text-anchor="middle">생성형</text>
+<text x="593" y="436" font-size="29" fill="#172c3b" font-weight="600" text-anchor="middle">고영향 해당</text>
+<text x="54" y="244" font-size="29" fill="#ad4936" font-weight="700" text-anchor="middle">비</text>
+<text x="54" y="281" font-size="26" fill="#ad4936" font-weight="700" text-anchor="middle">해당</text>
+<text x="54" y="389" font-size="26" fill="#ad4936" font-weight="700" text-anchor="middle">해당</text>
+<text x="103" y="519" font-size="30" fill="#ad4936" font-weight="700" text-anchor="start">고영향 판단 · 제2조제4호</text>
+<rect x="32" y="543" width="736" height="133" rx="16" fill="#ffffff" stroke="#c5d3d0" stroke-width="2"/>
+<text x="56" y="589" font-size="30" fill="#236c69" font-weight="700" text-anchor="start">법정 활용 영역  ＋  위험의 중대성</text>
+<text x="56" y="637" font-size="28" fill="#172c3b" font-weight="500" text-anchor="start">두 요건을 모두 검토 · 생성 기능과 별개</text>
+<text x="40" y="726" font-size="29" fill="#172c3b" font-weight="700" text-anchor="start">역할 분류와 시스템 분류도 각각 기록</text>
+<text x="40" y="775" font-size="28" fill="#ad4936" font-weight="500" text-anchor="start">사람의 형식적 클릭만으로 비해당 단정 불가</text>
+</g></svg>
