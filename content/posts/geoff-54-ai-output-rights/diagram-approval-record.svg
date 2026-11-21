@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="740" height="496" viewBox="0 0 740 496" role="img" aria-labelledby="title desc" xml:lang="ko">
+<title id="title">결재에 남길 다섯 줄의 승인 기록</title>
+<desc id="desc">이용 조건에는 적용 약관과 발효일, 입력 확보에는 출처와 허락 범위, 사람의 작업에는 직접 쓴 초안과 편집·변경분, 권리 연결에는 업무 지시와 외주 계약, 배포 점검에는 유사성·고지와 파일 해시를 붙인다. 해시는 파일 동일성 확인에 사용한다.</desc>
+<rect x="0" y="0" width="740" height="496" rx="18" fill="#f8f0e2"/>
+<text x="32.00" y="60" fill="#183140" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="39" font-weight="700">결재 항목에 근거를 붙이기</text>
+<rect x="30" y="84" width="680" height="334" rx="12" fill="#fffaf2"/>
+<rect x="30" y="84" width="680" height="61" rx="12" fill="#183140"/>
+<text x="52.00" y="126" fill="#fffaf2" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="31" font-weight="700">승인 항목</text>
+<text x="274.00" y="126" fill="#fffaf2" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="31" font-weight="700">확인 자료</text>
+<rect x="31" y="145" width="678" height="54" rx="0" fill="#e1ede4"/>
+<text x="52.00" y="182" fill="#126259" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="29" font-weight="700">이용 조건</text>
+<text x="274.00" y="182" fill="#183140" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="29" font-weight="500">적용 약관과 발효일</text>
+<text x="52.00" y="236" fill="#126259" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="29" font-weight="700">입력 확보</text>
+<text x="274.00" y="236" fill="#183140" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="29" font-weight="500">출처와 허락 범위</text>
+<rect x="31" y="253" width="678" height="54" rx="0" fill="#e1ede4"/>
+<text x="52.00" y="290" fill="#126259" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="29" font-weight="700">사람의 작업</text>
+<text x="274.00" y="290" fill="#183140" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="29" font-weight="500">직접 쓴 초안·편집·변경분</text>
+<text x="52.00" y="344" fill="#126259" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="29" font-weight="700">권리 연결</text>
+<text x="274.00" y="344" fill="#183140" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="29" font-weight="500">업무 지시·외주 계약</text>
+<rect x="31" y="361" width="678" height="54" rx="0" fill="#e1ede4"/>
+<text x="52.00" y="398" fill="#126259" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="29" font-weight="700">배포 점검</text>
+<text x="274.00" y="398" fill="#183140" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="29" font-weight="500">유사성·고지·파일 해시</text>
+<text x="32.00" y="467" fill="#9f3e2d" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="28" font-weight="500">파일 해시는 파일의 동일성을 확인하는 데 씁니다</text>
+</svg>

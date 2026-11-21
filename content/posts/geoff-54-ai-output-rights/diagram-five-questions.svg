@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="740" height="496" viewBox="0 0 740 496" role="img" aria-labelledby="title desc" xml:lang="ko">
+<title id="title">결재 전에 나눠 묻는 다섯 가지 질문</title>
+<desc id="desc">계약상 이용 허용, 사람의 창작적 표현, 제3자 권리, 경쟁사의 유사 사용 제한, 회사 권리 귀속을 독립적으로 확인한다.</desc>
+<rect x="0" y="0" width="740" height="496" rx="18" fill="#f8f0e2"/>
+<text x="32.00" y="57" fill="#183140" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="39" font-weight="700">한 산출물에 다섯 가지 질문</text>
+<text x="34.00" y="101" fill="#126259" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="29" font-weight="500">결재할 때 각각의 근거를 확인합니다</text>
+<rect x="30" y="121" width="680" height="61" rx="9" fill="#fffaf2"/>
+<rect x="42" y="129" width="45" height="45" rx="22" fill="#126259"/>
+<text x="56.00" y="163" fill="#fffaf2" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="28" font-weight="700">1</text>
+<text x="101.00" y="163" fill="#183140" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="30" font-weight="700">계약상 이용</text>
+<text x="269.00" y="163" fill="#183140" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="27" font-weight="500">이번 용도로 쓸 수 있나?</text>
+<rect x="30" y="191" width="680" height="61" rx="9" fill="#e1ede4"/>
+<rect x="42" y="199" width="45" height="45" rx="22" fill="#126259"/>
+<text x="56.00" y="233" fill="#fffaf2" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="28" font-weight="700">2</text>
+<text x="101.00" y="233" fill="#183140" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="30" font-weight="700">저작권 성립</text>
+<text x="269.00" y="233" fill="#183140" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="27" font-weight="500">사람이 만든 창작적 표현은?</text>
+<rect x="30" y="261" width="680" height="61" rx="9" fill="#fffaf2"/>
+<rect x="42" y="269" width="45" height="45" rx="22" fill="#9f3e2d"/>
+<text x="56.00" y="303" fill="#fffaf2" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="28" font-weight="700">3</text>
+<text x="101.00" y="303" fill="#183140" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="30" font-weight="700">제3자 권리</text>
+<text x="269.00" y="303" fill="#183140" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="27" font-weight="500">입력 권한과 결과의 유사성은?</text>
+<rect x="30" y="331" width="680" height="61" rx="9" fill="#e1ede4"/>
+<rect x="42" y="339" width="45" height="45" rx="22" fill="#126259"/>
+<text x="56.00" y="373" fill="#fffaf2" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="28" font-weight="700">4</text>
+<text x="101.00" y="373" fill="#183140" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="30" font-weight="700">배타성</text>
+<text x="269.00" y="373" fill="#183140" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="27" font-weight="500">경쟁사의 유사 사용을 막을 수 있나?</text>
+<rect x="30" y="401" width="680" height="61" rx="9" fill="#fffaf2"/>
+<rect x="42" y="409" width="45" height="45" rx="22" fill="#126259"/>
+<text x="56.00" y="443" fill="#fffaf2" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="28" font-weight="700">5</text>
+<text x="101.00" y="443" fill="#183140" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="30" font-weight="700">회사 귀속</text>
+<text x="269.00" y="443" fill="#183140" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="27" font-weight="500">권리가 회사에 어떻게 이어지나?</text>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="740" height="496" viewBox="0 0 740 496" role="img" aria-labelledby="title desc" xml:lang="ko">
+<title id="title">배상 조항과 회사의 권리 연결</title>
+<desc id="desc">공급자의 배상은 약관에 따른 조건부 비용과 방어 책임이다. 회사가 쓸 권리는 직원 작업의 업무상저작물 요건과 외주 계약의 양도·이용허락 범위를 각각 살핀다.</desc>
+<rect x="0" y="0" width="740" height="496" rx="18" fill="#f8f0e2"/>
+<text x="32.00" y="58" fill="#183140" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="39" font-weight="700">배상 조건과 회사의 권리</text>
+<rect x="30" y="84" width="680" height="140" rx="14" fill="#183140"/>
+<text x="50.00" y="127" fill="#fffaf2" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="33" font-weight="700">공급자 배상 조항</text>
+<text x="50.00" y="170" fill="#fffaf2" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="31" font-weight="500">조건에 따른 비용·방어 책임</text>
+<text x="50.00" y="207" fill="#d4eae0" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="28" font-weight="500">대상 요금제 · 적용 범위 · 제외 사유</text>
+<rect x="30" y="242" width="680" height="222" rx="14" fill="#fffaf2"/>
+<text x="50.00" y="290" fill="#183140" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="33" font-weight="700">회사로 이어지는 권리</text>
+<path d="M50 312H686V312" fill="none" stroke="#d7cbb9" stroke-width="2"/>
+<text x="50.00" y="360" fill="#126259" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="30" font-weight="700">직원 작업</text>
+<text x="248.00" y="360" fill="#183140" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="30" font-weight="500">업무상저작물 요건 확인</text>
+<path d="M50 383H686V383" fill="none" stroke="#d7cbb9" stroke-width="2"/>
+<text x="50.00" y="431" fill="#9f3e2d" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="30" font-weight="700">외주 작업</text>
+<text x="248.00" y="431" fill="#183140" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="30" font-weight="500">양도·이용허락 범위 확인</text>
+</svg>
