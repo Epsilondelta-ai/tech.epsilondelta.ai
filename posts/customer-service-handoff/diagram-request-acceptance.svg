@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="600" viewBox="0 0 720 600" role="img" aria-labelledby="title desc" xml:lang="ko">
+<title id="title">요청과 인수 사이에는 대기가 있습니다</title>
+<desc id="desc">AI 이관 요청 뒤 대기하고 상담원이 실제로 맡으면 인수 상태가 된다. 인수 뒤 AI 자동 응답과 재시도를 멈춘다. 업무시간 밖이거나 대기열이 차면 티켓으로 접수하고 회신 경로와 예상 시점을 안내한다.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="4" markerHeight="4" orient="auto"><path fill="#688374" d="M0 0L10 5L0 10Z"/></marker></defs>
+<rect x="0" y="0" width="720" height="600" rx="22" fill="#f8eedf"/>
+<text x="32" y="63" fill="#17372f" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="39" font-weight="700" text-anchor="start">요청과 인수 사이에는 대기가 있습니다</text>
+<rect x="30" y="95" width="335" height="91" rx="14" fill="#fffaf1"/>
+<text x="50" y="132" fill="#17372f" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="34" font-weight="700" text-anchor="start">AI 이관 요청</text>
+<text x="50" y="170" fill="#17372f" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="30" font-weight="500" text-anchor="start">인계 메모 전달</text>
+<rect x="30" y="218" width="335" height="91" rx="14" fill="#fffaf1"/>
+<text x="50" y="255" fill="#17372f" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="34" font-weight="700" text-anchor="start">상담 대기</text>
+<text x="50" y="293" fill="#17372f" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="30" font-weight="500" text-anchor="start">현재 대기 상태 안내</text>
+<rect x="30" y="365" width="335" height="91" rx="14" fill="#225848"/>
+<text x="50" y="402" fill="#fffaf1" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="34" font-weight="700" text-anchor="start">상담원 인수</text>
+<text x="50" y="440" fill="#fffaf1" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="30" font-weight="500" text-anchor="start">AI 자동 응답·재시도 중지</text>
+<rect x="30" y="510" width="335" height="62" rx="14" fill="#fffaf1"/>
+<text x="50" y="552" fill="#17372f" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="34" font-weight="700" text-anchor="start">상담 처리 완료</text>
+<path d="M197 188V212" stroke="#688374" stroke-width="3" fill="none" stroke-linecap="round" marker-end="url(#arrow)"/>
+<path d="M197 311V359" stroke="#688374" stroke-width="3" fill="none" stroke-linecap="round" marker-end="url(#arrow)"/>
+<path d="M197 458V504" stroke="#688374" stroke-width="3" fill="none" stroke-linecap="round" marker-end="url(#arrow)"/>
+<path d="M366 262H394" stroke="#688374" stroke-width="3" fill="none" stroke-linecap="round" marker-end="url(#arrow)" stroke-dasharray="6 6"/>
+<rect x="401" y="219" width="289" height="237" rx="14" fill="#f1d1b7"/>
+<text x="423" y="256" fill="#793c24" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="31" font-weight="500" text-anchor="start">업무시간 밖이거나</text>
+<text x="423" y="294" fill="#793c24" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="31" font-weight="500" text-anchor="start">대기열이 차면</text>
+<path d="M423 312H668" stroke="#b8876e" stroke-width="2" fill="none" stroke-linecap="round"/>
+<text x="423" y="354" fill="#793c24" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="34" font-weight="700" text-anchor="start">티켓으로 접수</text>
+<text x="423" y="395" fill="#793c24" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="30" font-weight="500" text-anchor="start">회신 경로와</text>
+<text x="423" y="433" fill="#793c24" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="30" font-weight="500" text-anchor="start">예상 시점 안내</text>
+</svg>

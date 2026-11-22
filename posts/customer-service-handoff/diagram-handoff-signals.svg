@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="624" viewBox="0 0 720 624" role="img" aria-labelledby="title desc" xml:lang="ko">
+<title id="title">사람을 부르는 신호</title>
+<desc id="desc">직접 상담원 연결 요청, 미리 정한 조건, 해결 진전 정체, 업무 시스템의 보류 또는 불일치에 따라 이관을 요청하거나 연결을 제안한다.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="4" markerHeight="4" orient="auto"><path fill="#688374" d="M0 0L10 5L0 10Z"/></marker></defs>
+<rect x="0" y="0" width="720" height="624" rx="22" fill="#f8eedf"/>
+<text x="31" y="66" fill="#17372f" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="43" font-weight="700" text-anchor="start">사람을 부르는 신호</text>
+<path d="M60 141V511" stroke="#88a08e" stroke-width="4" fill="none" stroke-linecap="round"/>
+<rect x="95" y="99" width="596" height="102" rx="14" fill="#fffaf1"/>
+<path d="M61 149H88" stroke="#688374" stroke-width="3" fill="none" stroke-linecap="round" marker-end="url(#arrow)"/>
+<circle cx="59" cy="149" r="11" fill="#225848"/>
+<text x="118" y="139" fill="#17372f" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="34" font-weight="700" text-anchor="start">직접 연결 요청</text>
+<text x="118" y="179" fill="#225848" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="31" font-weight="500" text-anchor="start">질문을 반복시키지 않고 이관 요청</text>
+<rect x="95" y="215" width="596" height="102" rx="14" fill="#fffaf1"/>
+<path d="M61 265H88" stroke="#688374" stroke-width="3" fill="none" stroke-linecap="round" marker-end="url(#arrow)"/>
+<circle cx="59" cy="265" r="11" fill="#225848"/>
+<text x="118" y="255" fill="#17372f" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="34" font-weight="700" text-anchor="start">미리 정한 주제·고객 조건</text>
+<text x="118" y="295" fill="#225848" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="31" font-weight="500" text-anchor="start">정해 둔 규칙으로 담당 팀에 전달</text>
+<rect x="95" y="331" width="596" height="102" rx="14" fill="#fffaf1"/>
+<path d="M61 381H88" stroke="#688374" stroke-width="3" fill="none" stroke-linecap="round" marker-end="url(#arrow)"/>
+<circle cx="59" cy="381" r="11" fill="#793c24"/>
+<text x="118" y="371" fill="#17372f" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="34" font-weight="700" text-anchor="start">해결이 진전되지 않는 대화</text>
+<text x="118" y="411" fill="#225848" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="31" font-weight="500" text-anchor="start">연결을 제안하거나 설정 규칙 적용</text>
+<rect x="95" y="447" width="596" height="102" rx="14" fill="#fffaf1"/>
+<path d="M61 497H88" stroke="#688374" stroke-width="3" fill="none" stroke-linecap="round" marker-end="url(#arrow)"/>
+<circle cx="59" cy="497" r="11" fill="#225848"/>
+<text x="118" y="487" fill="#17372f" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="34" font-weight="700" text-anchor="start">업무 시스템 보류·불일치</text>
+<text x="118" y="527" fill="#225848" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="31" font-weight="500" text-anchor="start">시스템 규칙으로 이관 신호 발생</text>
+<text x="30" y="599" fill="#793c24" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="30" font-weight="500" text-anchor="start">강한 불만은 진전 여부를 판단할 보조 신호</text>
+</svg>
