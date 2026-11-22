@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="716" viewBox="0 0 720 716" role="img" aria-labelledby="title desc" xml:lang="ko">
+<title id="title">업무마다 다른 자동화 경계</title>
+<desc id="desc">인증 실패는 더 엄격한 본인 확인으로, 기록과 고객 주장의 불일치는 조사로, 환불 예외·보류·실패는 사람의 복구와 안내로 넘긴다.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="4" markerHeight="4" orient="auto"><path fill="#688374" d="M0 0L10 5L0 10Z"/></marker></defs>
+<rect x="0" y="0" width="720" height="716" rx="22" fill="#f8eedf"/>
+<text x="30" y="65" fill="#17372f" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="43" font-weight="700" text-anchor="start">업무마다 다른 자동화 경계</text>
+<rect x="28" y="90" width="324" height="56" rx="14" fill="#225848"/>
+<rect x="368" y="90" width="324" height="56" rx="14" fill="#f1d1b7"/>
+<text x="190" y="129" fill="#fffaf1" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="33" font-weight="700" text-anchor="middle">AI가 맡는 일</text>
+<text x="530" y="129" fill="#793c24" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="33" font-weight="700" text-anchor="middle">사람이 맡는 일</text>
+<rect x="28" y="162" width="664" height="148" rx="14" fill="#fffaf1"/>
+<text x="48" y="202" fill="#17372f" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="33" font-weight="700" text-anchor="start">비밀번호 재설정</text>
+<path d="M360 213V294" stroke="#d6cbb9" stroke-width="3" fill="none" stroke-linecap="round"/>
+<text x="48" y="248" fill="#17372f" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="32" font-weight="500" text-anchor="start">본인 확인 후</text>
+<text x="385" y="248" fill="#793c24" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="32" font-weight="500" text-anchor="start">자동 인증 실패 시</text>
+<text x="48" y="285" fill="#17372f" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="32" font-weight="500" text-anchor="start">정해진 절차로 재설정</text>
+<text x="385" y="285" fill="#793c24" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="32" font-weight="500" text-anchor="start">더 엄격한 본인 확인</text>
+<rect x="28" y="322" width="664" height="148" rx="14" fill="#fffaf1"/>
+<text x="48" y="362" fill="#17372f" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="33" font-weight="700" text-anchor="start">결제 문의</text>
+<path d="M360 373V454" stroke="#d6cbb9" stroke-width="3" fill="none" stroke-linecap="round"/>
+<text x="48" y="408" fill="#17372f" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="32" font-weight="500" text-anchor="start">결제일·승인 등</text>
+<text x="385" y="408" fill="#793c24" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="32" font-weight="500" text-anchor="start">청구 이의 접수 후</text>
+<text x="48" y="445" fill="#17372f" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="32" font-weight="500" text-anchor="start">기록 조회</text>
+<text x="385" y="445" fill="#793c24" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="32" font-weight="500" text-anchor="start">기록과 주장 대조</text>
+<rect x="28" y="482" width="664" height="148" rx="14" fill="#fffaf1"/>
+<text x="48" y="522" fill="#17372f" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="33" font-weight="700" text-anchor="start">환불 요청</text>
+<path d="M360 533V614" stroke="#d6cbb9" stroke-width="3" fill="none" stroke-linecap="round"/>
+<text x="48" y="568" fill="#17372f" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="32" font-weight="500" text-anchor="start">정책·자격 확인 후</text>
+<text x="385" y="568" fill="#793c24" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="32" font-weight="500" text-anchor="start">예외·보류·실패 시</text>
+<text x="48" y="605" fill="#17372f" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="32" font-weight="500" text-anchor="start">조건에 맞으면 요청</text>
+<text x="385" y="605" fill="#793c24" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="32" font-weight="500" text-anchor="start">복구와 안내</text>
+<text x="31" y="690" fill="#793c24" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="33" font-weight="700" text-anchor="start">환불 요청 접수와 지급 완료는 별개</text>
+</svg>

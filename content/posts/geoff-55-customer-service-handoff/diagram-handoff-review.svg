@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="608" viewBox="0 0 720 608" role="img" aria-labelledby="title desc" xml:lang="ko">
+<title id="title">인계가 작동하는지 보는 다섯 지점</title>
+<desc id="desc">이관 판단, 대기와 인수, 첫 상담, 처리 결과, 종료 후 단계에서 각각 누락·불필요한 이관, 인수율·대기시간, 반복 설명, 결과 일치, 동일 사안 재문의를 확인한다.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="4" markerHeight="4" orient="auto"><path fill="#688374" d="M0 0L10 5L0 10Z"/></marker></defs>
+<rect x="0" y="0" width="720" height="608" rx="22" fill="#f8eedf"/>
+<text x="31" y="66" fill="#17372f" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="42" font-weight="700" text-anchor="start">인계가 작동하는지 보는 다섯 지점</text>
+<path d="M57 146V539" stroke="#88a08e" stroke-width="4" fill="none" stroke-linecap="round"/>
+<circle cx="57" cy="146" r="10" fill="#225848"/>
+<path d="M66 146H86" stroke="#88a08e" stroke-width="3" fill="none" stroke-linecap="round"/>
+<rect x="87" y="102" width="603" height="89" rx="14" fill="#fffaf1"/>
+<text x="111" y="136" fill="#225848" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="29" font-weight="700" text-anchor="start">이관 판단</text>
+<text x="111" y="175" fill="#17372f" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="34" font-weight="700" text-anchor="start">이관 누락·불필요한 이관</text>
+<circle cx="57" cy="244" r="10" fill="#225848"/>
+<path d="M66 244H86" stroke="#88a08e" stroke-width="3" fill="none" stroke-linecap="round"/>
+<rect x="87" y="200" width="603" height="89" rx="14" fill="#fffaf1"/>
+<text x="111" y="234" fill="#225848" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="29" font-weight="700" text-anchor="start">대기와 인수</text>
+<text x="111" y="273" fill="#17372f" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="34" font-weight="700" text-anchor="start">실제 인수율·인수 대기시간</text>
+<circle cx="57" cy="342" r="10" fill="#225848"/>
+<path d="M66 342H86" stroke="#88a08e" stroke-width="3" fill="none" stroke-linecap="round"/>
+<rect x="87" y="298" width="603" height="89" rx="14" fill="#fffaf1"/>
+<text x="111" y="332" fill="#225848" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="29" font-weight="700" text-anchor="start">상담 시작</text>
+<text x="111" y="371" fill="#17372f" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="34" font-weight="700" text-anchor="start">필수 본인 확인을 뺀 반복 설명</text>
+<circle cx="57" cy="440" r="10" fill="#225848"/>
+<path d="M66 440H86" stroke="#88a08e" stroke-width="3" fill="none" stroke-linecap="round"/>
+<rect x="87" y="396" width="603" height="89" rx="14" fill="#fffaf1"/>
+<text x="111" y="430" fill="#225848" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="29" font-weight="700" text-anchor="start">처리 결과</text>
+<text x="111" y="469" fill="#17372f" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="34" font-weight="700" text-anchor="start">고객 안내와 시스템 결과 일치</text>
+<circle cx="57" cy="538" r="10" fill="#225848"/>
+<path d="M66 538H86" stroke="#88a08e" stroke-width="3" fill="none" stroke-linecap="round"/>
+<rect x="87" y="494" width="603" height="89" rx="14" fill="#fffaf1"/>
+<text x="111" y="528" fill="#225848" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="29" font-weight="700" text-anchor="start">상담 종료 후</text>
+<text x="111" y="567" fill="#17372f" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="34" font-weight="700" text-anchor="start">동일 사안 재문의</text>
+</svg>
