@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="648" viewBox="0 0 720 648" role="img" xml:lang="ko" aria-labelledby="title desc">
+<title id="title">고객만족도 점수에 들어가는 응답</title>
+<desc id="desc">전체 상담 가운데 발송 조건을 충족한 대상에게 설문을 보내고 실제 응답자의 평점으로 점수를 집계합니다. 발송 조건, 발송 대비 응답률, 이슈 유형·채널·처리 결과별 응답자 구성을 확인합니다.</desc>
+<rect x="1" y="1" width="718" height="646" rx="24" fill="#f8f2e7" stroke="#d4cec1" stroke-width="2"/>
+<g font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif">
+<text x="36" y="72" font-size="42" font-weight="750" fill="#172b3c" text-anchor="start">누가 만족도 점수에 들어가나요?</text>
+<rect x="36" y="111" width="648" height="83" rx="18" fill="#fffdf8" stroke="#d4cec1" stroke-width="2"/>
+<text x="64" y="164" font-size="38" font-weight="750" fill="#172b3c" text-anchor="start">전체 상담</text>
+<path d="M80 200v22 m-8 -8 8 8 8 -8" stroke="#3d5060" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="36" y="228" width="648" height="85" rx="18" fill="#fffdf8" stroke="#d4cec1" stroke-width="2"/>
+<text x="64" y="283" font-size="37" font-weight="750" fill="#172b3c" text-anchor="start">설문 발송 대상</text>
+<text x="656" y="283" font-size="31" font-weight="650" fill="#3d5060" text-anchor="end">발송 조건·채널 확인</text>
+<path d="M80 320v22 m-8 -8 8 8 8 -8" stroke="#3d5060" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="36" y="348" width="648" height="85" rx="18" fill="#dcece5" stroke="none" stroke-width="2"/>
+<text x="64" y="403" font-size="37" font-weight="750" fill="#155952" text-anchor="start">실제 응답자</text>
+<text x="656" y="403" font-size="31" font-weight="650" fill="#155952" text-anchor="end">발송 대비 응답률 확인</text>
+<path d="M36 467 L684 467" fill="none" stroke="#d4cec1" stroke-width="3"/>
+<text x="36" y="525" font-size="38" font-weight="750" fill="#172b3c" text-anchor="start">평균과 함께 볼 응답자 구성</text>
+<rect x="36" y="551" width="196" height="61" rx="13" fill="#f3e1d3" stroke="none" stroke-width="2"/>
+<rect x="246" y="551" width="160" height="61" rx="13" fill="#f3e1d3" stroke="none" stroke-width="2"/>
+<rect x="420" y="551" width="264" height="61" rx="13" fill="#f3e1d3" stroke="none" stroke-width="2"/>
+<text x="134" y="592" font-size="33" font-weight="700" fill="#863d24" text-anchor="middle">이슈 유형</text>
+<text x="326" y="592" font-size="33" font-weight="700" fill="#863d24" text-anchor="middle">채널</text>
+<text x="552" y="592" font-size="33" font-weight="700" fill="#863d24" text-anchor="middle">처리 결과</text>
+</g>
+</svg>
