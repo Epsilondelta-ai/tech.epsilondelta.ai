@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="614" viewBox="0 0 720 614" role="img" xml:lang="ko" aria-labelledby="title desc">
+<title id="title">같은 고객 문제를 확인하는 세 가지 증거</title>
+<desc id="desc">관측 기간이 끝난 건의 채팅과 이메일을 고객 및 주문 키로 묶어 재문의를 확인합니다. 거래형 문의의 원장과 주문 기록을 대조합니다. 사람은 제품의 해결 라벨을 가린 채 층화 표본을 검수합니다.</desc>
+<rect x="1" y="1" width="718" height="612" rx="24" fill="#f8f2e7" stroke="#d4cec1" stroke-width="2"/>
+<g font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif">
+<text x="36" y="71" font-size="42" font-weight="750" fill="#172b3c" text-anchor="start">같은 문제를 확인하는 세 가지 증거</text>
+<rect x="36" y="105" width="648" height="142" rx="18" fill="#fffdf8" stroke="#d4cec1" stroke-width="2"/>
+<rect x="36" y="259" width="648" height="142" rx="18" fill="#fffdf8" stroke="#d4cec1" stroke-width="2"/>
+<rect x="36" y="413" width="648" height="160" rx="18" fill="#fffdf8" stroke="#d4cec1" stroke-width="2"/>
+<rect x="52" y="122" width="7" height="108" rx="3" fill="#155952" stroke="none" stroke-width="2"/>
+<rect x="52" y="276" width="7" height="108" rx="3" fill="#863d24" stroke="none" stroke-width="2"/>
+<rect x="52" y="430" width="7" height="126" rx="3" fill="#3d5060" stroke="none" stroke-width="2"/>
+<text x="80" y="156" font-size="37" font-weight="750" fill="#155952" text-anchor="start">동일 이슈 재문의</text>
+<text x="80" y="197" font-size="30" font-weight="550" fill="#172b3c" text-anchor="start">관측 기간이 끝난 건을 대상으로</text>
+<text x="80" y="232" font-size="30" font-weight="550" fill="#172b3c" text-anchor="start">고객·주문 키로 채팅과 이메일 연결</text>
+<text x="80" y="310" font-size="37" font-weight="750" fill="#863d24" text-anchor="start">업무 시스템의 최종 상태</text>
+<text x="80" y="351" font-size="30" font-weight="550" fill="#172b3c" text-anchor="start">거래형 문의는 결제 원장·주문에서</text>
+<text x="80" y="386" font-size="30" font-weight="550" fill="#172b3c" text-anchor="start">환불·변경이 실제 완료됐는지 확인</text>
+<text x="80" y="465" font-size="37" font-weight="750" fill="#172b3c" text-anchor="start">사람의 표본 검수</text>
+<text x="80" y="509" font-size="30" font-weight="550" fill="#172b3c" text-anchor="start">제품의 해결 라벨을 가리고 층화 표본의</text>
+<text x="80" y="546" font-size="30" font-weight="550" fill="#172b3c" text-anchor="start">최초 요청·후속 접촉·업무 결과 대조</text>
+</g>
+</svg>

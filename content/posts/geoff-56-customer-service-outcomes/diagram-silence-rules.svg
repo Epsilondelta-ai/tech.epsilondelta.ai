@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="612" viewBox="0 0 720 612" role="img" xml:lang="ko" aria-labelledby="title desc">
+<title id="title">답변 후 무응답과 제품별 해결 판정</title>
+<desc id="desc">답변 후 고객의 응답 없이 대화가 끝나면 Fin은 추정 해결로 분류할 수 있습니다. Zendesk는 대화 텍스트 검증 통과 여부에 따라 검증된 해결과 억제된 해결로 나눕니다. 실제 고객 문제 해결은 별도로 확인해야 합니다.</desc>
+<rect x="1" y="1" width="718" height="610" rx="24" fill="#f8f2e7" stroke="#d4cec1" stroke-width="2"/>
+<g font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif">
+<rect x="36" y="32" width="648" height="112" rx="18" fill="#dcece5" stroke="none" stroke-width="2"/>
+<text x="360" y="79" font-size="36" font-weight="750" fill="#155952" text-anchor="middle">AI가 답변한 뒤</text>
+<text x="360" y="122" font-size="35" font-weight="650" fill="#155952" text-anchor="middle">고객 응답 없이 대화가 끝나면</text>
+<path d="M360 145 L360 163" fill="none" stroke="#3d5060" stroke-width="3"/>
+<path d="M189 163 L531 163" fill="none" stroke="#3d5060" stroke-width="3"/>
+<path d="M189 163v22 m-8 -8 8 8 8 -8" stroke="#3d5060" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M531 163v22 m-8 -8 8 8 8 -8" stroke="#3d5060" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="36" y="200" width="306" height="292" rx="18" fill="#fffdf8" stroke="#d4cec1" stroke-width="2"/>
+<rect x="378" y="200" width="306" height="292" rx="18" fill="#fffdf8" stroke="#d4cec1" stroke-width="2"/>
+<text x="58" y="252" font-size="41" font-weight="750" fill="#172b3c" text-anchor="start">Fin</text>
+<text x="400" y="252" font-size="41" font-weight="750" fill="#172b3c" text-anchor="start">Zendesk</text>
+<path d="M58 272 L320 272" fill="none" stroke="#d4cec1" stroke-width="3"/>
+<path d="M400 272 L662 272" fill="none" stroke="#d4cec1" stroke-width="3"/>
+<text x="58" y="331" font-size="37" font-weight="750" fill="#155952" text-anchor="start">추정된 해결</text>
+<text x="400" y="323" font-size="32" font-weight="650" fill="#172b3c" text-anchor="start">대화 텍스트 검증</text>
+<text x="400" y="380" font-size="31" font-weight="700" fill="#155952" text-anchor="start">통과</text>
+<text x="662" y="380" font-size="32" font-weight="750" fill="#155952" text-anchor="end">검증된 해결</text>
+<text x="400" y="438" font-size="31" font-weight="700" fill="#863d24" text-anchor="start">미통과</text>
+<text x="662" y="438" font-size="32" font-weight="750" fill="#863d24" text-anchor="end">억제된 해결</text>
+<rect x="36" y="516" width="648" height="62" rx="12" fill="#f3e1d3" stroke="none" stroke-width="2"/>
+<text x="360" y="558" font-size="33" font-weight="750" fill="#863d24" text-anchor="middle">실제 고객 문제 해결은 별도 확인</text>
+</g>
+</svg>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="546" viewBox="0 0 720 546" role="img" xml:lang="ko" aria-labelledby="title desc">
+<title id="title">분모의 범위와 해결률</title>
+<desc id="desc">설명용 계산에서 해결 건수 250건은 같습니다. 제약 대화를 넣으면 750건 중 약 33%, 빼면 500건 중 50%입니다. 전체 1,000건 대비 자동화 기여율은 25%입니다.</desc>
+<rect x="1" y="1" width="718" height="544" rx="24" fill="#f8f2e7" stroke="#d4cec1" stroke-width="2"/>
+<g font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif">
+<text x="40" y="68" font-size="44" font-weight="750" fill="#172b3c" text-anchor="start">분모가 달라질 때</text>
+<text x="40" y="120" font-size="32" font-weight="550" fill="#3d5060" text-anchor="start">설명용 계산 · 해결 건수는 250건</text>
+<rect x="36" y="154" width="312" height="239" rx="18" fill="#fffdf8" stroke="#d4cec1" stroke-width="2"/>
+<rect x="372" y="154" width="312" height="239" rx="18" fill="#fffdf8" stroke="#d4cec1" stroke-width="2"/>
+<text x="192" y="207" font-size="35" font-weight="700" fill="#172b3c" text-anchor="middle">제약 대화 포함</text>
+<text x="528" y="207" font-size="35" font-weight="700" fill="#172b3c" text-anchor="middle">제약 대화 제외</text>
+<text x="192" y="270" font-size="42" font-weight="550" fill="#172b3c" text-anchor="middle">250 ÷ 750</text>
+<text x="528" y="270" font-size="42" font-weight="550" fill="#172b3c" text-anchor="middle">250 ÷ 500</text>
+<path d="M68 296 L316 296" fill="none" stroke="#d4cec1" stroke-width="3"/>
+<path d="M404 296 L652 296" fill="none" stroke="#d4cec1" stroke-width="3"/>
+<text x="192" y="354" font-size="47" font-weight="750" fill="#155952" text-anchor="middle">약 33%</text>
+<text x="528" y="354" font-size="47" font-weight="750" fill="#155952" text-anchor="middle">50%</text>
+<rect x="36" y="418" width="648" height="94" rx="18" fill="#dcece5" stroke="none" stroke-width="2"/>
+<text x="60" y="477" font-size="34" font-weight="700" fill="#155952" text-anchor="start">전체 대비 자동화율</text>
+<text x="660" y="477" font-size="32" font-weight="700" fill="#155952" text-anchor="end">250 ÷ 1,000 = 25%</text>
+</g>
+</svg>
