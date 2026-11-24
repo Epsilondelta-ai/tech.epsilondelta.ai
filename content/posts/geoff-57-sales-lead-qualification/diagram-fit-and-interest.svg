@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="484" viewBox="0 0 720 484" role="img" aria-labelledby="title desc" xml:lang="ko">
+  <title id="title">영업 자격을 판단하는 네 가지 근거</title>
+  <desc id="desc">고객군 적합성, 표현한 관심, 구매 추진 조건, 영업 수락을 각각 다른 근거로 확인합니다.</desc>
+  <style>
+    text {font-family:"Noto Sans CJK KR","Noto Sans KR","Apple SD Gothic Neo","Malgun Gothic",sans-serif;fill:#172b3b}
+    .head {font-size:35px;font-weight:700}
+    .body {font-size:30px;font-weight:500}
+    .small {font-size:28px;font-weight:500}
+    .navy {fill:#273958}
+    .teal {fill:#125457}
+    .rust {fill:#973e20}
+    .white {fill:#fff9ee}
+  </style>
+  <rect width="720" height="484" rx="24" fill="#fbf4e7"/>
+  <g>
+    <rect x="26" y="26" width="324" height="206" rx="18" fill="#e5eaf2"/>
+    <rect x="370" y="26" width="324" height="206" rx="18" fill="#dcece6"/>
+    <rect x="26" y="252" width="324" height="206" rx="18" fill="#fae7d7"/>
+    <rect x="370" y="252" width="324" height="206" rx="18" fill="#efe7da"/>
+  </g>
+  <g fill="none" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M49 91V56h24v35m0-25h11v25H49m8-25h7m-7 9h7m-7 8h7" stroke="#273958"/>
+    <path d="M396 57h33q6 0 6 6v17q0 6-6 6h-20l-9 8v-8h-4q-6 0-6-6V63q0-6 6-6zm5 13h22m-22 7h15" stroke="#125457"/>
+    <path d="M50 286h33v31H50zm0 9h33m-25-15v11m17-11v11m-16 13h6m6 0h5" stroke="#973e20"/>
+    <path d="M393 285h36v34h-36zm8 17 6 6 13-14" stroke="#273958"/>
+  </g>
+  <text x="50" y="143" class="head navy">고객군 적합성</text>
+  <text x="50" y="183" class="body">업종·규모·지역</text>
+  <text x="50" y="215" class="body">제품 적용 가능성</text>
+  <text x="394" y="143" class="head teal">표현한 관심</text>
+  <text x="394" y="183" class="body">고객이 질문한 내용</text>
+  <text x="394" y="215" class="body">답변 내용과 시점</text>
+  <text x="50" y="369" class="head rust">구매 추진 조건</text>
+  <text x="50" y="409" class="body">과제·구매 절차</text>
+  <text x="50" y="441" class="body">예산·도입 시점</text>
+  <text x="394" y="369" class="head navy">영업 수락</text>
+  <text x="394" y="409" class="body">담당자의 수락 기록</text>
+  <text x="394" y="441" class="body">다음 행동과 기한</text>
+</svg>
