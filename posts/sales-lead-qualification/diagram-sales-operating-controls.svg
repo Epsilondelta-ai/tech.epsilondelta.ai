@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="476" viewBox="0 0 720 476" role="img" aria-labelledby="title desc" xml:lang="ko">
+  <title id="title">영업 AI 운영에서 남길 세 가지 기록</title>
+  <desc id="desc">영업 담당자의 처리 사유를 주간 교정에 쓰고, CRM 식별자로 중복과 기존 고객을 분리합니다. 같은 유입 코호트를 충분히 관찰해 수락, 기회 생성, 수주를 각각 봅니다.</desc>
+  <style>
+    text {font-family:"Noto Sans CJK KR","Noto Sans KR","Apple SD Gothic Neo","Malgun Gothic",sans-serif;fill:#172b3b}
+    .head {font-size:35px;font-weight:700}
+    .body {font-size:30px;font-weight:500}
+    .small {font-size:28px;font-weight:500}
+    .navy {fill:#273958}
+    .teal {fill:#125457}
+    .rust {fill:#973e20}
+    .white {fill:#fff9ee}
+  </style>
+  <rect width="720" height="476" rx="24" fill="#fbf4e7"/>
+  <g fill="#fffaf0" stroke="#ded4c1" stroke-width="2">
+    <rect x="26" y="24" width="668" height="132" rx="18"/>
+    <rect x="26" y="172" width="668" height="132" rx="18"/>
+    <rect x="26" y="320" width="668" height="132" rx="18"/>
+  </g>
+  <g>
+    <circle cx="84" cy="90" r="31" fill="#e5eaf2"/>
+    <circle cx="84" cy="238" r="31" fill="#dcece6"/>
+    <circle cx="84" cy="386" r="31" fill="#fae7d7"/>
+  </g>
+  <g fill="none" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M73 72h22v35H73zm5 11h12m-12 7h12m-12 7h9" stroke="#273958"/>
+    <path d="M66 228h15v15H66zm21 7h15v15H87zm-6 1h6" stroke="#125457"/>
+    <path d="M67 375h34v27H67zm0 7h34m-26-11v8m17-8v8m-15 12h5m6 0h5" stroke="#973e20"/>
+  </g>
+  <text x="136" y="73" class="head navy">영업 처리 기록</text>
+  <text x="136" y="113" class="body">수락·보류·거절과 사유를 남겨</text>
+  <text x="136" y="143" class="body">주간 검토에서 기준 교정</text>
+  <text x="136" y="221" class="head teal">CRM 식별자</text>
+  <text x="136" y="261" class="body">사람·회사·리드·기회별로 식별</text>
+  <text x="136" y="291" class="body">중복과 기존 고객 문의 분리</text>
+  <text x="136" y="369" class="head rust">성숙 코호트</text>
+  <text x="136" y="409" class="body">같은 유입 집단을 충분히 관찰</text>
+  <text x="136" y="439" class="body">수락·기회 생성·수주를 따로 집계</text>
+</svg>

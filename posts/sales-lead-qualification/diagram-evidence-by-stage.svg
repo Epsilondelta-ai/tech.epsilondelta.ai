@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="488" viewBox="0 0 720 488" role="img" aria-labelledby="title desc" xml:lang="ko">
+  <title id="title">접촉부터 수주까지 단계별로 확인할 근거</title>
+  <desc id="desc">최초 접촉 시각, 답장, CRM 기회 생성, 최종 수주를 따로 확인합니다. 사례 지표는 각 단계의 분모를 살핍니다.</desc>
+  <style>
+    text {font-family:"Noto Sans CJK KR","Noto Sans KR","Apple SD Gothic Neo","Malgun Gothic",sans-serif;fill:#172b3b}
+    .head {font-size:35px;font-weight:700}
+    .body {font-size:30px;font-weight:500}
+    .small {font-size:28px;font-weight:500}
+    .navy {fill:#273958}
+    .teal {fill:#125457}
+    .rust {fill:#973e20}
+    .white {fill:#fff9ee}
+  </style>
+  <rect width="720" height="488" rx="24" fill="#fbf4e7"/>
+  <rect x="26" y="26" width="668" height="436" rx="18" fill="#fffaf0" stroke="#d8cdb9" stroke-width="2"/>
+  <rect x="26" y="26" width="668" height="68" rx="18" fill="#273958"/>
+  <path d="M26 72h668v22H26z" fill="#273958"/>
+  <text x="66" y="72" class="head white">단계</text>
+  <text x="320" y="72" class="head white">확인할 기록</text>
+  <g stroke="#d8cdb9" stroke-width="2">
+    <path d="M47 166h626M47 238h626M47 310h626M47 382h626M289 108v265"/>
+  </g>
+  <g class="head">
+    <text x="66" y="142" class="navy">최초 접촉</text>
+    <text x="66" y="214" class="navy">응답</text>
+    <text x="66" y="286" class="teal">기회 생성</text>
+    <text x="66" y="358" class="rust">수주</text>
+  </g>
+  <g class="body">
+    <text x="320" y="142">유입과 첫 연락 시각</text>
+    <text x="320" y="214">고객이 보낸 답장</text>
+    <text x="320" y="286">CRM 기회 등록</text>
+    <text x="320" y="358">CRM 최종 수주 기록</text>
+  </g>
+  <rect x="48" y="400" width="624" height="45" rx="8" fill="#f0e4d2"/>
+  <text x="360" y="432" text-anchor="middle" class="small">비율을 읽을 때는 단계별 분모부터 확인</text>
+</svg>

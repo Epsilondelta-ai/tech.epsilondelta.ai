@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="524" viewBox="0 0 720 524" role="img" aria-labelledby="title desc" xml:lang="ko">
+  <title id="title">도구별로 집계하는 사건</title>
+  <desc id="desc">조건 분기에 따른 연결이나 예약, 기회 없이 기록될 수 있는 리드 상태, 거래에 연결된 연락처나 회사는 서로 다른 기록입니다.</desc>
+  <style>
+    text {font-family:"Noto Sans CJK KR","Noto Sans KR","Apple SD Gothic Neo","Malgun Gothic",sans-serif;fill:#172b3b}
+    .head {font-size:35px;font-weight:700}
+    .body {font-size:30px;font-weight:500}
+    .small {font-size:28px;font-weight:500}
+    .navy {fill:#273958}
+    .teal {fill:#125457}
+    .rust {fill:#973e20}
+    .white {fill:#fff9ee}
+  </style>
+  <rect width="720" height="524" rx="24" fill="#fbf4e7"/>
+  <g fill="#273958">
+    <rect x="26" y="29" width="668" height="65" rx="14"/>
+    <path d="M325 94h70l-35 22z"/>
+  </g>
+  <text x="360" y="73" class="head white" text-anchor="middle">도구에서 집계한 사건</text>
+  <path d="M52 147v273m0-266h28m-28 135h28m-28 135h28" fill="none" stroke="#9b937e" stroke-width="4"/>
+  <g>
+    <rect x="80" y="116" width="614" height="114" rx="16" fill="#e5eaf2"/>
+    <rect x="80" y="251" width="614" height="114" rx="16" fill="#f8e0d2"/>
+    <rect x="80" y="386" width="614" height="114" rx="16" fill="#dcece6"/>
+    <circle cx="52" cy="153" r="8" fill="#273958"/>
+    <circle cx="52" cy="288" r="8" fill="#973e20"/>
+    <circle cx="52" cy="423" r="8" fill="#125457"/>
+  </g>
+  <text x="108" y="161" class="head navy">조건에 따라 연결·예약</text>
+  <text x="108" y="204" class="body">지정 경로로 보내면 집계</text>
+  <text x="108" y="296" class="head rust">리드 상태 갱신</text>
+  <text x="108" y="339" class="body">설정에 따라 기회 없이도 적격</text>
+  <text x="108" y="431" class="head teal">거래 기록 연결</text>
+  <text x="108" y="474" class="body">연락처나 회사가 거래에 연결</text>
+</svg>
