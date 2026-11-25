@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="467" viewBox="0 0 720 467" role="img" aria-labelledby="title desc" xml:lang="ko">
+  <title id="title">피킹, 출하, 고객 도착을 구분하는 납기 계산</title>
+  <desc id="desc">피킹 가능일에 창고 처리 시간을 더해 출하일을, 다시 운송 시간을 더해 고객 도착일을 계산합니다. 재고 예약은 가용성 조회와 구분합니다.</desc>
+  <g font-family='"Noto Sans CJK KR","Apple SD Gothic Neo","Malgun Gothic",sans-serif'>
+  <rect x="0" y="0" width="720" height="467" rx="20" fill="#faf5ea" stroke="none"/>
+  <text x="48" y="62" fill="#173043" font-size="36" font-weight="700" text-anchor="start">금요일까지 현장에 도착할까요?</text>
+  <path d="M88 127L88 305" fill="none" stroke="#124f50" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="88" cy="127" r="11" fill="#124f50" stroke="#faf5ea" stroke-width="3"/>
+  <text x="122" y="138" fill="#124f50" font-size="34" font-weight="700" text-anchor="start">피킹 가능일</text>
+  <circle cx="88" cy="214" r="11" fill="#124f50" stroke="#faf5ea" stroke-width="3"/>
+  <text x="122" y="225" fill="#124f50" font-size="34" font-weight="700" text-anchor="start">창고 출하일</text>
+  <circle cx="88" cy="305" r="11" fill="#a23d27" stroke="#faf5ea" stroke-width="3"/>
+  <text x="122" y="316" fill="#a23d27" font-size="34" font-weight="700" text-anchor="start">고객 도착일</text>
+  <text x="344" y="181" fill="#3d5360" font-size="28" font-weight="400" text-anchor="start">+ 창고 처리 시간</text>
+  <text x="344" y="270" fill="#3d5360" font-size="28" font-weight="400" text-anchor="start">+ 운송 시간</text>
+  <rect x="46" y="358" width="628" height="77" rx="14" fill="#d8e9e3" stroke="none"/>
+  <text x="360" y="407" fill="#124f50" font-size="29" font-weight="700" text-anchor="middle">가용성 조회와 재고 예약은 별개입니다.</text>
+  </g>
+</svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="476" viewBox="0 0 720 476" role="img" aria-labelledby="title desc" xml:lang="ko">
+  <title id="title">거래 조건을 확인하는 네 가지 기록</title>
+  <desc id="desc">판매 중인 제품 버전과 옵션, 거래별 가격 계산, 할인 자격과 승인 요건, 공급 가용성과 승인 기록을 확인합니다. 로드맵은 향후 계획으로 안내합니다.</desc>
+  <g font-family='"Noto Sans CJK KR","Apple SD Gothic Neo","Malgun Gothic",sans-serif'>
+  <rect x="0" y="0" width="720" height="476" rx="20" fill="#faf5ea" stroke="none"/>
+  <text x="48" y="63" fill="#173043" font-size="36" font-weight="700" text-anchor="start">거래 조건마다 확인할 기록</text>
+  <rect x="44" y="94" width="632" height="290" rx="14" fill="#fffdf7" stroke="#d8d5cb"/>
+  <rect x="44" y="94" width="174" height="290" rx="14" fill="#d8e9e3" stroke="none"/>
+  <text x="63" y="141" fill="#124f50" font-size="31" font-weight="700" text-anchor="start">제품 기능</text>
+  <text x="244" y="141" fill="#173043" font-size="30" font-weight="400" text-anchor="start">판매 버전·요금제·지역·옵션</text>
+  <path d="M61 166L659 166" fill="none" stroke="#d0dbd6" stroke-width="2" stroke-linecap="round"/>
+  <text x="63" y="213" fill="#124f50" font-size="31" font-weight="700" text-anchor="start">가격</text>
+  <text x="244" y="213" fill="#173043" font-size="30" font-weight="400" text-anchor="start">고객·수량·구성별 가격 계산</text>
+  <path d="M61 238L659 238" fill="none" stroke="#d0dbd6" stroke-width="2" stroke-linecap="round"/>
+  <text x="63" y="285" fill="#124f50" font-size="31" font-weight="700" text-anchor="start">할인</text>
+  <text x="244" y="285" fill="#173043" font-size="30" font-weight="400" text-anchor="start">정책에 따른 자격과 승인 요건</text>
+  <path d="M61 310L659 310" fill="none" stroke="#d0dbd6" stroke-width="2" stroke-linecap="round"/>
+  <text x="63" y="357" fill="#124f50" font-size="31" font-weight="700" text-anchor="start">납기</text>
+  <text x="244" y="357" fill="#173043" font-size="30" font-weight="400" text-anchor="start">재고·생산 가용성과 승인 기록</text>
+  <path d="M48 422L48 451" fill="none" stroke="#a23d27" stroke-width="5" stroke-linecap="round"/>
+  <text x="67" y="447" fill="#a23d27" font-size="29" font-weight="700" text-anchor="start">로드맵은 향후 계획으로 안내합니다.</text>
+  </g>
+</svg>
