@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="466" viewBox="0 0 720 466" role="img" aria-labelledby="title desc" xml:lang="ko">
+  <title id="title">안내, 조건부 제안, 확정 약속의 근거</title>
+  <desc id="desc">공개 정보는 안내에 쓰고, 조건부 제안은 거래별 계산과 조건을 밝힙니다. 확정 약속은 승인과 공급 확인을 거친 최종 견적을 전달합니다.</desc>
+  <g font-family='"Noto Sans CJK KR","Apple SD Gothic Neo","Malgun Gothic",sans-serif'>
+  <rect x="0" y="0" width="720" height="466" rx="20" fill="#faf5ea" stroke="none"/>
+  <text x="48" y="63" fill="#173043" font-size="36" font-weight="700" text-anchor="start">고객에게 나가는 말과 내부 근거</text>
+  <rect x="44" y="96" width="632" height="108" rx="14" fill="#fffdf7" stroke="#d8d5cb"/>
+  <rect x="44" y="96" width="178" height="108" rx="14" fill="#d8e9e3" stroke="none"/>
+  <text x="133" y="161" fill="#124f50" font-size="29" font-weight="700" text-anchor="middle">안내</text>
+  <text x="244" y="137" fill="#173043" font-size="28" font-weight="700" text-anchor="start">공개 사양·표준 가격표</text>
+  <text x="244" y="178" fill="#3d5360" font-size="28" font-weight="400" text-anchor="start">“표준 납기는 2주입니다.”</text>
+  <rect x="44" y="220" width="632" height="108" rx="14" fill="#fffdf7" stroke="#d8d5cb"/>
+  <rect x="44" y="220" width="178" height="108" rx="14" fill="#d8e9e3" stroke="none"/>
+  <text x="133" y="285" fill="#124f50" font-size="29" font-weight="700" text-anchor="middle">조건부 제안</text>
+  <text x="244" y="261" fill="#173043" font-size="28" font-weight="700" text-anchor="start">가격 계산·할인 자격·가용성</text>
+  <text x="244" y="302" fill="#3d5360" font-size="28" font-weight="400" text-anchor="start">“금요일까지 승인 시 유효합니다.”</text>
+  <rect x="44" y="344" width="632" height="108" rx="14" fill="#fffdf7" stroke="#d8d5cb"/>
+  <rect x="44" y="344" width="178" height="108" rx="14" fill="#124f50" stroke="none"/>
+  <text x="133" y="409" fill="#ffffff" font-size="29" font-weight="700" text-anchor="middle">확정 약속</text>
+  <text x="244" y="385" fill="#173043" font-size="28" font-weight="700" text-anchor="start">유효한 승인·공급 확인</text>
+  <text x="244" y="426" fill="#3d5360" font-size="28" font-weight="400" text-anchor="start">“승인된 최종 견적을 보냅니다.”</text>
+  </g>
+</svg>
