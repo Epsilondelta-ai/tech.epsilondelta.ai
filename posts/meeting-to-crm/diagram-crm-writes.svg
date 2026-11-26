@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="476" viewBox="0 0 720 476" role="img" aria-labelledby="title desc" xml:lang="ko">
+  <title id="title">CRM에 반영할 때 구분해야 하는 세 가지 동작</title>
+  <desc id="desc">상담 요약은 연결된 레코드에 노트로 남깁니다. 후속 업무는 담당자와 기한을 확정해 생성합니다. 거래 단계, 금액, 마감일은 권한자가 기존 값과 제안 값을 비교한 뒤 승인된 값만 갱신합니다.</desc>
+  <rect width="720" height="476" rx="20" fill="#f8f2e8"/>
+  <g font-family="'Noto Sans CJK KR','Apple SD Gothic Neo','Malgun Gothic',sans-serif" fill="#162d3d">
+    <text x="36" y="54" font-size="37" font-weight="700">CRM에 반영하는 세 가지 동작</text>
+    <rect x="35" y="76" width="650" height="79" rx="12" fill="#fffdf8"/>
+    <rect x="35" y="167" width="650" height="79" rx="12" fill="#deebe6"/>
+    <rect x="35" y="258" width="650" height="199" rx="12" fill="#f4dcc7"/>
+    <g font-size="32" font-weight="700">
+      <text x="58" y="126">상담 노트 저장</text>
+      <text x="58" y="217">업무 생성</text>
+      <text x="58" y="309">운영 필드 갱신</text>
+    </g>
+    <g font-size="29" fill="#304b56">
+      <text x="325" y="126">연결 레코드에 요약 저장</text>
+      <text x="325" y="217">담당자·기한 확정</text>
+      <text x="325" y="309">거래 단계·금액·마감일</text>
+    </g>
+    <g fill="#fffdf8">
+      <rect x="58" y="329" width="288" height="58" rx="8"/>
+      <rect x="374" y="329" width="288" height="58" rx="8"/>
+    </g>
+    <g font-size="30" font-weight="700" text-anchor="middle">
+      <text x="202" y="369">기존 값</text><text x="518" y="369">제안 값</text>
+    </g>
+    <path d="M202 388v9h316v-9m-158 9v10" fill="none" stroke="#a06343" stroke-width="3" stroke-linejoin="round"/>
+    <text x="360" y="438" font-size="30" font-weight="700" fill="#793e26" text-anchor="middle">권한자가 비교하고 승인</text>
+  </g>
+</svg>

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="500" viewBox="0 0 720 500" role="img" aria-labelledby="title desc" xml:lang="ko">
+  <title id="title">녹취에서 후속 업무 완료까지의 여섯 단계</title>
+  <desc id="desc">동의와 접근 권한 확인, 전사와 화자 귀속, 초안 추출, 원문 대조와 승인, CRM 반영과 배정, 실제 실행과 증거 기록을 순서대로 나눕니다.</desc>
+  <rect width="720" height="500" rx="20" fill="#f8f2e8"/>
+  <g font-family="'Noto Sans CJK KR','Apple SD Gothic Neo','Malgun Gothic',sans-serif" fill="#162d3d">
+    <text x="38" y="53" font-size="37" font-weight="700">녹취에서 업무 완료까지</text>
+    <g fill="#fffdf8">
+      <rect x="35" y="76" width="650" height="62" rx="12"/>
+      <rect x="35" y="145" width="650" height="62" rx="12"/>
+      <rect x="35" y="214" width="650" height="62" rx="12"/>
+    </g>
+    <rect x="35" y="283" width="650" height="62" rx="12" fill="#f4dcc7"/>
+    <rect x="35" y="352" width="650" height="62" rx="12" fill="#deebe6"/>
+    <rect x="35" y="421" width="650" height="62" rx="12" fill="#d0e4dc"/>
+    <path d="M78 107V452" stroke="#819f98" stroke-width="4"/>
+    <g fill="#24495c">
+      <circle cx="78" cy="107" r="21"/><circle cx="78" cy="176" r="21"/>
+      <circle cx="78" cy="245" r="21"/><circle cx="78" cy="314" r="21" fill="#8b4629"/>
+      <circle cx="78" cy="383" r="21" fill="#23574e"/><circle cx="78" cy="452" r="21" fill="#23574e"/>
+    </g>
+    <g fill="#fffdf8" font-size="25" font-weight="700" text-anchor="middle">
+      <text x="78" y="116">1</text><text x="78" y="185">2</text><text x="78" y="254">3</text>
+      <text x="78" y="323">4</text><text x="78" y="392">5</text><text x="78" y="461">6</text>
+    </g>
+    <g font-size="31" font-weight="700">
+      <text x="119" y="118">동의와 수집</text>
+      <text x="119" y="187">전사와 화자 귀속</text>
+      <text x="119" y="256">후보 추출</text>
+      <text x="119" y="325">검토와 확정</text>
+      <text x="119" y="394">CRM 반영·배정</text>
+      <text x="119" y="463">실행과 마감</text>
+    </g>
+    <g font-size="29" fill="#304b56">
+      <text x="379" y="118">동의·접근 권한 확인</text>
+      <text x="379" y="187">발화와 참석자 연결</text>
+      <text x="379" y="256">약속·제안 분류</text>
+      <text x="379" y="325">원문 대조 후 승인</text>
+      <text x="379" y="394">승인값 저장·업무 생성</text>
+      <text x="379" y="463">실행 후 증거로 마감</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="479" viewBox="0 0 720 479" role="img" aria-labelledby="title desc" xml:lang="ko">
+  <title id="title">원문 정정과 CRM 저장 예외의 처리</title>
+  <desc id="desc">회의, 추출 항목, 파생 산출물을 각 ID로 연결합니다. 정정이 생기면 미발송 초안과 열린 업무에는 재검토 표시를 하고, 이미 발송한 메일은 담당자가 정정 안내가 필요한지 판단합니다. 저장 재시도는 같은 키로 처리하고 동시 수정 충돌은 재검토로 돌립니다.</desc>
+  <rect width="720" height="479" rx="20" fill="#f8f2e8"/>
+  <g font-family="'Noto Sans CJK KR','Apple SD Gothic Neo','Malgun Gothic',sans-serif" fill="#162d3d">
+    <text x="36" y="53" font-size="37" font-weight="700">정정이 생기면 다시 볼 항목</text>
+    <path d="M201 113h48m210 0h48" stroke="#57766f" stroke-width="3"/>
+    <g fill="#e0ece7">
+      <rect x="35" y="80" width="166" height="66" rx="12"/>
+      <rect x="249" y="80" width="210" height="66" rx="12"/>
+      <rect x="507" y="80" width="178" height="66" rx="12"/>
+    </g>
+    <g font-size="30" font-weight="700" text-anchor="middle">
+      <text x="118" y="124">회의 ID</text>
+      <text x="354" y="124">추출 항목 ID</text>
+      <text x="596" y="124">산출물 ID</text>
+    </g>
+    <path d="M596 146v20H204v17 M536 166v17" fill="none" stroke="#57766f" stroke-width="3" stroke-linecap="round"/>
+    <rect x="35" y="183" width="338" height="131" rx="12" fill="#fffdf8"/>
+    <rect x="387" y="183" width="298" height="131" rx="12" fill="#f4dcc7"/>
+    <g font-size="29" font-weight="700">
+      <text x="55" y="225">미발송 초안·열린 업무</text>
+      <text x="405" y="225">이미 발송한 메일</text>
+    </g>
+    <g font-size="28">
+      <text x="55" y="274" fill="#23574e">재검토 표시</text>
+      <text x="405" y="269" fill="#793e26">담당자가 정정 안내</text>
+      <text x="405" y="301" fill="#793e26">필요 여부 판단</text>
+    </g>
+    <rect x="35" y="333" width="650" height="128" rx="12" fill="#24495c"/>
+    <g fill="#fffdf8" font-size="29">
+      <text x="58" y="382" font-weight="700">저장 재시도</text>
+      <text x="310" y="382">같은 키로 중복 방지</text>
+      <text x="58" y="432" font-weight="700">동시 수정 충돌</text>
+      <text x="310" y="432">값을 다시 검토</text>
+    </g>
+    <path d="M58 398h604" stroke="#819f98" stroke-width="1"/>
+  </g>
+</svg>
