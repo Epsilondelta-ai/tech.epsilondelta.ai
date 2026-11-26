@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="470" viewBox="0 0 720 470" role="img" aria-labelledby="title desc" xml:lang="ko">
+  <title id="title">발화 유형별 후속 처리</title>
+  <desc id="desc">우리 측 확정 약속은 내부 업무 후보, 고객 측 약속은 회신 대기, 미수락 제안과 조건부 의향은 노트에 남겨 보류, 정정 발화는 기존 후보 수정으로 처리합니다.</desc>
+  <rect width="720" height="470" rx="20" fill="#f8f2e8"/>
+  <g font-family="'Noto Sans CJK KR','Apple SD Gothic Neo','Malgun Gothic',sans-serif" fill="#162d3d">
+    <text x="36" y="54" font-size="37" font-weight="700">발화 유형별 후속 처리</text>
+    <g font-size="27" fill="#385363">
+      <text x="54" y="103">화자 확인 후 발화 분류</text>
+      <text x="430" y="103">처리 방식</text>
+    </g>
+    <g>
+      <rect x="35" y="120" width="650" height="72" rx="12" fill="#deebe6"/>
+      <rect x="35" y="204" width="650" height="72" rx="12" fill="#fffdf8"/>
+      <rect x="35" y="288" width="650" height="84" rx="12" fill="#f4dcc7"/>
+      <rect x="35" y="384" width="650" height="72" rx="12" fill="#fffdf8"/>
+    </g>
+    <g font-size="31" font-weight="700">
+      <text x="54" y="167">우리 측 확정 약속</text>
+      <text x="54" y="251">고객 측 약속</text>
+      <text x="54" y="323">미수락 제안</text>
+      <text x="54" y="354">조건부 의향</text>
+      <text x="54" y="431">정정 발화</text>
+    </g>
+    <path d="M348 156h50m-12-10 12 10-12 10 M348 240h50m-12-10 12 10-12 10 M348 330h50m-12-10 12 10-12 10 M348 420h50m-12-10 12 10-12 10" fill="none" stroke="#57766f" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <g font-size="31" font-weight="700" fill="#23574e">
+      <text x="430" y="167">내부 업무 후보</text>
+      <text x="430" y="251">고객 회신 대기</text>
+      <text x="430" y="341" fill="#793e26">노트에 남겨 보류</text>
+      <text x="430" y="431">기존 후보 수정</text>
+    </g>
+  </g>
+</svg>
