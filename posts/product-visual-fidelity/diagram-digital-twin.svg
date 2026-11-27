@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="498" viewBox="0 0 720 498" role="img" aria-labelledby="title desc" xml:lang="ko">
+  <title id="title">디지털 트윈 구축과 광고 렌더 검수</title>
+  <desc id="desc">제조 도면으로 만든 3D 형상, 표면 재질, 시장별 승인 라벨을 대조하고 검증해 제품 자산을 승인합니다. 카메라와 배경 및 조명을 설정해 렌더한 뒤 완성본을 다시 검수합니다.</desc>
+  <rect width="720" height="498" rx="20" fill="#edf3ef"/>
+  <g font-family="'Noto Sans CJK KR','Apple SD Gothic Neo','Malgun Gothic',sans-serif" text-anchor="middle" fill="#18362e">
+    <g fill="#fbfdfb">
+      <rect x="24" y="25" width="216" height="91" rx="12"/>
+      <rect x="252" y="25" width="216" height="91" rx="12"/>
+      <rect x="480" y="25" width="216" height="91" rx="12"/>
+    </g>
+    <g font-size="31" font-weight="700">
+      <text x="132" y="62">제조 도면</text>
+      <text x="360" y="62">재질 기준</text>
+      <text x="588" y="62">시장별 원고</text>
+    </g>
+    <g font-size="28" fill="#36574e">
+      <text x="132" y="98">3D 형상</text>
+      <text x="360" y="98">표면 재현</text>
+      <text x="588" y="98">승인 라벨</text>
+    </g>
+    <path d="M132 116v21h456v-21m-228 0v41m-7-8 7 8 7-8" fill="none" stroke="#537c6e" stroke-width="3" stroke-linejoin="round"/>
+    <rect x="100" y="164" width="520" height="89" rx="14" fill="#23594b"/>
+    <text x="360" y="202" fill="#fff" font-size="35" font-weight="700">제품 자산 승인</text>
+    <text x="360" y="236" fill="#e7f6ee" font-size="29">형상·재질·라벨 대조</text>
+    <path d="M360 253v25m-7-8 7 8 7-8" fill="none" stroke="#537c6e" stroke-width="3" stroke-linejoin="round"/>
+    <rect x="100" y="285" width="520" height="88" rx="14" fill="#d3e7dc"/>
+    <text x="360" y="323" font-size="34" font-weight="700">광고 이미지 렌더</text>
+    <text x="360" y="357" font-size="29">시장 선택 · 카메라 · 배경과 조명</text>
+    <path d="M360 373v25m-7-8 7 8 7-8" fill="none" stroke="#537c6e" stroke-width="3" stroke-linejoin="round"/>
+    <rect x="100" y="405" width="520" height="68" rx="14" fill="#fff9ec" stroke="#ac774b" stroke-width="2"/>
+    <text x="360" y="451" fill="#5e381e" font-size="34" font-weight="700">완성본 검수</text>
+  </g>
+</svg>
