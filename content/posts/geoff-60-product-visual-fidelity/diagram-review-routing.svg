@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="500" viewBox="0 0 720 500" role="img" aria-labelledby="title desc" xml:lang="ko">
+  <title id="title">검수 책임과 반려 원인별 수정 위치</title>
+  <desc id="desc">자동 검사는 자산 정보와 문자 일치를 확인합니다. 브랜드 담당자는 형상과 색을, 시장 담당자는 포장과 문안을 판단합니다. 제품 선택 오류는 자산 선택, 라벨 왜곡은 텍스처와 합성, 색 오류는 조명과 색 관리, 배경 문제는 환경 생성으로 돌려보냅니다.</desc>
+  <rect width="720" height="500" rx="20" fill="#f5f1e8"/>
+  <g font-family="'Noto Sans CJK KR','Apple SD Gothic Neo','Malgun Gothic',sans-serif" fill="#172e2a">
+    <rect x="24" y="24" width="672" height="47" rx="9" fill="#e0ebe3"/>
+    <text x="42" y="57" font-size="31" font-weight="700">자동 검사</text>
+    <text x="221" y="57" font-size="29">자산 정보 · 문자 대조</text>
+    <rect x="24" y="78" width="672" height="86" rx="9" fill="#d3e7dc"/>
+    <text x="42" y="111" font-size="31" font-weight="700">담당자 판단</text>
+    <text x="221" y="111" font-size="29">브랜드 담당 · 형상과 색</text>
+    <text x="221" y="147" font-size="29">시장 담당 · 포장과 문안</text>
+    <path d="M360 164v27m-8-9 8 9 8-9" fill="none" stroke="#537c6e" stroke-width="3" stroke-linejoin="round"/>
+    <rect x="24" y="198" width="672" height="277" rx="14" fill="#fffdfa"/>
+    <path d="M42 262h636m-636 51h636m-636 51h636m-636 51h636" stroke="#e2e6dd" stroke-width="2"/>
+    <g font-size="31" fill="#684222" font-weight="700">
+      <text x="42" y="241">반려 원인</text>
+      <text x="383" y="241">돌아갈 단계</text>
+    </g>
+    <g font-size="32">
+      <text x="42" y="298">제품 선택 오류</text>
+      <text x="42" y="349">라벨 왜곡</text>
+      <text x="42" y="400">색 문제</text>
+      <text x="42" y="451">배경 문제</text>
+    </g>
+    <path d="M310 286h39m-9-7 9 7-9 7m-30 44h39m-9-7 9 7-9 7m-30 44h39m-9-7 9 7-9 7m-30 44h39m-9-7 9 7-9 7" fill="none" stroke="#8e5d35" stroke-width="3" stroke-linejoin="round"/>
+    <g font-size="32" font-weight="700">
+      <text x="383" y="298">자산 선택</text>
+      <text x="383" y="349">텍스처·합성</text>
+      <text x="383" y="400">조명·색 관리</text>
+      <text x="383" y="451">환경 생성</text>
+    </g>
+  </g>
+</svg>
